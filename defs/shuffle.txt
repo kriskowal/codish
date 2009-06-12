@@ -1,0 +1,1 @@
+randomizes the order of a linear collection in place.

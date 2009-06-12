@@ -1,0 +1,2 @@
+an attribute of a function that connotes that a function will always return the same result for given input.
+opposite: stateful

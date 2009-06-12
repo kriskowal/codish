@@ -1,0 +1,2 @@
+to actively <i>stop</i> a <i>machine</i>.
+distinct: halt, stop

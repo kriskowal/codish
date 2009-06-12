@@ -1,0 +1,5 @@
+to reverse a linear collection in place.
+is: stateful
+distinct: reversed
+opposite: reverse
+replaces: tac

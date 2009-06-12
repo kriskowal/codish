@@ -1,0 +1,3 @@
+a place to put <i>value</i>s.
+opposite: source
+replaces: dest, destination

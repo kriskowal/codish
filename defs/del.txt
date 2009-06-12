@@ -1,0 +1,1 @@
+to remove an <i>attr</i> with a given <i>symbol</i>.

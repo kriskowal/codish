@@ -1,0 +1,3 @@
+an infix that connotes that a function applies to the beginning of a linear collection.
+opposite: o
+is: vowel

@@ -1,0 +1,2 @@
+having a range that excludes <i>zero</i>.
+a number that indicates a quantity.

@@ -1,0 +1,2 @@
+<i>width</i> by <i>height</i>.
+distinct: size

@@ -1,0 +1,3 @@
+<i>writable</i>.
+opposite: r, readable
+is: permission

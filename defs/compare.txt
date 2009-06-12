@@ -1,0 +1,1 @@
+compares two values and returns their linear relationship as a number.  the result is a value that when compared to zero has the same relationship as the two given values.

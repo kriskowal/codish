@@ -1,0 +1,1 @@
+a file system directory, usually represented with the same interface as a [dict].

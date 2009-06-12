@@ -1,0 +1,1 @@
+a <i>process</i> on a <i>host</i> that makes <i>request</i>s in a <i>protocol</i>.

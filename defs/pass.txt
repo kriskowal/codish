@@ -1,0 +1,2 @@
+distinct: noop, k-combinator
+opposite: fail

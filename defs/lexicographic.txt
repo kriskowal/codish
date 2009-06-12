@@ -1,0 +1,1 @@
+a [sort] [order] where [upper] and [lower] case [letter]s are adjacent.

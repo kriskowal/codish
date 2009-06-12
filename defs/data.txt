@@ -1,0 +1,2 @@
+a collection of meaningful <i>value</i>s in <i>memory</i>.
+see: datum

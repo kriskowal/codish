@@ -1,0 +1,1 @@
+codish: returns the first element of a [linear] [collection].

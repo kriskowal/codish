@@ -1,0 +1,1 @@
+a [unary] [function] that consistently [map]s [key]s to [value]s.

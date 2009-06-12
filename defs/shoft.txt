@@ -1,0 +1,5 @@
+to remove and return the last element of a linear collection.
+opposite: shift, posh
+replaces: pop
+perl: pop
+legacy: pop

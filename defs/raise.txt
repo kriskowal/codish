@@ -1,0 +1,2 @@
+<i>shoft</i> <i>block</i>s off of the execution context until the first block that can <i>handle</i> a given <i>exception</i>.
+replaces: throw

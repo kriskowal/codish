@@ -1,0 +1,3 @@
+as in little [endian], referring to the [least] order of [magnitude].
+opposite: big
+distinct: small, less

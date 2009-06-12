@@ -1,0 +1,2 @@
+a <i>function</i> or <i>object</i> that has requested that a <i>signal</i> <i>send</i> a particular <i>event</i> when it occurs.
+replaces: listener, handler

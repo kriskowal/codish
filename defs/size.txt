@@ -1,0 +1,2 @@
+the number of bytes that an object occupies in memory.
+distinct: length, width, height, area

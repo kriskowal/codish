@@ -1,0 +1,1 @@
+a container for a value associated with a planar slice of a planar collection albeit a <i>table</i>.

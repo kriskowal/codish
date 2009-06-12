@@ -1,0 +1,3 @@
+return a <i>list</i> of <i>list</i>s of the respective <i>value</i>s from given <i>list</i>s.
+perform a <i>transpose</i> of the given arguments.
+distinct: merge

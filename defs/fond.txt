@@ -1,0 +1,3 @@
+find the last object that matches a given object and return its <i>key</i>.  otherwise, raise an exception.
+legacy: find last
+python: rfind

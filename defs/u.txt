@@ -1,0 +1,3 @@
+an infix that connotes that a function operates on both the beginning and end of a linear collection.
+see: i, o
+is: vowel

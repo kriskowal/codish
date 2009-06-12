@@ -1,0 +1,2 @@
+retrieves the <tt>n</tt><i>th</i> element of a linear collection.
+see: cell

@@ -1,0 +1,2 @@
+a <i>list</i> of program statements or expressions.
+distinct: wait, join

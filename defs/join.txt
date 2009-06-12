@@ -1,0 +1,4 @@
+to interpolate a <i>delimiter</i> between a <i>list</i> of <i>text</i>s.
+to interpolate a <i>list</i> between a <i>list</i> of <i>list</i>s.
+replaces: implode
+distinct: wait

@@ -1,0 +1,4 @@
+returns the reversed form of an <i>iterable</i>.
+is: stateless
+distinct: reverse
+opposite: reversed

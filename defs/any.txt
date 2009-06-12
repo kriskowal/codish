@@ -1,0 +1,3 @@
+returns whether any value from a given [iterable] is true.
+short circuits on the first [truthy] value.
+related: all, some

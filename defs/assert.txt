@@ -1,0 +1,1 @@
+<i>raise</i> an exception if a condition is not met.

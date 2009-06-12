@@ -1,0 +1,1 @@
+returns a collection of [key] to [value] [item]s (aka [duple]s, [pair]s) for a [dict].

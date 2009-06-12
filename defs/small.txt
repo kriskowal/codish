@@ -1,0 +1,2 @@
+opposite: large
+distinct: less, little, lower

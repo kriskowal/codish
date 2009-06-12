@@ -1,0 +1,3 @@
+the number of <i>value</i>s in a [collection], even unordered collections.
+replaces: count, length
+distinct: size, width

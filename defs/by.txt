@@ -1,0 +1,1 @@
+a [higher order function] that accepts a [transitive function] and returns a [comparator] that can be used by [sort] to order [object]s by their respective results on that transitive function.

@@ -1,0 +1,1 @@
+cosine of an <i>angle</i>.

@@ -1,0 +1,3 @@
+removes one element from the beginning of a linear collection and inserts it back on the end.
+opposite: slop
+replaces: rotate left

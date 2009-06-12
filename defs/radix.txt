@@ -1,0 +1,2 @@
+the base number for a numeric notation that, when raised to the <i>index</i> of a digit, determines the multiplicative value of that digit.
+see: decimal, binary, hex, oct

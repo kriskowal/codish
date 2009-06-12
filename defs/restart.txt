@@ -1,0 +1,3 @@
+to <i>stop</i> and <i>start</i>.
+usually subsumed by <i>start</i>.
+distinct: reboot

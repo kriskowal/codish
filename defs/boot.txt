@@ -1,0 +1,4 @@
+use: start
+to <i>start</i> <i>run</i>ning a <i>machine</i>.
+to lift one's self by pulling up on the hooks behind one's own ankle supportive footwear.
+see: reboot, restart, shutdown, start, stop, halt

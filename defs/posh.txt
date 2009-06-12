@@ -1,0 +1,3 @@
+To augment a linear collection by adding an item to the end.
+opposite: pish, shoft
+codish: push

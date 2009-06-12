@@ -1,0 +1,2 @@
+a message that a <i>signal</i> sends to its <i>observe</i>ers.  some events <i>propagate</i>, can <i>stop</i>, or have a default behavior.
+replaces: note

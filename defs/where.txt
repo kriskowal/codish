@@ -1,0 +1,2 @@
+to return a <i>stable</i> <i>list</i> containing all of the <i>value</i>s from a given <i>list</i> that <i>pass</i> a given condition.
+distinct: filter

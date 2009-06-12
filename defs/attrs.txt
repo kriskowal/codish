@@ -1,0 +1,4 @@
+a collection of [attr] for an [object]'s attributes.
+is analogous to [items] on a [dict].
+in [javascript], [attrs] and [items] are the same except for [array]s and [string]s.
+aka [vars] in [python].

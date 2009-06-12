@@ -1,0 +1,1 @@
+to acquire <i>text</i> from a <i>stream</i>.

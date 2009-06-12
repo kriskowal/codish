@@ -1,0 +1,1 @@
+a directive to leave normal flow control and escape to a block that can handle exceptional behavior.

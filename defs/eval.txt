@@ -1,0 +1,3 @@
+evalutes or <i>run</i>s expressions, statements, and instructions and returns a <i>value</i>.
+replaces: evaluate, exec, execute
+inverse: repr

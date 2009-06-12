@@ -1,0 +1,3 @@
+a floating <i>precision</i> <i>number</i>.
+opposite: fixed
+see: mantissa, exp

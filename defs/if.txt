@@ -1,0 +1,1 @@
+a [boolean] [statement], where the [execution] of a [then] clause and an [else] clause depends on whether [boolean] [guard] is [true]

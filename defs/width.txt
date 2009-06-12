@@ -1,0 +1,3 @@
+the horizontal <i>length</i> of a <i>planar</i> <i>object</i>.
+distinct: size, length
+opposite: height

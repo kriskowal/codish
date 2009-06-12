@@ -1,0 +1,1 @@
+returns the arithmetic identity of a class or object.  for numbers, this is the value of zero (0).  for a list, this is an empty list.  for a string, this is a null string. 

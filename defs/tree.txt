@@ -1,0 +1,1 @@
+an acyclic [graph], usually having a [root] [node].

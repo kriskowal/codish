@@ -1,0 +1,1 @@
+returns the <i>value</i> corresponding to a <i>key</i> in a <i>dict</i>.

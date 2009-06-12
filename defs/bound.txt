@@ -1,0 +1,1 @@
+accepts an <i>iterable</i> and returns the <i>value</i> closest to a boundary given a <i>judge</i>, an optional <i>relation</i>, and an optional <i>base</i> value from which to start.

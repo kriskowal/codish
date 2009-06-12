@@ -1,0 +1,1 @@
+a function that accepts a value and returns a corresponding value for a relationship.

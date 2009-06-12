@@ -1,0 +1,5 @@
+a [unique] of [node]s and [edge]s among those nodes.
+graphs can be [directed] or [undirected].
+graphs can be [cyclic] or [acyclic].
+some graphs are [tree]s.
+distinct: chart

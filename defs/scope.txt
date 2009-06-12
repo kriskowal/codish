@@ -1,0 +1,1 @@
+an <i>object</i> that associates <i>symbol</i>s with <i>value</i>s for a <i>block</i> and can include a <i>ref</i> to another <i>scope</i> to defer to if a <i>symbol</i> does not exist.

@@ -1,0 +1,2 @@
+an <i>object</i> that can send <i>signal</i>s.
+distinct: observable

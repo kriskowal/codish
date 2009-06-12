@@ -1,0 +1,1 @@
+a message sent froma <i>client</i> to a <i>server</i> per a <i>protocol</i>.

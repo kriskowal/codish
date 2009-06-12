@@ -1,0 +1,2 @@
+a point in a <i>graph</i>.
+distinct: node

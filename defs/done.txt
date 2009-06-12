@@ -1,0 +1,3 @@
+is: signal
+distinct: ready
+replaces: finished, complete

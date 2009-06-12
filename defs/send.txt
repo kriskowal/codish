@@ -1,0 +1,3 @@
+to create an <i>event</i> for a <i>signal</i> and send it to <i>oberver</i>s.
+replaces: dispatch, fire, notify
+distinct: write

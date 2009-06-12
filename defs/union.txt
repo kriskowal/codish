@@ -1,0 +1,4 @@
+the <i>unique</i> of all <i>value</i>s from any given <i>unique</i>s.
+the addition of <i>unique</i>s.
+opposite: intersection
+see: any

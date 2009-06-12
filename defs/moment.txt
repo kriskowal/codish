@@ -1,0 +1,3 @@
+codish: a [date] and [time].
+codish: a position on a [timeline].
+see: lapse

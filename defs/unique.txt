@@ -1,0 +1,2 @@
+a collection of unique elements.  uniqueness is determined by a given equivalence function, albeit equality.  implemented with a <i>hash</i>.
+distinct: set

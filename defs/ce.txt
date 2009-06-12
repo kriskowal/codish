@@ -1,0 +1,1 @@
+accepts a number <tt>n</tt> and returns a function <tt>f</tt>.  The returned function accepts a function <tt>g</tt> and returns the results of function <tt>f</tt> applied <tt>n</tt> times.

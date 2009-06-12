@@ -1,0 +1,1 @@
+returns the <i>value</i>s from the range of a <i>dict</i>.

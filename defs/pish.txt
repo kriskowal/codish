@@ -1,0 +1,4 @@
+to augment a linear collection by adding an item to the beginning.
+replaces: unshift, bump, propend, prepend
+legacy: unshift
+opposite: posh, shift

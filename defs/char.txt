@@ -1,0 +1,2 @@
+a character in [text], associated with a [codepoint] [number] of arbitrary precision, albeit from the [ascii], [unicode], or any other [charset].
+replaces: character

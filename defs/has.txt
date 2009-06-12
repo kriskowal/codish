@@ -1,0 +1,4 @@
+returns whether a collection contains an <i>object</i>.
+returns whether a <i>list</i> contains a <i>value</i>.
+returns whether a <i>dict</i> contains a <i>key</i>.
+replaces: contains, exists

@@ -1,0 +1,2 @@
+to arrange a linear collection in strictly non-descending order in place given a suitable definition of comparison.  To sort implies a guarantee of "strong" sorting; that is, equivalent elements retain their relative positions to one another.
+distinct: sorted

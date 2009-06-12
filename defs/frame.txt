@@ -1,0 +1,1 @@
+the [arguments], [local] [variables], and a [ref] to the [return] frame (often implied by location in an [array]-like structure) of a [function] [application].

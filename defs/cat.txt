@@ -1,0 +1,2 @@
+replaces: concat, concatenate
+opposite: dog

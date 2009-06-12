@@ -1,0 +1,2 @@
+a <i>char</i> from an <i>alphabet</i>, as opposed to a numeric glyph or idiogram among other <i>class</i>es of <i>char</i>acter.
+is: char

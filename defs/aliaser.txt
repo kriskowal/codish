@@ -1,0 +1,1 @@
+accepts an <i>object</i> and returns functions that accept <i>symbol</i>s and return <i>alias</i>es.

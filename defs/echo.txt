@@ -1,0 +1,1 @@
+to copy a <i>value</i> from one <i>stream</i> to <i>another</i>.

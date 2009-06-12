@@ -1,0 +1,2 @@
+to provide multiple equivalent input <i>stream</i>s from a single <i>output</i> stream.
+to provide multiple equivalent <i>iter</i>s from a single <i>iter</i>.

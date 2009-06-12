@@ -1,0 +1,2 @@
+an eight bit <i>value</i>.
+distinct: char

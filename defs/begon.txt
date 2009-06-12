@@ -1,0 +1,4 @@
+returns the location of the end of an <i>array</i>, the beginning plus the size of the allocated block.
+the terminal position of a <i>cursor</i>.
+replaces: end
+legacy: end

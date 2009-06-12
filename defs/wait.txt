@@ -1,0 +1,2 @@
+to <i>stop</i> execution pending a <i>condition</i> like the availability of data on a input <i>stream</i> or a <i>process</i> or <i>thread</i>'s termination.
+distinct: block, join

@@ -1,0 +1,37 @@
+
+term
+meaning
+language
+idiom
+relation
+    meaning: {term} means {meaning} (reverse plural)
+    antonym: {term} is the opposite of {other:term} (symmetric)
+    aka {a:term} is known as {other:term} elsewhere
+    commutive-synonym: {term} has the same meaning as {other:term} but a different argument order. (symmetric)
+    language-synonym: {term} is known as {other:term} in {language}
+    language-meaning: {term} means {meaning} in {language}
+    language-term: {term} means {other:term} in {language}
+    subclass: {term} is more specific than {other:term} (symmetric with superclass)
+    superclass: {term} is more generic than {other:term} (symmetric with subclass)
+    pertains: {term} pertains to {class:term}
+    idiom: corresponds to the {idiom} idiom in {language}
+    related: {term} is related to {other:term} (symmetric)
+    distinct: {term} is distinct from {other:term} (symmetric)
+citation
+comment
+user
+
+{relation}* for {term}
+{citation}* on {relation}
+{comment}* on {relation}
+{term} {relation} recommended by {user}
+
+data {
+    terms:
+    relations:
+}
+
+index {
+}
+
+

@@ -1,0 +1,1 @@
+heads up display.  an overlaid or peripheral translucent user interface layer intended to provide quick access to summary information or commands without obscuring the main interface.

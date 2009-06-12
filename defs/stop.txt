@@ -1,0 +1,2 @@
+to stop a moving <i>cursor</i> and send the cursor to the beginning of a <i>stream</i> or <i>machine</i>.
+distinct: halt, end

@@ -1,0 +1,1 @@
+an application or program with a graphical user interface (<i>gui</i>).

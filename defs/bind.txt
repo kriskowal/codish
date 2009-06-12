@@ -1,0 +1,1 @@
+associate a function with an instance such that the given instance's variables appear in the scope chain of an application <i>frame</i>.

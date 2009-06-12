@@ -1,0 +1,3 @@
+the <i>unique</i> of all common <i>value</i>s in given <i>unique</i>s.
+opposite: union
+see: all

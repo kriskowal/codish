@@ -1,0 +1,2 @@
+to request that a <i>signal</i> <i>send</i> <i>event</i>s to an <i>observer</i>.
+replaces: watch, listen, add event listener

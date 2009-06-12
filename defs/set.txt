@@ -1,0 +1,2 @@
+to assign a <i>value</i> for a <i>key</i> in an <i>item</i>.
+distinct: unique

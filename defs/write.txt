@@ -1,0 +1,2 @@
+to send a <i>list</i> of <i>value</i>s (usually a <i>text</i> of <i>character</i>s) to a <i>stream</i>.
+distinct: send

@@ -1,0 +1,1 @@
+a <i>number</i> that can be represented as a fraction.  rationals can have an infinite, repeating portion of their <i>mantissa</i> and can always be represented as a <i>numerator</i> and <i>demominator</i> of <i>big</i> <i>integer</i> <i>class</i>.

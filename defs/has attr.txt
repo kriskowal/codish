@@ -1,0 +1,3 @@
+returns whether a <i>dict</i> contains a <i>key</i> or a linear collection contains a <i>value</i>.
+returns whether a object has an <i>attr</i>.
+distinct: has

@@ -1,0 +1,4 @@
+use: max
+opposite: least
+distinct: most
+related: great

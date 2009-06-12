@@ -1,0 +1,2 @@
+removes the first contiguous objects that match a given object that are adjacent to the beginning of a linear collection.
+legacy: strip last

@@ -1,0 +1,4 @@
+to move a <i>cursor</i> discretely or differentially.
+a value to <i>inc</i> or <i>dec</i> a <i>cursor</i>.
+the [diff]erence between adjacent [value]s in a [range].
+aka: [traverse], [stride]

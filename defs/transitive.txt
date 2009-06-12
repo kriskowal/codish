@@ -1,0 +1,2 @@
+going consistently from a [source] to a [target], as a [directed] [edge] in a [graph] or as a [stateless] [unary] [function].
+see: [transitive function], [transitive relation]

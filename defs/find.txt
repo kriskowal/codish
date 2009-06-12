@@ -1,0 +1,2 @@
+find the first object that matches a given object and return its <i>key</i>.  otherwise, raise an exception.
+replaces: index of

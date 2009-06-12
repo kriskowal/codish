@@ -1,0 +1,1 @@
+an attribute of a <i>ref</i> that indicates that a garbage collector should not collect the referent as long as it points to the given object.

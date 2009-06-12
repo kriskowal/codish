@@ -1,0 +1,2 @@
+to passively <i>stop</i> when a <i>machine</i> has exhausted its <i>input</i> or a <i>program</i> has exhausted its instructions.
+distinct: shutdown, stop

@@ -1,0 +1,1 @@
+an <i>exception</i> that indicates a breach of contract between a program and its environment.  <i>fault</i>s are normally unhandlable.

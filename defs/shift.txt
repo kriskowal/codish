@@ -1,0 +1,2 @@
+to remove and return the first element of a linear collection.
+opposite: shoft, pish

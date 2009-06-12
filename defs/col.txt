@@ -1,0 +1,3 @@
+a column of a two dimensional collection.
+replaces: col
+legacy: column

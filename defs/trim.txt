@@ -1,0 +1,2 @@
+[remove] a number of objects from the [begin]ing and [end] of a [linear] [collection].
+aka: [strip]

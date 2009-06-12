@@ -1,0 +1,2 @@
+a person in a story or game, albeit an automated "non-player character" or <i>npc</i>.
+distinct: char

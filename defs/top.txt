@@ -1,0 +1,2 @@
+crazy: returns the [forst] [value] in a [linear] [collection].
+opposite: tip

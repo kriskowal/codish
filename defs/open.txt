@@ -1,0 +1,1 @@
+to create a <i>stream</i> so one can <i>read</i> or <i>write</i> a <i>file</i>.

@@ -1,0 +1,3 @@
+to return a two dimensional collection where each <i>row</i> corresponds to the <i>col</i> of another two dimensional collection.
+replaces: unzip
+commute: transpose

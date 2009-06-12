@@ -1,0 +1,2 @@
+returns the corresponding values for a given <i>range</i> of indicies (<i>index</i><i>y</i>).
+is: stateless

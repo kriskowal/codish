@@ -1,0 +1,1 @@
+a <i>state</i> machine.  a <i>graph</i> where <i>edge</i>s represent <i>character</i>s read from a <i>stream</i> of <i>text</i> that cause a <i>cursor</i> to move among vertices (<i>vertex</i>s).  exhausting the <i>stream</i> causes the <i>machine</i> to <i>stop</i> on a particular <i>state</i> that represents a result.

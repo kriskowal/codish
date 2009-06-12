@@ -1,0 +1,2 @@
+returns the power set (<i>unique</i>) of a <i>collection</i>, that is, the set of all combinations of its elements.
+distinct: exp

@@ -1,0 +1,3 @@
+as in big [endian], referring to the [greatest] order of [magnitude].
+opposite: small
+distinct: great, large

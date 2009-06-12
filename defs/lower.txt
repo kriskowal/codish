@@ -1,0 +1,3 @@
+a [typographic] [case] where all [letter]s are one [ex] tall.
+opposite: upper
+distinct: lesser

@@ -1,0 +1,2 @@
+opposite: small
+distinct: big, great, upper

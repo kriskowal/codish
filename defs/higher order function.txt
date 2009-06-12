@@ -1,0 +1,1 @@
+a [function] that gives or takes other functions as [param]eters or [return] [result]s.

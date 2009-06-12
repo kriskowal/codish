@@ -1,0 +1,3 @@
+a number or a pointer to a position in any number of dimensions.
+replaces: pointer
+distinct: ref

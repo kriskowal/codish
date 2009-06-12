@@ -1,0 +1,1 @@
+distinct: binary, exec, executable, app

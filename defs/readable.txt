@@ -1,0 +1,3 @@
+<i>right</i>.
+opposite: writable
+is: permission

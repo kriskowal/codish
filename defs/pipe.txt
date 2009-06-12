@@ -1,0 +1,1 @@
+a <i>stream</i> between multiple programs that is moderated by the <i>os</i>.

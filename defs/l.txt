@@ -1,0 +1,3 @@
+<i>left</i>.
+opposite: r
+see: vowel

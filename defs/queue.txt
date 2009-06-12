@@ -1,0 +1,1 @@
+a linear collection that only provides <i>shift</i> and <i>posh</i> for element storage and retrieval.

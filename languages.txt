@@ -1,0 +1,16 @@
+python
+perl
+ruby
+php
+java
+c
+c++
+c#
+[c]
+javascript
+[j]
+pascal
+delphi
+smalltalk
+ada
+erlang

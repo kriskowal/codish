@@ -1,0 +1,2 @@
+removes a <i>symbol</i> referring to a <i>value</i> or <i>member</i> of an <i>object</i>.
+to be distinguished from <i>del</i>.

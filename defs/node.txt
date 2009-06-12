@@ -1,0 +1,2 @@
+a <i>vertex</i> in a <i>collection</i>.
+use: vertex

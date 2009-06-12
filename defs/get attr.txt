@@ -1,0 +1,2 @@
+returns the <i>value</i> corresponding to a <i>symbol</i> in an <i>object</i>.
+distinct: get

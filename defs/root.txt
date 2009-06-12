@@ -1,0 +1,2 @@
+the primary [node] in a [graph], particularly a [tree].
+distinct: radix, start

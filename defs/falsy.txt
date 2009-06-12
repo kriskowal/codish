@@ -1,0 +1,2 @@
+pertains to [value]s that are equivalent to [false] in a [boolean] context.
+opposite: truthy

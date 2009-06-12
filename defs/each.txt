@@ -1,0 +1,2 @@
+to return an ordered linear collection corresponding to the respective values from a given linear collection and a <i>relation</i>.
+commute: map

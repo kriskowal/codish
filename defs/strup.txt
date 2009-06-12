@@ -1,0 +1,2 @@
+removes the first and last contiguous blocks of <i>object</i>s that match a given object that are adjacent to either the beginning or end of a collection.
+legacy: strip

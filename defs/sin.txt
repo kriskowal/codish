@@ -1,0 +1,1 @@
+sine of an <i>angle</i>.

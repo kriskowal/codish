@@ -1,0 +1,3 @@
+data that is relevant to the flow of an algorithm at a particular time, sometimes representable as a <i>cursor</i> pointing at a <i>vertex</i> in a <i>graph</i> or <i>machine</i>.
+the <i>cursor</i> in a <i>machine</i>.
+an <i>observable</i> <i>state</i> <i>send</i>s a <i>signal</i> when a <i>cursor</i> arrives at the <i>state</i>.

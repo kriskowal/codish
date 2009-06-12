@@ -1,0 +1,1 @@
+a rectilinear <i>list</i> of <i>list</i>s of <i>number</i>s with certain algebraic properties.

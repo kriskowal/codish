@@ -1,0 +1,2 @@
+a number of <i>radix</i> 10.
+to convert a number to <i>radix</i> 10.

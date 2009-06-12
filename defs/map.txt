@@ -1,0 +1,2 @@
+a function that returns the respective [value]s for an [linear] [collection] of [key]s and a [transitive function].
+commute: each

@@ -1,0 +1,6 @@
+a block that handles a <i>raise</i>ed <i>exception</i>.
+replaces: catch, except
+python: except
+c: catch
+java: catch
+sml: handle

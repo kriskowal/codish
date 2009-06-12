@@ -1,0 +1,2 @@
+the vertical <i>length</i> of a <i>planar</i> <i>object</i>.
+opposite: width

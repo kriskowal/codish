@@ -1,0 +1,2 @@
+a <i>relation</i> that provides a corresponding boolean value, <i>true</i> or <i>false</i>.
+replaces: boolean

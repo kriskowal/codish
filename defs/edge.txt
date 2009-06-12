@@ -1,0 +1,1 @@
+a connection in a graph that <i>start</i>s at one <i>vertex</i> and <i>stop</i>s at another.

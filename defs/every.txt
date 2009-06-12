@@ -1,0 +1,3 @@
+returns whether [all] values in an [iterable] produce a [truthy] value when passed through a given [transitive function].
+short circuits on the first [falsy] value.
+related: all, some

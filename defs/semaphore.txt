@@ -1,0 +1,1 @@
+an <i>object</i>, mediated by an <i>os</i>, that programs can use to mediate the use of shared resources by forcing a <i>process</i> to <i>wait</i>.

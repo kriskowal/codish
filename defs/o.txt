@@ -1,0 +1,3 @@
+an affix that connotes that a function applies to the end of a linear collection.
+opposite: i
+is: vowel

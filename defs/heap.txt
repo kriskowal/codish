@@ -1,0 +1,2 @@
+a region of memory reserved for dynamic allocation.
+distinct: bague

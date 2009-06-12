@@ -1,0 +1,1 @@
+an <i>object</i> that one can index into a <i>collection</i> to retrieve a <i>value</i>.

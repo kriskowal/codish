@@ -1,0 +1,2 @@
+calculates a difference of the former from the latter.
+commute: sub

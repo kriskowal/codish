@@ -1,0 +1,3 @@
+not equal.
+logical exclusive or.
+see: xor

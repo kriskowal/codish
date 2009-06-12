@@ -1,0 +1,3 @@
+a convention for the capitalization of [letter]s in [text].
+a function that transforms [text] to one such convention.
+includes: lower, upper, camel, title

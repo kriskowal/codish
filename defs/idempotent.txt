@@ -1,0 +1,1 @@
+converging on a value when reapplied (as in a feedback loop) on that value multiple times.

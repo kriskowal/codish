@@ -1,0 +1,5 @@
+a collection of [symbols] for a given [object]'s attributes ([attrs]).
+is analgous to [keys] on a [dict].
+see: attrs
+aka: dir
+distinct: list

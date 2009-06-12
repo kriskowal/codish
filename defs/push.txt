@@ -1,0 +1,4 @@
+To augment a [linear] [collection] by adding a [value] to the [end].
+opposite: pop, unshift
+aka: append
+crazy: posh

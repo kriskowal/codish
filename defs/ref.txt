@@ -1,0 +1,2 @@
+a number representing the position of an <i>object</i> in memory.  sometimes a reference points to suplementary data like a counter of all <i>strong</i> <i>ref</i>s to that <i>object</i>.
+replaces: pointer

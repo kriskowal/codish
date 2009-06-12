@@ -1,0 +1,3 @@
+exponentiation.
+distinct: power
+c: pow

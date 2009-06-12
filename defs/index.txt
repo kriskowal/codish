@@ -1,0 +1,2 @@
+a <i>key</i> for an <i>array</i>.
+replaces: offset

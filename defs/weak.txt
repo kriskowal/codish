@@ -1,0 +1,1 @@
+an attribute of a <i>ref</i> that indicates that the <i>ref</i> does not hold the referent in memory; relevant for garbage collection.

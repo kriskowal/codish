@@ -1,0 +1,2 @@
+an instance of a <i>class</i>.
+see: set attr, get attr, has attr, del attr

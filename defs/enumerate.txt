@@ -1,0 +1,1 @@
+to assign <i>nominal</i> values to each respective <i>value</i> in a <i>list</i>, effectively creating the <i>map</i> that <i>relate</i>s each <i>ordinal</i> <i>offset</i> in a <i>list</i> with its respective <i>value</i>.

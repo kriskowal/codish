@@ -1,0 +1,3 @@
+returns the <i>list</i> of <i>text</i>s that were interpolated by a <i>delimiter</i> in a given <i>text</i>.
+returns the <i>list</i> of <i>list</i>s that were interpolated by a <i>delimiterd</i> in a given <i>list</i>.
+replaces: explode

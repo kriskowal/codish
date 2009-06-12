@@ -1,0 +1,3 @@
+the current working deirectory
+replaces: pwd
+unix: pwd

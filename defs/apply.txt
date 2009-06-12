@@ -1,0 +1,2 @@
+to <i>eval</i> a function.  this involves creating a <i>frame</i>, passing arguments, and evaluating or executing each statement and expression in the function's <i>block</i>.
+replaces: invoke

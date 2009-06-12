@@ -1,0 +1,2 @@
+returns a shallow copy of an <i>object</i>.
+replaces: clone

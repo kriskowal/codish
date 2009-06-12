@@ -1,0 +1,2 @@
+a suffix that connotes that a function is a stateless variant of the suffixed function, meaning that it replicates the given input, modifies the new object, and returns the mutated data.
+examples include <i>sorted</i>, <i>reversed</i>, and <i>shiftyed</i>.

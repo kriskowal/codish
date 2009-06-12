@@ -1,0 +1,2 @@
+an application (<i>apply</i>) or <i>continuation</i> of a <i>function</i>, mediated by a <i>process</i> that shares memory with other <i>thread</i>s in the same <i>process</i>.
+distinct: process, program

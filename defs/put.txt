@@ -1,0 +1,3 @@
+<i>insert</i> a <i>value</i> at given <i>key</i>.  for non-<i>unique</i> collections like an <i>array</i> or <i>list</i>, <i>put</i> does not replace the <i>value</i> at the given index, but bumps all successive values down one position.
+distinct: set, insert
+python: insert

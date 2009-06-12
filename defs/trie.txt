@@ -1,0 +1,1 @@
+a <i>saque</i> of <i>item</i>s like a <i>dict</i> except that the <i>key</i>s must all be <i>text</i>.

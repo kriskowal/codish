@@ -1,0 +1,1 @@
+a [compare] [function] for some particular notion of comparison.

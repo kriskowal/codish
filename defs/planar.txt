@@ -1,0 +1,2 @@
+pertains to [object]s that have 2 [dimension]s.
+see: scalar, linear, spatial, temporal

@@ -1,0 +1,1 @@
+returns a <i>bound</i> function for a given <i>judge</i>.

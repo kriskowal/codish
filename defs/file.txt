@@ -1,0 +1,1 @@
+a region of physical memory, moderated by the <i>os</i>, that contains <i>text</i> that one can <i>read</i>, <i>write</i>, and <i>exec</i>.

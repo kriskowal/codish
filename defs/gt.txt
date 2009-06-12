@@ -1,0 +1,2 @@
+greater than.
+is: [transitive relation]

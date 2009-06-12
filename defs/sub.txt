@@ -1,0 +1,3 @@
+calculates a difference of the latter from the former.
+distinct: subscript
+commute: diff

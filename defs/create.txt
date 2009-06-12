@@ -1,0 +1,2 @@
+to allocate memory for an <i>object</i>.
+replaces: construct, creat

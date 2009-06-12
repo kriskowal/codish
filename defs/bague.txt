@@ -1,0 +1,3 @@
+a sorted, linear collection that only provides <i>insert</i> and <i>shoft</i> as its methods for storage and retrieval.
+replaces: heap, priority queue, pqueue
+legacy: heap

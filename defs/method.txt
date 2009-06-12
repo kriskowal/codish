@@ -1,0 +1,2 @@
+a function that is an <i>attr</i> of an <i>object</i>.
+replaces: member function

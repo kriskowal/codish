@@ -1,0 +1,2 @@
+to <i>start</i> and continue until a <i>stop</i>.
+see: exec, eval

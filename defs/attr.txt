@@ -1,0 +1,3 @@
+a <i>set</i>able and <i>get</i>able <i>value</i> associated with a <i>symbol</i> of an <i>object</i>; an attribute.
+distinct: item
+replaces: property

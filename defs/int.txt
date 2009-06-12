@@ -1,0 +1,1 @@
+an integer <i>number</i>.

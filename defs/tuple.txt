@@ -1,0 +1,2 @@
+a [linear] [collection] of fixed [length].
+includes: duple, triple, quadruple, quintuple, sextuple, septuple, nontuple, dectuple

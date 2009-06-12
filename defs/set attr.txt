@@ -1,0 +1,2 @@
+sets the <i>value</i> corresponding to a <i>symbol</i> of an <i>object</i>.
+distinct: set

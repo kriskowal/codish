@@ -1,0 +1,2 @@
+having a range that includes <i>zero</i>.
+a number that indicates a position (a <i>cursor</i>) by way of its <i>index</i> from <i>zero</i>.

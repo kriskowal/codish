@@ -1,0 +1,1 @@
+a [sort] [order] where [term]s consisting of contiguous [number]s of any [length] are sorted by their numeric value, and all extrapolated terms are ordered [lexicographic]ally.

@@ -1,0 +1,2 @@
+the <i>state</i> of a <i>thread</i> that includes the <i>cursor</i> of execution and all of the <i>frame</i>s for functions that the program must return to before completion.
+replaces: context

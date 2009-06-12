@@ -1,0 +1,2 @@
+opposite: send
+distinct: read

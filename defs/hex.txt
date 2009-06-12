@@ -1,0 +1,2 @@
+to convert a number to <i>radix</i> 16.
+a number of <i>radix</i> 16.

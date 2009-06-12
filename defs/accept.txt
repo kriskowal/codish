@@ -1,0 +1,1 @@
+to <i>accept</i> a <i>connection</i> from a <i>client</i>.

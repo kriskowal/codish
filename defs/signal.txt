@@ -1,0 +1,2 @@
+a function that sends a <i>signal</i> that an <i>event</i> has occured and <i>send</i>s that <i>event</i> to <i>observer</i>s.
+distinct: queue

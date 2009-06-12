@@ -1,0 +1,2 @@
+a [variable] received by a [function] when it's [call]ed.
+distinct: argument
