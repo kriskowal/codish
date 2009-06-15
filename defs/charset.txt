@@ -1,2 +1,2 @@
-a [relation] of [codepoint] [number]s to corresponding [glyph]s.
+a [transitive function] of [codepoint] [number]s to corresponding [glyph]s.
 replaces: encoding

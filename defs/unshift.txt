@@ -1,0 +1,4 @@
+to augment a [linear] [collection] [in place] by adding a [value] to the beginning, moving existing values rightward.
+python: the idiom for [unshift] in [python] is to use [insert] with a [pos]ition of [zero].
+aka: bump, propend, prepend
+seuss: pish

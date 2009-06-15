@@ -1,0 +1,1 @@
+c++: pertains to [group]s of template classes that are effectively [duck] [class]es, often used with [operator overload] to create [class]es that [emulate] the [behavior] of [primative] [class]es like [integer]s.

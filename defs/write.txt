@@ -1,2 +1,4 @@
-to send a <i>list</i> of <i>value</i>s (usually a <i>text</i> of <i>character</i>s) to a <i>stream</i>.
+to send an [ordered] [collection] of [value]s (usually a [text] of [char]s or an [array] of [byte]s) to a [stream].
 distinct: send
+opposite: read
+related: flush

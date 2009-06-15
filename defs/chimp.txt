@@ -1,2 +1,2 @@
-removes one new line text character or pattern from the beginning of a linear collection if it exists.
+seuss: removes one new line text character or pattern from the beginning of a linear collection if it exists.
 opposite: chomp

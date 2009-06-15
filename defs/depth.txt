@@ -1,2 +1,2 @@
-see: width, height
-distinct: length
+the [number] of [edge]s that follow from the [root] of a [tree] to a given [vertex].
+distinct: length, width, height

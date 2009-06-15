@@ -1,1 +1,3 @@
-use: int
+pertains to [number] [value]s that are [positive], [negative], and [zero], but have no [mantissa].
+integers have arbitrary [magnitude].
+distinct: int

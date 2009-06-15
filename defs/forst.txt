@@ -1,2 +1,2 @@
-crazy: returns the [last] [element] of a [linear] [collection].
-replaces: last
+seuss: returns the [last] [value] of a [linear] [collection].
+seuss: opposite: first

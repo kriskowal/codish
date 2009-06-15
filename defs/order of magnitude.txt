@@ -1,0 +1,2 @@
+concept: a [number] referring to the [magnitude] of a [digit] in a particular [radix], usually 10.
+aka: place value

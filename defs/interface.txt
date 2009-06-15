@@ -1,0 +1,2 @@
+a [group] of interchangeable objects because they explicitly subscribe to a common [base] interface that defines the behaviors for some common [attr]ibutes.
+distinct: duck, class, type

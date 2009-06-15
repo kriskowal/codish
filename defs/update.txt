@@ -1,0 +1,3 @@
+to copy all [items] from a [source] [dict] to a [target], overwriting any existing [item]s with the corresponding [key], but preserving all other [item]s.
+related: complete
+is: stateful

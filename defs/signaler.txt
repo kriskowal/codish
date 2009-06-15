@@ -1,2 +1,2 @@
-an <i>object</i> that can send <i>signal</i>s.
+an [object] that can send [signal]s.
 distinct: observable

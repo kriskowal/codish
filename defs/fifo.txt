@@ -1,0 +1,4 @@
+first on, first off.
+pertains to [collection]s that mediate the storage and retrieval of [value]s such they are [consume]d in the same [order] they are [provide]d.
+pertinent: queue
+opposite: lifo

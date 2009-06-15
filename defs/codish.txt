@@ -1,2 +1,2 @@
 a hypothetical [pragmatic] [language] where [name] choices are made to satisfy modern programmers, where [precedent] is favored and [orthogonality], [symmetry], [majority], [reason] are applied to settle inconsistencies among existing [language]s and to fill voids where languages do not set precedent, but invention and personal preference are applied sparingly.
-distinct: crazy
+related: seuss

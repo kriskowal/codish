@@ -1,0 +1,2 @@
+the [first] value in an [ordered] [linear] [collection].
+opposite: tail

@@ -1,2 +1,2 @@
-a <i>vertex</i> in a <i>collection</i>.
+a [vertex] in a [collection].
 use: vertex

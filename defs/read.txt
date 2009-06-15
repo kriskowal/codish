@@ -1,1 +1,2 @@
-to acquire <i>text</i> from a <i>stream</i>.
+to acquire [text] of [char]s or [array]s of [byte]s from a [stream].
+opposite: write

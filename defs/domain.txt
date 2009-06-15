@@ -1,0 +1,1 @@
+math: the [set] of all possible [param]eters of a [transitive relation] or [key]s of a [dict].

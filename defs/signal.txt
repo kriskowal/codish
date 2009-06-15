@@ -1,2 +1,3 @@
-a function that sends a <i>signal</i> that an <i>event</i> has occured and <i>send</i>s that <i>event</i> to <i>observer</i>s.
+a function that [send]s a signal, notifying [observer]s [when] an [event] has occured.
+related: promise
 distinct: queue

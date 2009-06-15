@@ -1,0 +1,2 @@
+[remove] a [pattern] or sub-collection from the [end] of a [linear] [collection].
+see: trim, trom

@@ -1,0 +1,1 @@
+refers to [free variable]s that is accessible in every [context].

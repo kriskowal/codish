@@ -1,3 +1,3 @@
-a collection of equivalent <i>object</i>s for a given definition of equivalence. 
+a collection of equivalent [object]s for a given [equivalence relation]. 
 replaces: equivalence class
 distinct: class

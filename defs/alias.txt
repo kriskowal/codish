@@ -1,1 +1,1 @@
-an alternate name.
+an alternate name.  a [function] that defers to a [function] by another name by way of [polymorphic] late [bind]ing.

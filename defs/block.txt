@@ -1,2 +1,2 @@
-a <i>list</i> of program statements or expressions.
+a [list] of program [statement]s.
 distinct: wait, join

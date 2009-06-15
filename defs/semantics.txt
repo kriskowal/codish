@@ -1,0 +1,2 @@
+the meanings of [symbol]s in a [program].
+related: syntax

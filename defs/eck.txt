@@ -1,1 +1,1 @@
-opposite: ack
+seuss opposite: ack

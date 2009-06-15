@@ -1,2 +1,2 @@
-a point in a <i>graph</i>.
+a point in a [graph].
 distinct: node

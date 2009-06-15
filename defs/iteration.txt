@@ -1,0 +1,4 @@
+an [object] that represents the [state] of a [lazy] iteration and implements a [next] function to advance the [cursor] and [return] the next [value] of the iteration.
+an iteration walks from the [begin] to the [end] of a [lazy] [ordered] [linear] [collection], providing each [value] on demand.
+has: next
+is: iterable

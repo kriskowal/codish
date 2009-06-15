@@ -1,1 +1,2 @@
 a <i>source</i> or <i>target</i> for an ordered progression of <i>value</i>s, usually <i>character</i>s in <i>text</i> by way of <i>read</i> and <i>write</i>.  input <i>stream</i>s are <i>iterable</i>.
+is: iteration

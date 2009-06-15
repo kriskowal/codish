@@ -1,2 +1,6 @@
-[remove] a number of objects from the [begin]ing and [end] of a [linear] [collection].
-aka: [strip]
+[remove] a [pattern] or sub-collection from both the [begin]ing and the [end] of a [linear] [collection].
+related: trim begin, trim end, trom
+distinct: strip, strop
+aka: strip
+seuss: [remove] a number of objects from the [begin]ing of a [linear] [collection].
+seuss: opposite: [trom]

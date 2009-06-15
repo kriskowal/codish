@@ -1,4 +1,3 @@
-to augment a linear collection by adding an item to the beginning.
-replaces: unshift, bump, propend, prepend
-legacy: unshift
+seuss: to augment a [linear] [collection] by adding a [value] to the beginning, moving existing values rightward.
 opposite: posh, shift
+aka: unshift, bump, propend, prepend

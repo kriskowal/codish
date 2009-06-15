@@ -1,0 +1,2 @@
+a [magnitude]-limited [natural] [number].
+an [unsigned] [int].

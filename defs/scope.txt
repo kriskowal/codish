@@ -1,1 +1,1 @@
-an <i>object</i> that associates <i>symbol</i>s with <i>value</i>s for a <i>block</i> and can include a <i>ref</i> to another <i>scope</i> to defer to if a <i>symbol</i> does not exist.
+an [object] that associates [symbol]s or [name]s with [value]s for a [block] of code and can include a [ref] to another [scope] to defer to if a [symbol] does not exist, conceptually forming a [stack] with the current scope at the [head].

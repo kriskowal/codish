@@ -1,0 +1,2 @@
+any medium that [persist]s [data] storage.
+subclass: register, cache, ram, disk, db

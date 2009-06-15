@@ -1,1 +1,2 @@
-a linear collection that only provides <i>shift</i> and <i>posh</i> for element storage and retrieval.
+a [linear] [collection] that only provides [shift] and [push] for storage and retrieval, such that the first value [push]ed is always the [first] value [shift]ed ([fifo]).
+queues operations are often [atomic], so they can be used to pass [message]s safely between [thread]s or [process]es. 

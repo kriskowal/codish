@@ -1,1 +1,2 @@
-a <i>relation</i> that returns the corresponding complex, real, integer, or whole number.
+concept: a [whole], [natural], [integer], [real], or [complex] numeric [value].
+a [transitive function] that returns the corresponding number, usually limited to a subset of the [real] domain like [int] or [float].

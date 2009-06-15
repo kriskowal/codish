@@ -1,0 +1,1 @@
+an element of a [program]'s [syntax] that may express [stateful] operations like [assign]ment, control flow like [if] and [while], or the [eval]uation of an [expression].

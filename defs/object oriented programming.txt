@@ -1,0 +1,2 @@
+concept: pertains to systems that support [encapsulation], [polymorphism], and [inheritance].
+aka: oop

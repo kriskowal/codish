@@ -1,0 +1,1 @@
+a datum that is not composed of smaller [data].

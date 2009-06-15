@@ -1,4 +1,5 @@
-To augment a [linear] [collection] by adding a [value] to the [end].
+to augment a [linear] [collection] [in place] by adding a [value] to the [end].
 opposite: pop, unshift
-aka: append
-crazy: posh
+python: append
+related: extend
+seuss: posh

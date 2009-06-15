@@ -1,2 +1,2 @@
-use: content class
+use: [content class]; [type] implies key-strokes, [class] implies classification.
 see: class, type

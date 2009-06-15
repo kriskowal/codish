@@ -1,1 +1,5 @@
-codish: returns the first element of a [linear] [collection].
+returns the first element of a [linear] [collection].
+is: stateless
+opposite: last
+related: pop
+seuss: opposite: forst

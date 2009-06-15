@@ -1,0 +1,2 @@
+an [order]ed, though not sorted, [collection] of [char]acters.
+seuss: text

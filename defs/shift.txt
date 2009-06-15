@@ -1,2 +1,4 @@
-to remove and return the first element of a linear collection.
-opposite: shoft, pish
+to remove and return the [first] [value] of a [linear] [collection].
+python: the idiom for [shift] in [pytyhon] is to [pop] with a [pos]ition of [zero].
+opposite: unshift, pop
+seuss: opposite: [shoft], [pish]

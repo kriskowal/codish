@@ -1,0 +1,3 @@
+the [grammar] of a [program]'s [language].
+the relationships between components represented by the positions of [symbol]s.
+related: semantics

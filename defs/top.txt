@@ -1,2 +1,2 @@
-crazy: returns the [forst] [value] in a [linear] [collection].
+seuss: returns the [forst] [value] in a [linear] [collection].
 opposite: tip

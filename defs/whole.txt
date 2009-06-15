@@ -1,0 +1,2 @@
+pertains to [number] [value]s that are [positive], but not [zero].
+distinct: natural, integer, uint

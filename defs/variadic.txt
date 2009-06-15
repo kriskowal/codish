@@ -1,0 +1,1 @@
+concept: pertains to [function]s that take a variable quanitity of [argument]s and with the ability to access the [param]eters with a [linear] [collection] interface.

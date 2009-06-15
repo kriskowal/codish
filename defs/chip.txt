@@ -1,2 +1,2 @@
-removes one element from the beginning of a linear collection.
+seuss: removes one element from the beginning of a linear collection.
 opposite: chop

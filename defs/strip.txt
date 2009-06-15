@@ -1,2 +1,3 @@
-removes the last contiguous objects that match a given object that are adjacent to the end of a linear collection.
-legacy: strip first
+see: trim
+seuss: [remove] a [pattern] or sub-collection from the [end] of a [linear] [collection].
+seuss opposite: strop

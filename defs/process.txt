@@ -1,2 +1,2 @@
-an application (<i>apply</i>) of a <i>program</i>, mediated by the <i>os</i>.
-distinct: thread
+an application ([apply]) of a [program], mediated by the [os].
+distinct: thread, program

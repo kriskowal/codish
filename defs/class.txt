@@ -1,2 +1,2 @@
-A <i>group</i> of interchangeable objects because they provide the same interface, often with a common, defined interface.
-distinct: type
+a [group] of interchangeable objects they explicitly inherit a common [base] class.
+distinct: type, duck, interface

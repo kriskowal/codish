@@ -1,1 +1,1 @@
-a [linear] [collection] that provides fast random access to its values with [get] and [set].
+a [linear] [collection] that provides fast random access and [iter]ation to its [value]s with [get], [set], and [iter].

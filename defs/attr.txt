@@ -1,3 +1,4 @@
-a <i>set</i>able and <i>get</i>able <i>value</i> associated with a <i>symbol</i> of an <i>object</i>; an attribute.
+an attribute.
+a [set]able and [get]able [value] associated with a [symbol] or [name] in an [object].
 distinct: item
-replaces: property
+aka: property (python), member (c++)

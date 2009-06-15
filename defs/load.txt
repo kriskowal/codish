@@ -1,1 +1,3 @@
+to transfer [remote] [data] to a more [local] [memory].
 opposite: save
+distinct: get

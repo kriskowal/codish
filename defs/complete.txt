@@ -1,2 +1,6 @@
-use: done
-distinct: ready
+to copy the [item]s from a [source] [dict]ionary to a [target] if no [item] exists on the target collection with the respective [key].
+<tt>complete(target, source)</tt>
+related: update
+distinct: ready, done
+is: stateful
+concept: pertains to [tree]s for which [every] [leaf] has the same [depth], and every other [child] has a [vertex] for every possible [child] [edge].

@@ -1,1 +1,3 @@
+to transfer [local] [date] to a more [remote] [memory].
 opposite: load
+distinct: set

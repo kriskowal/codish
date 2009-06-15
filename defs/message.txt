@@ -1,0 +1,2 @@
+a record of [data] from a [source] to a [target], or a [signaler] to an [observer].
+related: event

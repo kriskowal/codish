@@ -1,2 +1,2 @@
 a [linear] [collection] that only provides or guarantees fast [push] and [pop].
-crazy: specifically a [staque] of [frame]s.
+seuss: specifically a [staque] of [frame]s.

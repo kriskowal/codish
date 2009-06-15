@@ -1,2 +1,3 @@
-removes one new line text character or pattern from the end of a linear collection if it exists.
+seuss: removes one new line text character or pattern from the end of a linear collection if it exists.
+perl: bears the same name and meaning.
 opposite: chimp

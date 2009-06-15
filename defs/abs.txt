@@ -1,1 +1,5 @@
 absolute value.
+returns the [positive] reflection of [negative] [integer]s, returning [positive] numbers as they were.
+a [transitive function] that [map]s [integer]s into the [natural] [number] line.
+distinct: absolute
+is: stateless

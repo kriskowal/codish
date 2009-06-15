@@ -1,0 +1,2 @@
+(duck [class]) a [group] of interchangeable objects because they implicitly use some common [attr]ibutes for the same behavior.
+distinct: interface, class, type

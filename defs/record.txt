@@ -1,0 +1,2 @@
+a [compound] [data] structure, composed of consistently [order]ed or [name]d [attr]ibutes.
+see: tuple, class

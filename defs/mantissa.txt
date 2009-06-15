@@ -1,0 +1,1 @@
+the portion of a [number] representation that follows after the period, in any [radix].

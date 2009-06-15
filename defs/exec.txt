@@ -1,2 +1,3 @@
-execute.  to <i>run</i> instructions.  can be subsumed by <i>eval</i>.
-use: eval
+execute.
+executes the [statement]s of a [program].
+see: eval

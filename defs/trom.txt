@@ -1,3 +1,2 @@
-remove a number of objects from the end of a linear collection.
-replaces: trim right
-legacy: trim last
+seuss: remove a [number] of objects from the end of a linear collection.
+see: trim end

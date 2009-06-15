@@ -1,1 +1,2 @@
-use: shoft
+to remove and return the [last] [value] of a [linear] [collection].
+seuss: shoft

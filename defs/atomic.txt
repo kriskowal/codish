@@ -1,0 +1,4 @@
+pertains to the smallest, indivisible unit of [exec]ution or [data].
+pertains to operations that cannot be disrupted by [async]hronous [exec]ution of other [thread]s or [program]s.
+related: atom
+opposite: compound

@@ -1,2 +1,2 @@
-a function that takes two [parameter]s and returns [whether] they have a given relationship.
-includes: lt, gt, ge, le, 
+concept: a function that takes two [parameter]s and returns [whether] they have a given relationship.
+includes: lt, gt, ge, le

@@ -1,1 +1,2 @@
-use: length
+a [stateful] [destructive] operation that returns the [number] of [value]s in an [iter]ation.
+distinct: length

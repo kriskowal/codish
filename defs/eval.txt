@@ -1,3 +1,4 @@
-evalutes or <i>run</i>s expressions, statements, and instructions and returns a <i>value</i>.
-replaces: evaluate, exec, execute
+evaluate.
+returns the [value] of an [expression].
 inverse: repr
+related: exec

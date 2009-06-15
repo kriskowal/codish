@@ -1,1 +1,3 @@
-a [sort] [order] where [term]s consisting of contiguous [number]s of any [length] are sorted by their numeric value, and all extrapolated terms are ordered [lexicographic]ally.
+pertains to [number] [value]s that are [positive] or [zero].
+natural numbers have arbitrary [magnitude].
+distinct: integer, whole, uint

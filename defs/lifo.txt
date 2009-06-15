@@ -1,0 +1,4 @@
+last on, first off.
+pertains to [collection]s that mediate the storage and retrieval of [value]s such that the most recently [provided] [value] is always [next] value to be [consume]d.
+pertinent: stack
+opposite: fifo

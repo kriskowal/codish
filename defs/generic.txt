@@ -1,2 +1,3 @@
 aka: general
 opposite: specific
+related: genericity, duck

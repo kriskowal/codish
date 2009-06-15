@@ -1,2 +1,1 @@
-an ordered (though not sorted) collection of <i>character</i>s.
-replaces: string
+codish: string

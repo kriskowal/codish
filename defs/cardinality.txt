@@ -1,2 +1,2 @@
-a mathematical term for size, magnitude.
+math: size, magnitude, [length], thus cardinality [value]s are in the [domain] of [zero] and [positive] [real] [number]s.
 see: cardinal, length

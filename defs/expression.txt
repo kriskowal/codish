@@ -1,0 +1,1 @@
+an element of a [program]'s [syntax], typically used to express [stateless] computation through [function] application ([apply]), including algebraic [operator]s.

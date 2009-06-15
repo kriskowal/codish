@@ -1,2 +1,2 @@
-iterate.
+to iterate, or return an [iteration].
 is: iterable

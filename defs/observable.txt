@@ -1,2 +1,2 @@
-an <i>object</i> that can send <i>signal</i>s when <i>method</i>s are applied (<i>apply</i>).
+an [object] that can send [signal]s when [method]s are applied ([apply]).
 a special <i>signaler</i>.

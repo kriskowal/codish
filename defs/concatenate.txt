@@ -1,0 +1,2 @@
+to return a [linear] collection composed of zero or more adjacent linear collections, usually [variadic]ally.
+related: push

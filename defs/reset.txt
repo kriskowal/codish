@@ -1,2 +1,2 @@
-<i>set</i>s to a default value.
+[set]s to a default value.
 distinct: restart, reboot

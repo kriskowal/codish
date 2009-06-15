@@ -1,2 +1,2 @@
-a message that a <i>signal</i> sends to its <i>observe</i>ers.  some events <i>propagate</i>, can <i>stop</i>, or have a default behavior.
-replaces: note
+a message that a [signal] [send]s to its [observer]s.  some events [propagate], can [stop], or have a default behavior.
+aka: note, message

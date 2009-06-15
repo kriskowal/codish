@@ -1,0 +1,1 @@
+concept: to [stateful]ly modify an object, such that the returned object [is] the modified [param]eter or [context object].

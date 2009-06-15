@@ -1,0 +1,2 @@
+a unique [key] for the [value] of an [attr] on an [object].
+symbols can be used to accelerate [attr]ibute lookup, and to provide a way to avoid name collisions for interface implementations.  symbols can be [int]egers with a non-unique [string] representation.

@@ -1,0 +1,2 @@
+a [vertex] with a [parent] vertex in a [tree].
+related: leaf

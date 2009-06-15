@@ -1,2 +1,2 @@
-a <i>number</i> that can have a <i>mantissa</i> of infinite <i>length</i>.  not all real numbers can be represented on a computer so there isn't a good reason to name a <i>class</i>, <i>real</i>.
+a [number] that may have both [integer] and [mantissa] components, both with both arbitrary [precission] and [magnitude].
 distinct: rational, float, fixed

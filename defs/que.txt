@@ -1,0 +1,2 @@
+seuss: a [linear] [collection]
+seuss includes: queue, deque, saque, staque, bague, unique

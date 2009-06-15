@@ -1,0 +1,4 @@
+python: to augment a [linear] [collection] [in place] by adding all of the [value]s of another collection to the [end].
+javascript: the idiom for [extend] in [javascript] is to call [push] variadically, as in <tt>this.push.apply(this, other)</tt>.
+presently has no [codish] name.
+related: push

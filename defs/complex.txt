@@ -1,0 +1,1 @@
+a [number] that may have both [real] and [imaginary] components, both of arbitrary [precision] and [magnitude].

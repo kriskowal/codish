@@ -1,0 +1,1 @@
+concept: in [object oriented programming], the [object] of a [member function], passed either implicitly (as in C++ and Java) or explicitly (as in Python, and sometimes JavaScript) as the first [argument].

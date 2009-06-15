@@ -1,0 +1,3 @@
+concept: a [binary relation] that returns whether two values are [equivalent] for some notion of equivalence, like having the same value ([eq]), identical [ref] ([is]), some common attribute, or [map]ing to the same value with a [transitive function], like [len].
+see: eq, is
+aka: same
