@@ -2,15 +2,15 @@
 var json = require("json");
 var util = require("util");
 var jack = require("jack");
-var Template = require("./json-template").Template;
+var Template = require("json-template").Template;
 var fs = require("file");
 
-var path = fs.path(module.path);
+var dir = fs.path(module.path).resolve('.');
 
-var data = json.parse(path.resolve('defs.json').read());
+var data = json.parse(dir.resolve('var/defs.json').read());
 var defs = util.values(data.defs);
-var pageTemplate = new Template(path.resolve('templates/index.html').read());
-var defsTemplate = new Template(path.resolve('templates/defs.html').read());
+var pageTemplate = new Template(dir.resolve('templates/index.html').read());
+var defsTemplate = new Template(dir.resolve('templates/defs.html').read());
 var index =  function (env) {
     var query = '';
     env.QUERY_STRING.split('&').forEach(function (pair) {
@@ -23,7 +23,6 @@ var index =  function (env) {
     var order = defs;
     if (query.length)
         order = bfs(data.defs, query);
-    print(json.encode(order, null, 4));
     return [
         200,
         {'Content-type': 'text/html'},
@@ -35,6 +34,21 @@ var index =  function (env) {
 };
 
 function bfs(dict, start, visited) {
+    if (!visited) visited = {};
+    var queue = [start];
+    var results = [];
+    while (queue.length) {
+        start = queue.shift();
+        if (util.object.has(visited, start)) continue;
+        if (!util.object.has(dict, start)) continue;
+        visited[start] = true;
+        results.push(dict[start]);
+        queue.push.apply(queue, dict[start].refs);
+    }
+    return results;
+};
+
+function dfs(dict, start, visited) {
     if (!visited) visited = {};
     if (util.object.has(visited, start)) return [];
     if (!util.object.has(dict, start)) return [];
@@ -74,7 +88,7 @@ exports.File = function (path) {
         return [
             200,
             {"Content-type": contentType},
-            [fs.open(path, 'b').read()]
+            [fs.read(String(path), 'b')]
         ];
     };
 };
@@ -121,9 +135,9 @@ exports.Route = function (root, paths, fallback) {
 exports.app = jack.ContentLength(exports.Route(
     index,
     {
-        "hr.png": exports.File("media/hr.png"),
-        "index.js": exports.File("media/index.js"),
-        "index.css": exports.File("media/index.css"),
+        "hr.png": exports.File(dir.resolve("media/hr.png")),
+        "index.js": exports.File(dir.resolve("media/index.js")),
+        "index.css": exports.File(dir.resolve("media/index.css")),
     }
 ));
 

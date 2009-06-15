@@ -1,15 +1,17 @@
 <html>
     <head>
+        <title>{q|html} Codish Lexicon</title>
         <link href="index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div id="body" class="content">
 
-            <h1>Codish Lexicon</h1>
+            <h1><a href="/?q=codish">Codish</a> <a href="/">Lexicon</a></h1>
 
-            <p class="description">An opinionated dictionary for
-            unambiguous, learnable, orthogonal, comprehensive,
-            generic computer programming terms, words, and nomens.</p>
+            <p class="block description">An opinionated dictionary for
+            unambiguous, learnable, <a href="/?q=orthogonal">orthogonal</a>, comprehensive,
+            <a href="/?q=generic">generic</a> computer programming <a href="/?q=term">terms</a>,
+            <a href="/?q=word">words</a>, and <a href="/?q=nomen">nomens</a>.</p>
 
             <form>
                 <p id="id-q-p"><input type="text" name="q" id="id-q" value="{q|html-attr-value}"-></p>
@@ -17,18 +19,34 @@
 
             <div class="hr"></div>
 
+            <div id="disqus"><div id="disqus_thread"></div></div>
+            <div id="ad"><div id="ad-outer"><div id="ad-inner">
+                wouldn't it be nice to have an ad on a[n&nbsp;in]famous dictionary web site?
+            </div></div></div>
+
             <div class="defs">{defs}</div>
 
-            <p class="description">Copyright &copy; Kris Kowal 2009</p>
-            <p class="description">
+            <p class="block copyright">Copyright &copy; Kris Kowal 2009</p>
+            <p class="block copyright">
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png" /></a>
             </p>
-            <p class="description">
+            <p class="block copyright">
                 <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Codish Lexicon</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://cixar.com/~kris.kowal" property="cc:attributionName" rel="cc:attributionURL">Kris Kowal</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License</a>.</p>
             </p>
 
 
         </div>
         <script src="index.js"></script>
+        <script type="text/javascript" src="http://disqus.com/forums/codish/embed.js"></script><noscript><a href="http://codish.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        <script type="text/javascript">
+            var gaJsHost = ("https:" == document.location.protocol) ? "https://ssl." : "http://www.";
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-9321937-1");
+                pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
     </body>
 </html>

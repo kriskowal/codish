@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "author": "",
+    "name": "jack-servlet",
+    "author": "Tom Robinson",
+    "contributors": [],
     "dependencies": [],
-    "contributors": []
+    "lean": ["lib", "media", "templates", "var", "jackconfig.js"]
 }

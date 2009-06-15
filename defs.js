@@ -11,26 +11,33 @@ defsDir.list().forEach(function (name) {
     if (!/\.txt$/.test(name))
         return;
 
+    var notes = {};
     var path = defsDir.join(name);
-    var name = fs.basename(name);
+    var name = fs.basename(name).replace(/\.txt$/, '');
     var file = path.open();
     var meanings = [];
     var refs = {};
     file.forEach(function (line) {
         line = line.replace(/<i>/g, '[').replace(/<\/i>/g, ']')
-        if (/^\w+: /.test(line)) {
+        while (/^[\w\s]+: /.test(line)) {
             var parts = line.split(': ');
             var note = parts.shift();
+            note = {
+                'replaces': 'aka',
+                'use': 'see'
+            }[note] || note;
             line = parts.join(': ');
-            if (/, /.test(line) && !/\[/.test(line)) {
-                line = '<i>' + note + ':</i> ' + line.split(', ').map(function (term) {
+            if (/, /.test(line) && !/\[/.test(line) && !/\.$/.test(line)) {
+                line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + line.split(', ').map(function (term) {
+                    util.getset(notes, note, []).push(term);
                     refs[term] = term;
                     return '[' + term + ']';
                 }).join(', ');
-            } else if (!/\[/.test(line)) {
-                line = '<i>' + note + ':</i> [' + line + ']';
+            } else if (!/\[/.test(line) && !/\.$/.test(line)) {
+                util.getset(notes, note, []).push(line);
+                line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> [' + line + ']';
             } else {
-                line = '<i>' + note + ':</i> ' + line + '';
+                line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + line + '';
             }
         }
         while (/\[[^\]]+\]/.test(line)) {
@@ -47,10 +54,32 @@ defsDir.list().forEach(function (name) {
     var node = defs[name] = {};
     node.name = name;
     node.def = meanings.join(' &nbsp; ');
-    node.refs = util.keys(refs);
+    node.refs = unique([].concat(
+        notes.see || [],
+        notes.opposite || [],
+        notes.related || [],
+        notes.has || [], 
+        notes.includes || [],
+        notes.is || [],
+        notes.distinct || [],
+        util.keys(refs)
+    ));
 });
+
+function unique(values) {
+    var results = [];
+    var visited = {};
+    for (var i = 0; i < values.length; i++) {
+        var value = values[i];
+        if (visited[value])
+            continue;
+        visited[value] = true;
+        results.push(value);
+    }
+    return results;
+};
 
 var data = {defs: defs};
 
-fs.write('defs.json', json.encode(data, null, 4));
+fs.write(String(dir.resolve('var/defs.json')), json.encode(data, null, 4));
 
