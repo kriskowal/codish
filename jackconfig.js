@@ -4,6 +4,7 @@ var util = require("util");
 var jack = require("jack");
 var Template = require("json-template").Template;
 var fs = require("file");
+var cache = require('chiron/cache');
 
 var dir = fs.path(module.path).resolve('.');
 
@@ -11,7 +12,27 @@ var data = json.parse(dir.resolve('var/defs.json').read());
 var defs = util.values(data.defs);
 var pageTemplate = new Template(dir.resolve('templates/index.html').read());
 var defsTemplate = new Template(dir.resolve('templates/defs.html').read());
-var index =  function (env) {
+
+var indexhtmlResponse = function (env) {
+    return [
+        200,
+        {'Content-type': 'text/html'},
+        [pageTemplate.expand({
+            defs: indexRawHtml(env),
+            q: env.query
+        })]
+    ];
+};
+
+var indexRawHtmlResponse = function (env) {
+    return [
+        200,
+        {'Content-type': 'text/html'},
+        [indexRawHtml(env)]
+    ];
+};
+
+var indexRawHtml = function (env) {
     var query = '';
     env.QUERY_STRING.split('&').forEach(function (pair) {
         var parts = pair.split('=');
@@ -20,18 +41,20 @@ var index =  function (env) {
         if (key == "q")
             query = value;
     });
+    env.query = query;
+    return indexQuery(query);
+};
+
+var indexQuery = cache.memoize(cache.Cache({
+    maxLength: 100,
+    cullFactor: .8,
+    log: {print:print}
+}), function (query) {
     var order = defs;
     if (query.length)
         order = bfs(data.defs, query);
-    return [
-        200,
-        {'Content-type': 'text/html'},
-        [pageTemplate.expand({
-            q: query,
-            defs: defsTemplate.expand({defs: order})
-        })]
-    ];
-};
+    return defsTemplate.expand({defs: order})
+});
 
 function bfs(dict, start, visited) {
     if (!visited) visited = {};
@@ -133,11 +156,14 @@ exports.Route = function (root, paths, fallback) {
 };
 
 exports.app = jack.ContentLength(exports.Route(
-    index,
+    indexhtmlResponse,
     {
+        "raw.html": indexRawHtmlResponse,
         "hr.png": exports.File(dir.resolve("media/hr.png")),
         "index.js": exports.File(dir.resolve("media/index.js")),
         "index.css": exports.File(dir.resolve("media/index.css")),
+        "robots.txt": exports.File(dir.resolve("media/robots.txt")),
+        "favicon.ico": exports.Fallback(),
     }
 ));
 
