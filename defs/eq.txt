@@ -1,2 +1,3 @@
 equal to.
 opposite: ne
+is: binary relation

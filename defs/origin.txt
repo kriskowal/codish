@@ -1,0 +1,1 @@
+a [point] where the [value] on every [dimension] is [zero].

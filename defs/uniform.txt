@@ -1,0 +1,2 @@
+having the same [length] in all [dimension]s.
+opposite: ragged

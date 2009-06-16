@@ -1,0 +1,2 @@
+to [add] [order]ed [linear] [collection]s like [string]s and [array]s.
+see: add

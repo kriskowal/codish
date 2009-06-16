@@ -1,1 +1,2 @@
 greater than or equal to.
+is: binary relation

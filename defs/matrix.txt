@@ -1,1 +1,3 @@
+an [ordered] [planar] [collection] of [number]s with certain algebraic properties and pertinent functions.
+a matrix is not [ragged].
 a rectilinear <i>list</i> of <i>list</i>s of <i>number</i>s with certain algebraic properties.

@@ -1,0 +1,2 @@
+concept: a [function] that takes two [param]eters.
+is: function

@@ -1,1 +1,2 @@
-[true] or [false]
+a [class] that includes the [value]s of [true] and [false].
+distinct: binary

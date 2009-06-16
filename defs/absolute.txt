@@ -1,2 +1,2 @@
 returns the fully qualified [path] for a given path and the [cwd].
-distinct: abs
+distinct: abs, normal, canonical

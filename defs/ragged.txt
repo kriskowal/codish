@@ -1,0 +1,3 @@
+pertains to multi-[dimension]al [collection]s where one [collection] contains sub-collections of varying [length]s.
+opposite: uniform
+distinct: even

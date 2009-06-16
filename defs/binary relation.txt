@@ -1,2 +1,3 @@
-concept: a function that takes two [parameter]s and returns [whether] they have a given relationship.
-includes: lt, gt, ge, le
+concept: a [binary function] that returns [whether] they have a given relationship, useful for [map] and for constructing [graph]s.
+is: binary function
+includes: eq, ne, lt, gt, le, ge

@@ -1,2 +1,3 @@
 concept: a [binary relation] that returns whether there is an [edge] from the [former] to the [latter] for a particular [acyclic] [graph].
-includes: lt, gt, ge, le
+is: binary relation
+includes: lt, gt

@@ -1,1 +1,2 @@
-returns the multiplicative identity of a class or object.  for numbers, this is the value of one (1).  for a matrix, this is a square matrix with ones along the diagonal and zeros elsewhere.
+returns the multiplicative identity of a class or object.  for numbers, this is the value of one (1).  for a [matrix], this is a square matrix with ones along the [diagonal] and [zero]s elsewhere.
+related: zero

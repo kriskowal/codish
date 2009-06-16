@@ -1,1 +1,5 @@
-context: path
+file system: returns the one [equivalent] [path] that does not include [parent] ("..") and [self] (".") path components.
+is: idempotent
+distinct: canonical, absolute
+geometry: a [binary relation] between a [line] and a [plane] that returns whether the line is [perpendicular] with every [intersect]ing line in the plane.
+distinct: perpendicular, orthogonal

@@ -1,0 +1,4 @@
+a [binary relation] between two [line]s that denotes that a [point] moving along one [line], projected on the other line, would not move.
+all [perpendicular] lines are orthogonal.
+some [skew] lines are [orthogonal] but not [perpendicular].
+distinct: normal, perpendicular

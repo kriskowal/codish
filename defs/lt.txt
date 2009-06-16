@@ -1,2 +1,2 @@
 less than.
-is: [transitive relation]
+is: transitive relation, binary relation

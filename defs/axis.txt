@@ -1,0 +1,1 @@
+a [line] that passes through an [origin], passes through every [value] in one dimension, and is [orthogonal] with all others.
