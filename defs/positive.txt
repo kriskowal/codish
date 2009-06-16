@@ -1,0 +1,3 @@
+[ge] [zero].
+opposite: negative
+related: abs

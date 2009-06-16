@@ -1,1 +1,2 @@
-logical or.
+[logical] or.
+related: or2, union, add

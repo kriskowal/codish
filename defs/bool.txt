@@ -1,2 +1,5 @@
-a <i>relation</i> that provides a corresponding boolean value, <i>true</i> or <i>false</i>.
-replaces: boolean
+a [class] that includes the [value]s of [true] and [false].
+a [transitive function] that returns a corresponding boolean [value].
+a boolean value can be stored in a single [bit].
+distinct: binary
+aka: boolean

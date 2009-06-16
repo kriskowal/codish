@@ -1,2 +1,3 @@
 position.
 see: offset, index, key
+distinct: positive

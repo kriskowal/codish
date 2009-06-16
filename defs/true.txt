@@ -1,1 +1,3 @@
-aka: yes
+a [bool]ean value that corresponds to all things [positive] or affirmative.
+a non-[zero] [value].
+aka: yes, nonzero

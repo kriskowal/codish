@@ -1,1 +1,3 @@
-logical negation.
+[logical] negation.
+related: not2
+distinct: neg

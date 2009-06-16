@@ -1,1 +1,2 @@
-logical and.
+[logical] and.
+related: and2, intersect, mul

@@ -1,1 +1,6 @@
 arithmetic negation.
+number: equivalent to [mul] -1.
+integer: returns the two's complement, which means to [not2] then [add] 1.
+distinct: not, not2
+opposite: positive
+aka: negative

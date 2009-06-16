@@ -3,3 +3,4 @@ returns the [positive] reflection of [negative] [integer]s, returning [positive]
 a [transitive function] that [map]s [integer]s into the [natural] [number] line.
 distinct: absolute
 is: stateless
+related: neg

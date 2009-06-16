@@ -1,0 +1,4 @@
+pertains to [functions] that operate on [boolean] [value].
+includes: and, or, not
+[ne] functions as logical [xor].
+distinct: binary, bitwise, boolean

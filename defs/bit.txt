@@ -1,0 +1,3 @@
+the most [atomic] unit of [memory], a [value] of [true] or [false], represented as a 0 or a 1.
+a [byte] is composed of 8 bits.
+related: bool, binary

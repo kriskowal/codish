@@ -1,0 +1,4 @@
+pertains to [functions] that operate on [integer] [value]s as an [ordered] [linear] [collection] of [boolean] [bit]s.
+bitwise [functions] all conceptually [apply] the corresponding [logical] [function] on the respective bits
+includes: and2, or2, nand2, nor2, xor2, nxor2, not2
+distinct: binary, boolean, logical

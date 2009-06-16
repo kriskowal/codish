@@ -1,4 +1,4 @@
 to convert a number to [radix] 2.
 describes [function]s that take two [parameter]s.
 a [natural] [number] of any [magnitude] represented in [radix] 2.
-distinct: boolean
+distinct: boolean, bitwise, logical
