@@ -1,1 +1,2 @@
 all of the [variable]s [name]d in a [context].
+see: scope, lexical

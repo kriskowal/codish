@@ -1,0 +1,2 @@
+[reduce]s an [iterable] [collection] of [number]s to the sum total of all the [value]s with [add] and [zero] as a [basis].  [value]s are not necessarily [number]s.
+related: add, product

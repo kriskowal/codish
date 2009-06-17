@@ -1,0 +1,1 @@
+pertains to [collection]s that maintain the [invariant] that the contained [value]s are in a sorted order with a given [comparator] ([compare] by default).

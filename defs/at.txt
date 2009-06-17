@@ -1,1 +1,4 @@
+[observe] a [moment] or [schedule] with an [observer].
+<tt>at(moment, observer)</tt>
+is: temporal
 distinct: get

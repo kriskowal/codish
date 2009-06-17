@@ -1,2 +1,2 @@
-seuss: removes one element from the end of a linear collection.
+seuss: removes one [value] from the end of an [ordered] [linear] [collection].
 opposite: chip

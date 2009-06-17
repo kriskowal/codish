@@ -1,0 +1,5 @@
+a [linear] [collection] or [iter]ation of a [vertex] and its [transitive] [children].  (basis: a [vertex]'s [children] are [descendant]s; recur: the [child] of any descendant is also a descendant, comes after its parent if the descendants are [order]ed, and is in [stable] order with its [siblings] if children are [order]ed)
+opposite: ancestors
+singular: descendant
+intransitive: child
+related: family

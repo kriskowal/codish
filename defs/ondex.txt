@@ -1,0 +1,3 @@
+seuss: [last index]
+seuss: opposite: [index]
+seuss: distinct: [fond]

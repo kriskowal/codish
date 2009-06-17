@@ -1,0 +1,3 @@
+a [sorted] [linear] [collection] that provides [insert] and ([shift] or [pop]) as its [storage] and [retrieval] methods.
+seuss: bague
+distinct: heap

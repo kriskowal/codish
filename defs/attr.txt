@@ -1,4 +1,5 @@
 an attribute.
 a [set]able and [get]able [value] associated with a [symbol] or [name] in an [object].
 distinct: item
-aka: property (python), member (c++)
+python: property
+c++: member

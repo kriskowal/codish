@@ -1,0 +1,2 @@
+c++: to follow a [pointer] to the [value] at its [memory] location.
+related: ref, pointer

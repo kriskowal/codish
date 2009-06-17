@@ -1,1 +1,2 @@
 to produce a deterministic scalar value from an <i>object</i>.
+perl: [dict]

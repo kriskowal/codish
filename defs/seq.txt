@@ -1,0 +1,3 @@
+an [order]ed [lazy] [linear] [collection] defined by a [basis] and [recursive function].
+seq takes a [variadic] [list] of [basis] [param]eters (the first [value]s of the sequence).  The last [param]eter is the [recursive function].
+the Fibonacci sequence can be lazily generated with the lazy [iter]ation returned by {{{seq(1, 1, add)}}}.

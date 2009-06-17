@@ -1,1 +1,2 @@
-use: radix
+the [root] of an [inheritance] [tree].
+distinct: radix

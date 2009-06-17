@@ -1,2 +1,5 @@
-find the first object that matches a given object and return its <i>key</i>.  otherwise, raise an exception.
-replaces: index of
+find the first [value] that matches a given [value] and return its [key].  otherwise, raise an exception.
+distinct: index
+aka: index of
+opposite: find last
+seuss: opposite: fond

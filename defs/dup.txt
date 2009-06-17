@@ -1,1 +1,2 @@
 duplicate.
+{{{dup(source):target}}}

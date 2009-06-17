@@ -1,1 +1,2 @@
-close a <i>stream</i>.
+close a [stream].
+distinct: enclose

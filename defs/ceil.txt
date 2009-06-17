@@ -1,1 +1,2 @@
 rounds a number toward infinity.
+opposite: floor

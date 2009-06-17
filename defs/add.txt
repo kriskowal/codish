@@ -1,2 +1,4 @@
 returns the result of adding values arithmetically.
-is: stateless
+opposite: sub
+is: arithmetic, stateless
+related: zero

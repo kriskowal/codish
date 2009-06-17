@@ -1,2 +1,4 @@
 less than or equal to.
+{{{le(a, b)}}} is equivalent to {{{or(eq(a, b), lt(a, b))}}}.  [or] may short circuit the [lt] [apply].
 is: binary relation
+inverse: gt

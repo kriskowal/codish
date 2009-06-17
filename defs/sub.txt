@@ -1,3 +1,6 @@
 calculates a difference of the latter from the former.
-distinct: subscript
+opposite: add
 commute: diff
+distinct: subscript
+is: arithmetic, stateless
+related: zero

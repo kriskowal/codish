@@ -1,0 +1,2 @@
+a [closure] that is immediately [apply]ed for the purpose of capturing [name]s in a [scope] without polluting the surrounding [name] [domain].
+related: closure

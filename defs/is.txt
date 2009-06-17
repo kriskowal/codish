@@ -1,0 +1,1 @@
+a [binary relation] that returns [whether] two [objects] are identical by their [ref]s.

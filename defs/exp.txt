@@ -1,3 +1,5 @@
 exponentiation.
-distinct: power
+opposite: log
+is: exponential
 c: pow
+distinct: power

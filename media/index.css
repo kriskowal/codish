@@ -126,16 +126,16 @@
             display: none;
         }
 
-        #ad {
+        .right {
             position: relative;
         }
 
-        #ad-outer {
+        .right-outer {
             position: absolute;
             left: 100%;
         }
 
-        #ad-inner {
+        .right-inner {
             position: absolute;
             top: 20px;
             left: 40px;

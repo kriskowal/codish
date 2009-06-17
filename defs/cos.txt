@@ -1,1 +1,3 @@
-cosine of an <i>angle</i>.
+returns the cosine of an [angle].
+related: sin, tan
+is: trig

@@ -1,0 +1,3 @@
+a [value] for the second [param] of a [binary function] that causes the function to always return its first [param]eter.
+examples: [unit] for [mul] and [div], [zero] for [add] and [sub].
+distinct: id, is, ref

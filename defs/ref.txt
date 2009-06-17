@@ -1,2 +1,5 @@
-a number representing the position of an <i>object</i> in memory.  sometimes a reference points to suplementary data like a counter of all <i>strong</i> <i>ref</i>s to that <i>object</i>.
-replaces: pointer
+reference.
+a representation of a [integer] that identifies the location of an [object] in [memory].
+a reference may be an [opaque] object, meaning that having a reference does not necessarily imply knowledge of the underlying [integer] value.
+references may be [strong] or [weak] for purpose of [garbage collection], and may imply the location of supplementary data like a reference counter or [class] annotations.
+distinct: pointer

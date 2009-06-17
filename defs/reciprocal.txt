@@ -1,1 +1,1 @@
-returns the multiplicative reciprocal for a value.
+returns the [mul]tiplicative inverse for a [value].

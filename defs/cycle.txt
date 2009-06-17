@@ -1,0 +1,2 @@
+returns an [iter]ation that consumes a given [iter]ation on its first pass, then continues to iterate over the same values in the same order indefinitely.
+related: cyclic

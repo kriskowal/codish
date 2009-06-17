@@ -1,3 +1,5 @@
 equal to.
+a [binary relation] that notes whether two objects are mutually equivalent.
 opposite: ne
 is: binary relation
+distinct: is

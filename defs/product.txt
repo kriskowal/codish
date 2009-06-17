@@ -1,0 +1,2 @@
+[reduce]s an [iterable] [collection] of [number]s to the product of all the [value]s with [mul] and [unit] as a [basis].  [value]s are not necessarily [number]s.
+related: mul, sum

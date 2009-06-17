@@ -1,0 +1,4 @@
+pertains to objects that can be seen through, that do not obscure or hide other objects that they enclose or obscure.
+opposite: opaque
+dimension: opacity
+distinct: hidden

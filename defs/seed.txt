@@ -1,1 +1,4 @@
+seed a [random] number generator.
+returns a [random] number generator with an initial seed.
+random number generators tend to produce consistent [seq]uence of [number]s for a given [seed].
 replaces: srand

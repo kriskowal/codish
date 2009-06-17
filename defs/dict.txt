@@ -1,3 +1,4 @@
 a <i>saque</i> of <i>item</i>s that expresses a <i>map</i>.
 see: item, key, value, keys, values, set, get, has, del, reset
 distinct: object
+perl: hash

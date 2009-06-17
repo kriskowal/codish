@@ -4,6 +4,7 @@ var util = require("util");
 var jack = require("jack");
 var Template = require("json-template").Template;
 var fs = require("file");
+var chiron = require('chiron/base');
 var cache = require('chiron/cache');
 
 var dir = fs.path(module.path).resolve('.');
@@ -37,18 +38,18 @@ var indexRawHtml = function (env) {
     env.QUERY_STRING.split('&').forEach(function (pair) {
         var parts = pair.split('=');
         var key = parts.shift();
-        var value = decodeURIComponent(parts.join('='));
+        var value = decodeURIComponent(parts.join('=').replace('+', ' '));
         if (key == "q")
             query = value;
     });
+    query = chiron.lower(query, ' ');
     env.query = query;
     return indexQuery(query);
 };
 
 var indexQuery = cache.memoize(cache.Cache({
     maxLength: 100,
-    cullFactor: .8,
-    log: {print:print}
+    cullFactor: .8
 }), function (query) {
     var order = defs;
     if (query.length)

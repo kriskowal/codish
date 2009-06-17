@@ -1,1 +1,2 @@
-a linear collection that provides <i>shift</i>, <i>shoft</i>, <i>pish</i>, and <i>posh</i> as its fundamental storage and retrieval functions.
+an [ordered] [linear] [collection] that provides [shift], [unshift], [push], and [pop] as its storage and retrieval [function]s.  a deque can be implemented as a [list] or a regrowable, [cyclic] [array].
+seuss: an [ordered] [linear] [que] that provides [shift], [shoft], [pish], and [posh] as its storage and retrieval [function]s.

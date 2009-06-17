@@ -1,4 +1,6 @@
-returns whether a collection contains an <i>object</i>.
-returns whether a <i>list</i> contains a <i>value</i>.
-returns whether a <i>dict</i> contains a <i>key</i>.
-replaces: contains, exists
+returns [whether] a [collection] contains an [object].
+returns [whether] a [list] contains a [value].
+returns [whether] a [dict] contains a [key].
+<tt>has(collection, value)</tt>
+distinct: in
+aka: contains, exists

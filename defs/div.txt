@@ -1,2 +1,4 @@
 divide.
-see: reciprocal, unit
+opposite: mul
+is: multiplicative, stateless
+related: reciprocal, unit

@@ -1,0 +1,4 @@
+returns the arctangent [angle] of a right triangle on the [origin] for a given [y] [axis] edge [len]gth and [x] axis edge length.
+related: atan
+inverse: tan
+is: trig

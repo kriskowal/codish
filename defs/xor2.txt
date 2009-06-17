@@ -1,0 +1,2 @@
+[bitwise] [xor].
+is: bitwise

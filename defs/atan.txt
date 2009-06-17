@@ -1,0 +1,5 @@
+returns the arctangent [angle] of a right triangle on the [origin] for a given ratio of the [y] [axis] [edge] [length] [div]ided by the [x] [axis] [edge] [length].
+the [angle] between the [x] [axis] [edge] and the hypotenuse of a right triangle on the [origin].
+inverse: [tan] (partial since right triangles with infinite [x] or [y] edges are not expressible or distinguishable as ratios)
+related: atan2
+is: trig

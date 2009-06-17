@@ -1,2 +1,4 @@
-a <i>key</i> for an <i>array</i>.
-replaces: offset
+a [key] [number] for an [ordered] [linear] [collection].
+finds the [first] [value] that matches a given [value] and returns its [key] [number].  otherwise returns -1 to indicate failure.
+opposite: last index
+aka: offset

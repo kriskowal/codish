@@ -1,2 +1,4 @@
 greater than or equal to.
+{{{gt(a, b)}}} is equivalent to {{{not(lt(a, b))}}}.
 is: binary relation
+invsere: lt

@@ -1,1 +1,2 @@
 rounds a number toward negative infinity.
+opposite: ceil

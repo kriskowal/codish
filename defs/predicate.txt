@@ -1,0 +1,3 @@
+as in predicate logic.
+to be dependent on a condition.
+an [object] that represents a [compound] [boolean relation].

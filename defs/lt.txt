@@ -1,2 +1,3 @@
 less than.
 is: transitive relation, binary relation
+inverse: ge

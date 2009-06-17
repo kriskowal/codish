@@ -1,0 +1,5 @@
+pertains to objects that can not be seen through, an occlusive object &dash; objects that completely hide, enclose, or obscure.
+security: pertains to [object]s that posess a [ref]erence or [capability], but do not reveal that object.
+opposite: transparent
+dimension: opacity
+distinct: visible

@@ -1,0 +1,3 @@
+opposite: hidden
+distinct: opaque
+dimension: visibility

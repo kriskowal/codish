@@ -1,0 +1,3 @@
+whether a [value] is in a [collection].
+<tt>in(value, collection)</tt>
+commute: has

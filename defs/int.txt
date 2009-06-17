@@ -1,1 +1,2 @@
 a [magnitude]-limited [integer].
+related: floor, ceil

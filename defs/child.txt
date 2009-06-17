@@ -1,2 +1,4 @@
 a [vertex] with a [parent] vertex in a [tree].
 related: leaf
+opposite: parent
+plural: children

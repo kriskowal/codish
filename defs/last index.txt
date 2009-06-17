@@ -1,0 +1,2 @@
+finds the [last] [value] that matches a given [value] and returns its [key] [number].  otherwise returns -1 to indicate failure.
+opposite: index

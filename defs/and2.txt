@@ -1,1 +1,2 @@
 [bitwise] [and].
+is: bitwise

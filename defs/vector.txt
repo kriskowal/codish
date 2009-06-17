@@ -1,0 +1,1 @@
+see: [linear] [ordered] [collection] or [array]

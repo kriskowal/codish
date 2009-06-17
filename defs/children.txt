@@ -1,0 +1,4 @@
+a [linear] [collection] of every [child] of a [vertex].  depending on the characterisitcs of the [graph], the children may be [order]ed or [unique].
+singular: child
+transitive: descendants
+opposite: parents

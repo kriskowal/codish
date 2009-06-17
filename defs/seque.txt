@@ -1,3 +1,1 @@
-a linear collection defined by a basis and recursive function.
-replaces: seq, sequence
-legacy: seq
+seuss: seq

@@ -1,2 +1,4 @@
-removes a <i>value</i> from a collection.
+removes a [value] from a [collection], based on its [value], not its [key] or [pos]ition.
 opposite: insert
+distinct: del, erase
+aka: rm

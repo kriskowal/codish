@@ -1,2 +1,2 @@
-to return a <i>stable</i> copy of a <i>list</i> omitting all of the <i>value</i>s that <i>fail</i> a given condition.
+to return a [stable] [copy] of a [list] omitting all of the [value]s that [fail] a given condition ([boolean function]).
 distinct: where

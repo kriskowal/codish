@@ -1,1 +1,4 @@
 multiply.
+oppostie: div
+is: multiplicative, stateless
+related: unit

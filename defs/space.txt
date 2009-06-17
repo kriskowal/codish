@@ -1,0 +1,2 @@
+a [char]acter that is non-[visible] and advances the [cursor] by the width of one [letter], or some approximation thereof for non-[monospace] [font]s.
+distinct: domain

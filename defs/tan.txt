@@ -1,1 +1,4 @@
-tangent of an <i>angle</i>.
+returns the tangent of an [angle].
+related: sin, cos
+inverse: [atan] (looses [vertical] and [horizontal] angles), [atan2] (requires ratio components [x] and [y])
+is: trig

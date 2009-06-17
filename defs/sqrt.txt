@@ -1,0 +1,3 @@
+square root ((perl)).
+equivalent to {{{exp(n, .5)}}}.
+see: exp

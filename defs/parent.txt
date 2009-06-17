@@ -1,0 +1,4 @@
+file system: a [dir]ectory arrived at by the [path] component "..".  the [root] of a file system often has a [parent] [link] to itself.
+related: child, root, leaf, base, ancestor, descendant
+opposite: child
+transitive: ancestors

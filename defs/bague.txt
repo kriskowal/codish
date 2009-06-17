@@ -1,3 +1,2 @@
-a sorted, linear collection that only provides <i>insert</i> and <i>shoft</i> as its methods for storage and retrieval.
-replaces: heap, priority queue, pqueue
-legacy: heap
+see: bag
+seuss: a [sorted] [linear] [collection] that provides [insert] and [shoft] as its [storage] and [retrieval] methods.

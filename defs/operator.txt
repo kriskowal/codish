@@ -1,0 +1,1 @@
+a [function], usually distinguished from other functions by special [syntax] support, [precedence], and reserved names or symbolic characters.

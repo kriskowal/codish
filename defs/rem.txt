@@ -1,2 +1,4 @@
 remainder.
-distinct: remark, modulo, mod
+is: multiplicative
+related: mod
+distinct: remark

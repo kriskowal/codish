@@ -1,1 +1,5 @@
-use: ref, cursor
+an [integer] that identifies a [memory] location.
+unlike a [ref]erence, a pointer must be [transparent], so having a pointer means that you can do arithmetic on that pointer to find relative memory locations.
+distinct: ref
+aka: address
+c++: a pointer and a reference are distinguished with different syntax, where a reference is an implicitly [deref]erenced pointer.

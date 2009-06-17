@@ -1,1 +1,4 @@
 logarithm.
+opposite: exp
+is: exponential
+distinct: print

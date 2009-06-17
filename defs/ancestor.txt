@@ -1,0 +1,4 @@
+a [transitive relation] on two [vertex]es
+opposite: descendant
+is: transitive relation
+plural: ancestors

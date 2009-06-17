@@ -1,3 +1,3 @@
 returns whether a linear collection begins with a given object.
-replaces: starts with
-python: starts with
+aka: starts with
+python: startswith

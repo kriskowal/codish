@@ -1,2 +1,2 @@
-a region of memory reserved for dynamic allocation.
-distinct: bague
+a region of [memory] reserved for dynamic allocation, usually the bottom of the [ref] [domain].
+related: bag

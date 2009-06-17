@@ -1,0 +1,3 @@
+a [unary] [function] that returns [whether] a [value] [pass]es or [fail]s a particular criterion or condition.
+is: function
+distinct: binary function

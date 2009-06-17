@@ -1,0 +1,2 @@
+pertains to [linear] [object]s that can be [iter]ated indefinitely, [wrap]ping around over the same values.
+related: cycle

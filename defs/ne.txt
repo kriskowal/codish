@@ -1,3 +1,4 @@
 not equal.
+{{{ne(a, b)}}} is equivalent to {{{not(eq(a, b))}}}.
 logical [xor].
 is: binary relation

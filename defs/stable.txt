@@ -1,0 +1,1 @@
+pertains to [sort] algorithms that preserve the [order] each pair of [value]s in the [input] [collection] if the [comparator] on those two values returns 0, or if the [transitive relation] does not indicate that there is an [edge] going either direction between the two [value] vertices ([vertex]). 

@@ -1,2 +1,4 @@
 greater than.
+{{{gt(a, b)}}} is equivalent to {{{not(le(a, b))}}}.
 is: transitive relation, binary relation
+inverse: le
