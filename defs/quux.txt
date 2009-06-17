@@ -1,1 +1,3 @@
 the fifth [nominal] [meta syntactic] [variable] [name].  further meta syntactic variables may be constructed with additional "u" [char]acters.
+is: meta syntactic
+related: foo, bar, baz, qux

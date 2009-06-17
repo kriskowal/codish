@@ -1,1 +1,3 @@
 the first [nominal] [meta syntactic] [variable] [name].
+is: meta syntactic
+related: bar, baz, qux, quux

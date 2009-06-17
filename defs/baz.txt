@@ -1,1 +1,3 @@
 the third [nominal] [meta syntactic] [variable] [name].
+is: meta syntactic
+related: foo, bar, qux, quux

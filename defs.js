@@ -1,4 +1,5 @@
 
+var chiron = require('chiron/base');
 var util = require('util');
 var fs = require('file');
 var json = require('json');
@@ -34,7 +35,7 @@ var python = defsDir.join('python.lang').open();
 var pythonDefs = {};
 python.forEach(function (line) {
     var parts = line.split(': ');
-    var name = parts.shift();
+    var name = chiron.lower(parts.shift(), ' ');
     defsDir.join(name + '.txt').touch();
     line = parts.join(': ');
     pythonDefs[name] = line.replace(/>/g, '&gt;').toLowerCase();

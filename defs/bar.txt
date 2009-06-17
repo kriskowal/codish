@@ -1,1 +1,3 @@
 the second [nominal] [meta syntactic] [variable] [name].
+is: meta syntactic
+related: foo, baz, qux, quux

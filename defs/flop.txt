@@ -1,1 +1,4 @@
-opposite: flip
+seuss: opposite: flip
+the fourth [nominal] [meta syntactic] [variable] [name] in the british tradition.
+is: meta syntactic
+related: wibble, wobble, wubble
