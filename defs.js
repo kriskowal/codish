@@ -22,12 +22,22 @@ perl.forEach(function (line) {
         defsDir.join(term + '.txt').touch();
         var meaning = parts.join(': ');
         perlDefs[term] = (
-            '<i>(perl)</i>' +
-            (topic? ' <i><a href="?q=' + topic + '">' + topic + '</a>:</i>' : '') + 
+            'perl: ' +
+            (topic? ' [' + topic + ']: ' : '') + 
             ' ' + markup(meaning, {}, []) +
             '<a href="' + perlUrl + '">&dagger;</a>'
         );
     }
+});
+
+var python = defsDir.join('python.lang').open();
+var pythonDefs = {};
+python.forEach(function (line) {
+    var parts = line.split(': ');
+    var name = parts.shift();
+    defsDir.join(name + '.txt').touch();
+    line = parts.join(': ');
+    pythonDefs[name] = line.replace(/>/g, '&gt;').toLowerCase();
 });
 
 defsDir.list().forEach(function (name) {
@@ -47,8 +57,10 @@ defsDir.list().forEach(function (name) {
         meanings.push(line);
     });
 
+    if (pythonDefs[name])
+        meanings.push(markup(pythonDefs[name], refs, notes))
     if (perlDefs[name])
-        meanings.push(perlDefs[name]);
+        meanings.push(markup(perlDefs[name], refs, notes));
 
     var node = defs[name] = {};
     node.name = name;
@@ -67,7 +79,7 @@ defsDir.list().forEach(function (name) {
 
 function markup(line, refs, notes) {
     line = line.replace(/<i>/g, '[').replace(/<\/i>/g, ']')
-    while (/^[\w\s]+: /.test(line)) {
+    if (/^[\w\s]+: /.test(line)) {
         var parts = line.split(': ');
         var note = parts.shift();
         note = {
@@ -75,17 +87,21 @@ function markup(line, refs, notes) {
             'use': 'see'
         }[note] || note;
         line = parts.join(': ');
-        if (/, /.test(line) && !/\[/.test(line) && !/\.$/.test(line)) {
+        if (
+            /, /.test(line) &&
+            !/\[/.test(line) &&
+            !/\.$/.test(line)
+        ) {
             line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + line.split(', ').map(function (term) {
                 util.getset(notes, note, []).push(term);
                 refs[term] = term;
                 return '[' + term + ']';
             }).join(', ');
-        } else if (!/\[/.test(line) && !/\.$/.test(line)) {
+        } else if (!/\[/.test(line) && !/\.$/.test(line) && /^[\w\s]+$/.test(line)) {
             util.getset(notes, note, []).push(line);
             line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> [' + line + ']';
         } else {
-            line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + line + '';
+            line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + markup(line, refs, notes) + '';
         }
     }
 

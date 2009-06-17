@@ -1,1 +1,3 @@
-a program that <i>observe</i>s a <i>port</i> for <i>request</i>s and <i>accept</i>s <i>connect</i>ions for communication with a <i>protocol</i>.
+a program that [observe]s a [port] for [request]s and [accept]s [connect]ions for communication with a [protocol].
+opposite: client
+related: remote

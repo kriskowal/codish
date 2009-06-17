@@ -1,3 +1,4 @@
 returns the minimum, or least, value from a given <i>iterable</i>.
+related: lt
+opposite: max
 distinct: minute
-see: lt

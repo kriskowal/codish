@@ -1,2 +1,3 @@
 returns the greatest value from a given <i>iterable</i>.
-see: gt
+related: gt
+opposite: min

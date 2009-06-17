@@ -1,0 +1,4 @@
+a [string] that [end]s (or [delimit]s) [line]s.
+"\n" (LF) on unix.
+"\r\n" (CRLF) on windows and printing teletypes.
+"\r" (CR) on mac os 9 and earlier.

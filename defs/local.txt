@@ -1,0 +1,2 @@
+the [client] [host] from a [program]'s perspective.
+opposite: local

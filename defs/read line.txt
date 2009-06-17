@@ -1,0 +1,1 @@
+blocks a [stream] until a full [line] has been [read].  lines are terminated by either a [record separator] (like [new line]) or by a blocking [read] call that returns no [char]acters or [byte]s.

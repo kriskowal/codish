@@ -1,0 +1,2 @@
+a [server] [host].
+opposite: remote

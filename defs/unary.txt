@@ -1,1 +1,1 @@
-describes [function]s that only take one [parameter].
+describes [function]s that take one [param]eter.

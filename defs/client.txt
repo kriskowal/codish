@@ -1,1 +1,3 @@
-a <i>process</i> on a <i>host</i> that makes <i>request</i>s in a <i>protocol</i>.
+a [process] on a [host] that makes [request]s in a [protocol].
+opposite: server
+related: local
