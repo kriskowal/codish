@@ -3,168 +3,142 @@ var json = require("json");
 var util = require("util");
 var jack = require("jack");
 var Template = require("json-template").Template;
+var route = require("route");
 var fs = require("file");
 var chiron = require('chiron/base');
 var cache = require('chiron/cache');
 
 var dir = fs.path(module.path).resolve('.');
 
-var data = json.parse(dir.resolve('var/defs.json').read());
+var data = eval('(' + dir.resolve('var/defs.json').read() + ')');
 var defs = util.values(data.defs);
 var pageTemplate = new Template(dir.resolve('templates/index.html').read());
-var defsTemplate = new Template(dir.resolve('templates/defs.html').read());
+var defTemplate = new Template(dir.resolve('templates/def.html').read());
 
-var indexhtmlResponse = function (env) {
+var indexHtmlResponse = function (env) {
+    var response = indexRawHtml(env);
+    if (Array.isArray(response))
+        return response;
     return [
         200,
         {'Content-type': 'text/html'},
         [pageTemplate.expand({
-            defs: indexRawHtml(env),
-            q: env.query
+            defs: response,
+            q: env.query,
+            pageNext: env.page + 1
         })]
     ];
 };
 
 var indexRawHtmlResponse = function (env) {
+    var response = indexRawHtml(env);
+    if (Array.isArray(response))
+        return response;
     return [
         200,
         {'Content-type': 'text/html'},
-        [indexRawHtml(env)]
+        [reponse]
     ];
 };
 
 var indexRawHtml = function (env) {
-    var query = '';
+    var redirect;
+
+    var query = "";
+    var page = 1;
+
+    // look for GET args and request URL normalization
     env.QUERY_STRING.split('&').forEach(function (pair) {
         var parts = pair.split('=');
         var key = parts.shift();
         var value = decodeURIComponent(parts.join('=').replace('+', ' '));
-        if (key == "q")
+        if (key == "q") {
             query = value;
+        }
+        if (key == "page") {
+            page = value >>> 0;
+        }
     });
+
+    var path = env.PATH_INFO.replace(/^\//, '').split('/').shift();
+    if (path) {
+        redirect = true;
+        query = chiron.lower(path, '-');
+    }
+    if (page < 1)
+        return route.fallback(env);
+    if (chiron.lower(query, '-') != query) {
+        redirect = true;
+        query = chiron.lower(query, '-');
+    }
+
+    if (redirect) {
+        var location = 'http://' + env.SERVER_NAME;
+        if (env.SERVER_PORT != "80")
+            location += ":" + env.SERVER_PORT;
+        location += '?q=' + encodeURIComponent(query);
+        if (page > 1)
+            location += '&page=' + page;
+        return [
+            301,
+            {
+                'Location': location,
+                'Content-type': 'text/plain'
+            },
+            ["see: " + query]
+        ];
+    }
+
     query = chiron.lower(query, ' ');
     env.query = query;
-    return indexQuery(query);
+    env.page = page;
+    return indexQuery(query, page);
 };
+
+var pageLength = 50;
 
 var indexQuery = cache.memoize(cache.Cache({
     maxLength: 100,
     cullFactor: .8
-}), function (query) {
-    var order = defs;
+}), function (query, page) {
+    var order = chiron.iter(defs);
     if (query.length)
-        order = bfs(data.defs, query);
-    return defsTemplate.expand({defs: order})
+        order = bfsIter(data.defs, query)
+    // paginate
+    order = order.range((page - 1) * pageLength, page * pageLength);
+    return order.each(defHtml).join(' ');
 });
 
-function bfs(dict, start, visited) {
+var defHtml = function (def) {
+    return defTemplate.expand(def);
+};
+
+var bfsIter = function (dict, start, visited) {
     if (!visited) visited = {};
     var queue = [start];
-    var results = [];
-    while (queue.length) {
-        start = queue.shift();
-        if (util.object.has(visited, start)) continue;
-        if (!util.object.has(dict, start)) continue;
-        visited[start] = true;
-        results.push(dict[start]);
-        queue.push.apply(queue, dict[start].refs);
-    }
-    return results;
-};
-
-function dfs(dict, start, visited) {
-    if (!visited) visited = {};
-    if (util.object.has(visited, start)) return [];
-    if (!util.object.has(dict, start)) return [];
-    visited[start] = true;
-    var results = [dict[start]];
-    results = results.concat.apply(
-        results,
-        dict[start].refs.map(function (ref) {
-            return bfs(dict, ref, visited);
-        })
-    );
-    return results;
-};
-
-exports.Content = function (content, contentType) {
-    return function (env) {
-        return [
-            200,
-            {"Content-type": contentType || "text/html"},
-            [content]
-        ];
-    };
-};
-
-exports.contentTypes = {
-    ".js": "application/x-javascript",
-    ".css": "text/css",
-    ".html": "text/html",
-    ".png": "image/png",
-    ".jpg": "image/jpg",
-    ".gif": "image/gif"
-};
-
-exports.File = function (path) {
-    var contentType = exports.contentTypes[fs.extension(path)] || 'text/plain';
-    return function (env) {
-        return [
-            200,
-            {"Content-type": contentType},
-            [fs.read(String(path), 'b')]
-        ];
-    };
-};
-
-exports.Media = function (root) {
-    return function (env) {
-    };
-};
-
-exports.Fallback = function () {
-    return function (env) {
-        return [
-            404,
-            {"Content-type": "text/plain"},
-            ["404 - " + env.PATH_INFO],
-        ];
-    };
-};
-
-exports.Route = function (root, paths, fallback) {
-    if (!root)
-        root = exports.Fallback();
-    if (!paths)
-        paths = {};
-    if (!fallback)
-        fallback = exports.Fallback();
-    return function (env) {
-        var path = env.PATH || env.PATH_INFO;
-        if (!/^\//.test(path))
-            throw new Error("Path did not begin with / at " + path);
-        path = path.substring(1);
-        if (path == "")
-            return root(env);
-        parts = path.split("/");
-        var part = parts.shift();
-        if (util.has(paths, path)) {
-            env.PATH = "/" + parts.join("/");
-            return paths[path](env);
+    return chiron.Iter(function () {
+        while (queue.length) {
+            start = queue.shift();
+            if (util.object.has(visited, start)) continue;
+            if (!util.object.has(dict, start)) continue;
+            visited[start] = true;
+            queue.push.apply(queue, dict[start].refs);
+            return dict[start];
         }
-        return fallback(env);
-    };
+        throw chiron.stopIteration;
+    });
 };
 
-exports.app = jack.ContentLength(exports.Route(
-    indexhtmlResponse,
+exports.app = jack.ContentLength(route.Route(
+    indexHtmlResponse,
     {
         "raw.html": indexRawHtmlResponse,
-        "hr.png": exports.File(dir.resolve("media/hr.png")),
-        "index.js": exports.File(dir.resolve("media/index.js")),
-        "index.css": exports.File(dir.resolve("media/index.css")),
-        "robots.txt": exports.File(dir.resolve("media/robots.txt")),
-        "favicon.ico": exports.Fallback(),
-    }
+        "hr.png": route.File(dir.resolve("media/hr.png")),
+        "index.js": route.File(dir.resolve("media/index.js")),
+        "index.css": route.File(dir.resolve("media/index.css")),
+        "robots.txt": route.File(dir.resolve("media/robots.txt")),
+        "favicon.ico": route.fallback,
+    },
+    indexHtmlResponse
 ));
 

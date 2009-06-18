@@ -1,1 +1,4 @@
-five or more [underbar]s, "_____".
+four, or an equally terrible, [string] of [repeat]ed [underbar]s.
+related: underbar
+opposite: wunderbar
+german: awful

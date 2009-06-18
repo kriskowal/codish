@@ -1,1 +1,3 @@
-two [underbar]s, "__".
+three [underbar]s, "___".
+opposite: furchtbar
+german: wonderful

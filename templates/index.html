@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>{q|html} Codish Lexicon</title>
-        <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="/index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div id="body" class="content">
@@ -20,6 +20,7 @@
 
             <form>
                 <p id="id-q-p"><input type="text" name="q" id="id-q" value="{q|html-attr-value}"-></p>
+                <input type="hidden" name="page" value="1">
             </form>
 
             <div class="hr"></div>
@@ -41,6 +42,8 @@
 
             <div class="defs">{defs}</div>
 
+            <p style="text-align: center"><a href="?q={q}&page={pageNext}"><tt>next</tt></a></p>
+
             <p class="block copyright">Copyright &copy; Kris Kowal 2009</p>
             <p class="block copyright">
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png" /></a>
@@ -51,7 +54,7 @@
 
 
         </div>
-        <script src="index.js"></script>
+        <script src="/index.js"></script>
         <script type="text/javascript" src="http://disqus.com/forums/codish/embed.js"></script><noscript><a href="http://codish.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
         <script type="text/javascript">
             var gaJsHost = ("https:" == document.location.protocol) ? "https://ssl." : "http://www.";
