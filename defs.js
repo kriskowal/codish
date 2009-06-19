@@ -4,6 +4,7 @@ var util = require('util');
 var fs = require('file');
 var json = require('json');
 var markup = require('markup').markup;
+var lower = require("markup").lower;
 
 var dir = fs.path(module.path).resolve('.');
 var defsDir = dir.join('defs');
@@ -37,7 +38,7 @@ var python = defsDir.join('python.lang').open();
 var pythonDefs = {};
 python.forEach(function (line) {
     var parts = line.split(': ');
-    var name = chiron.lower(parts.shift(), ' ');
+    var name = lower(parts.shift(), ' ');
     defsDir.join(name + '.txt').touch();
     line = parts.join(': ');
     util.getset(pythonDefs, name, []).push(
@@ -46,6 +47,18 @@ python.forEach(function (line) {
         .toLowerCase() + 
         '<a href="http://docs.python.org/library/functions.html#' + name + '">&dagger;</a>'
     );
+});
+
+var php = defsDir.join('php.lang').open();
+var phpDefs = {};
+php.forEach(function (line) {
+    if (/^#/.test(line))
+        return;
+    var parts = line.split(': ');
+    var name = lower(parts.shift(), ' ');
+    defsDir.join(name + '.txt').touch();
+    line = parts.join(': ');
+    phpDefs[name] = line;
 });
 
 defsDir.list().forEach(function (name) {
@@ -75,6 +88,8 @@ defsDir.list().forEach(function (name) {
             meanings.push(markup(pythonDefs[name][i], refs, notes));
     if (perlDefs[name])
         meanings.push(markup(perlDefs[name], refs, notes));
+    if (phpDefs[name])
+        meanings.push(markup(phpDefs[name], refs, notes));
 
     var node = defs[name] = {};
     node.name = name;

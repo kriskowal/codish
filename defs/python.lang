@@ -1,5 +1,5 @@
 all: python: {{{all(iterable) -> bool}}} Return True if bool(x) is True for all values x in the iterable.
-code: python: [SystemExit]:  exception code
+code: python: [system exit]: exception code.
 set: python: {{{set(iterable) -> set object}}} Build an unordered collection of unique elements.
 help: python: Define the built-in 'help'. This is a wrapper around pydoc.help (with a twist).
 difference_update: python: [set]:  Remove all elements of another set from this set.

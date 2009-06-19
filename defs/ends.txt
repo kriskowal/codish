@@ -1,0 +1,2 @@
+returns whether an [ordered] [linear] [collection], like a [string], ends with the same [value]s in another ordered collection.
+opposite: begins

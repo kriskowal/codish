@@ -1,1 +1,3 @@
-replaces: granularity
+the number of [digit]s that a [number] has in its [mantissa].
+opposite: magnitude
+aka: granularity

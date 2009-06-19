@@ -7,6 +7,7 @@ var route = require("route");
 var fs = require("file");
 var chiron = require('chiron/base');
 var cache = require('chiron/cache');
+var lower = require("markup").lower;
 
 var dir = fs.path(module.path).resolve('.');
 
@@ -14,12 +15,6 @@ var data = eval('(' + dir.resolve('var/defs.json').read() + ')');
 var defs = util.values(data.defs);
 var pageTemplate = new Template(dir.resolve('templates/index.html').read());
 var defTemplate = new Template(dir.resolve('templates/def.html').read());
-
-var lower = function (name, del) {
-    return chiron.lower(name, del).replace(new RegExp(del + "(\\d)", "g"), function (i, j, pos) {
-        return name.substring(pos).match(/\d/)[0];
-    });
-};
 
 var indexHtmlResponse = function (env) {
     var response = indexRawHtml(env);

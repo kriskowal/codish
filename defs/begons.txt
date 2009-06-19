@@ -1,3 +1,4 @@
-returns whether a linear collection ends with a given object.
+see: ends
+seuss: returns whether a linear collection ends with a given object.
 aka: ends with
 python: endswith

@@ -1,0 +1,2 @@
+the [floor] of the [log]arithm of a [number] in its [radix] [add] 1, signifying the number of [digit]s it contains to the left of the decimal point.
+opposite: precision
