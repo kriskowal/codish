@@ -1,1 +1,0 @@
-three [underbar]s, "___".

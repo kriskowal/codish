@@ -1,1 +1,2 @@
 includes: mul, div, mod, rem, unit
+is: arithmetic

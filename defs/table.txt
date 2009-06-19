@@ -1,1 +1,2 @@
-a planar collection.
+a [rectilinear] [planar] [collection] of [cell]s in [row]s and [col]umns.
+distinct: matrix

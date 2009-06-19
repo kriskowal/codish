@@ -1,0 +1,3 @@
+a [number] that corresponds to a [glyph] in the [unicode] [table].
+a [transitive function] that converts a [char]acter to its corresponding [codepoint].
+aka: ord

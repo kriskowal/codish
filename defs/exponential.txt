@@ -1,1 +1,2 @@
-includes: exp, log
+includes: exp, log, sqrt
+is: arithmetic

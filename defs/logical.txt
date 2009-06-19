@@ -2,6 +2,7 @@ pertains to [functions] that operate on [boolean] [value]s.
 includes: and, or, not
 [ne] functions as logical [xor].
 distinct: binary, bitwise, boolean
+is: math
 
 <p><table>
     <caption>Truth Tables</caption>

@@ -15,6 +15,12 @@ var defs = util.values(data.defs);
 var pageTemplate = new Template(dir.resolve('templates/index.html').read());
 var defTemplate = new Template(dir.resolve('templates/def.html').read());
 
+var lower = function (name, del) {
+    return chiron.lower(name, del).replace(new RegExp(del + "(\\d)", "g"), function (i, j, pos) {
+        return name.substring(pos).match(/\d/)[0];
+    });
+};
+
 var indexHtmlResponse = function (env) {
     var response = indexRawHtml(env);
     if (Array.isArray(response))
@@ -63,13 +69,13 @@ var indexRawHtml = function (env) {
     var path = env.PATH_INFO.replace(/^\//, '').split('/').shift();
     if (path) {
         redirect = true;
-        query = chiron.lower(path, '-');
+        query = lower(path, '-');
     }
     if (page < 1)
         return route.fallback(env);
-    if (chiron.lower(query, '-') != query) {
+    if (lower(query, '-') != query) {
         redirect = true;
-        query = chiron.lower(query, '-');
+        query = lower(query, '-');
     }
 
     if (redirect) {
@@ -89,7 +95,7 @@ var indexRawHtml = function (env) {
         ];
     }
 
-    query = chiron.lower(query, ' ');
+    query = lower(query, ' ');
     env.query = query;
     env.page = page;
     return indexQuery(query, page);
