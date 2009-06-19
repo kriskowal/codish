@@ -1,5 +1,6 @@
-an attribute.
+an attribute of an [object].
 a [set]able and [get]able [value] associated with a [symbol] or [name] in an [object].
+in some languages, attributes are either [private], [protected], or [public].
 distinct: item
 python: property
 c++: member

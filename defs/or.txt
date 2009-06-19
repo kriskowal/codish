@@ -1,2 +1,32 @@
 [logical] or.
-related: or2, union, add
+related: and, or2, union, add
+opposite: and, nor
+
+<p><table>
+    <caption>Truth Table</caption>
+    <tr>
+        <th><tt>X</tt></th>
+        <th><tt>Y</tt></th>
+        <th><tt>X or Y</tt></th>
+    </tr>
+    <tr>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+    </tr>
+    <tr>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+    </tr>
+    <tr>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+    </tr>
+    <tr>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+    </tr>
+</table></p>

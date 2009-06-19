@@ -1,2 +1,2 @@
-indicates a [boolean] [expression]
-see: if
+indicates a [boolean] [expression], particularly that a [function] [return]s a [boolean] [expression].
+related: if, iff

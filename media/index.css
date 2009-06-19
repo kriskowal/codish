@@ -34,6 +34,15 @@
             text-decoration: underline;
         }
 
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: solid #cccccc 1px;
+            padding: .2ex .5ex;
+        }
+
 /* design */
 
         #body {
@@ -80,10 +89,12 @@
         }
 
         .def {
-            padding: 1ex;
             border-bottom: solid 1px #eeeeee;
-            text-indent: -5ex;
             padding-left: 5ex;
+        }
+
+        .meanings {
+            text-indent: -5ex;
         }
 
         .tag {

@@ -1,2 +1,2 @@
-to <i>eval</i> a function.  this involves creating a <i>frame</i>, passing arguments, and evaluating or executing each statement and expression in the function's <i>block</i>.
+to [eval] or [exec] a function.  this involves creating a [frame], passing [param]eters to [arg]uments, and evaluating or executing each [statement] in the function's [block].
 replaces: invoke

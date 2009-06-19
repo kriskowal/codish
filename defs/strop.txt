@@ -1,2 +1,2 @@
-seuss: [remove] a [pattern] or sub-collection from the [begin]ing of a [linear] [collection].
-seuss opposite: strip
+seuss: [remove] a [pattern] or sub-collection from the [end] of a [linear] [collection].
+seuss: opposite: strip

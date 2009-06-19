@@ -1,2 +1,1 @@
-a [variable] sent to a [function] when it is [call]ed or [program] when it is [execute]d.
-distinct: param
+see: arg

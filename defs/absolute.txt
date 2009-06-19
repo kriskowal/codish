@@ -1,2 +1,3 @@
 returns the fully qualified [path] for a given path and the [cwd].
+is: stateless, idempotent
 distinct: abs, normal, canonical

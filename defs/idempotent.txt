@@ -1,1 +1,8 @@
-converging on a value when reapplied (as in a feedback loop) on that value multiple times.
+(1.) of [unary functions], converging on a [return] [value] when reapplied, as when the [return]ed value of one [application] is passed back as a [param]eter.
+a [unary function], {{{f}}}, is idempotent [iff] {{{f(x) [eq] f(f(x))}}}.
+(1.a.) an [attr]ibute of a [unary function] that denotes [whether] the [function] is idempotent for [all] [value]s in its [domain].
+(2.) of [binary function]s, [return]ing the same [value] when that [value] is passed to both [param]eters.
+a [value] is idempotent for a [binary function] [iff] {{{f(x, x) [eq] x}}}.
+a [binary function], {{{g}}}, is idempotent [iff] {{{f(x, x) [eq] x}}} for all {{{x}}} in its domain.
+(2.a.) a [binary function] that returns [whether] a particular [value] is idempotent for a given [binary function], meaning {{{f(x, x) [eq] x}}}.
+(2.b.) an [attr]ibute of a [binary function] that denotes [whether] the [function] is idempotent for [all] [value]s in the [domain] of both [param]eters.

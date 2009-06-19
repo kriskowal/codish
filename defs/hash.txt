@@ -1,2 +1,2 @@
-to produce a deterministic scalar value from an <i>object</i>.
+to produce a deterministic or consistent [scalar] [value] from an [object] for the purpose of fast storage and retrieval in hashing (as in a hash table) [unordered] [linear] [collection]s like [dict] and [set].  ideally, a [hash] is a [psuedo random] [number] produced by [seed]ing a [random] [number] generator with numeric data intrinsic to the [object] in question.
 perl: [dict]

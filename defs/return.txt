@@ -1,0 +1,1 @@
+a [statement] that [stop]s the [exec]ution within a [function], sending the [cursor] of [exec]ution to the [function] that [apply]ed the current [function], and providing a [value] for the [apply] [expression].

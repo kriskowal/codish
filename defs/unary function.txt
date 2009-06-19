@@ -1,0 +1,1 @@
+a [unary] [function] is a [function] that takes 1 [param]eter.

@@ -3,6 +3,8 @@ var chiron = require('chiron/base');
 var util = require('util');
 var fs = require('file');
 var json = require('json');
+var markup = require('markup').markup;
+
 var dir = fs.path(module.path).resolve('.');
 var defsDir = dir.join('defs');
 var defs = {};
@@ -38,7 +40,12 @@ python.forEach(function (line) {
     var name = chiron.lower(parts.shift(), ' ');
     defsDir.join(name + '.txt').touch();
     line = parts.join(': ');
-    pythonDefs[name] = line.replace(/>/g, '&gt;').toLowerCase();
+    util.getset(pythonDefs, name, []).push(
+        line.replace(/>/g, '&gt;')
+        .replace(/</g, '&lt;')
+        .toLowerCase() + 
+        '<a href="http://docs.python.org/library/functions.html#' + name + '">&dagger;</a>'
+    );
 });
 
 defsDir.list().forEach(function (name) {
@@ -53,13 +60,19 @@ defsDir.list().forEach(function (name) {
     var file = path.open();
     var meanings = [];
     var refs = {};
+
     file.forEach(function (line) {
         line = markup(line, refs, notes);
+        if (line == "")
+            throw "StopIteration";
         meanings.push(line);
     });
 
+    var html = file.read();
+
     if (pythonDefs[name])
-        meanings.push(markup(pythonDefs[name], refs, notes))
+        for (var i = 0; i < pythonDefs[name].length; i++)
+            meanings.push(markup(pythonDefs[name][i], refs, notes));
     if (perlDefs[name])
         meanings.push(markup(perlDefs[name], refs, notes));
 
@@ -76,63 +89,8 @@ defsDir.list().forEach(function (name) {
         notes.distinct || [],
         util.keys(refs)
     ));
+    node.html = html;
 });
-
-function markup(line, refs, notes) {
-    line = line.replace(/<i>/g, '[').replace(/<\/i>/g, ']')
-    if (/^[\w\s]+: /.test(line)) {
-        var parts = line.split(': ');
-        var note = parts.shift();
-        note = {
-            'replaces': 'aka',
-            'use': 'see'
-        }[note] || note;
-        line = parts.join(': ');
-        if (
-            /, /.test(line) &&
-            !/\[/.test(line) &&
-            !/\.$/.test(line)
-        ) {
-            line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + line.split(', ').map(function (term) {
-                util.getset(notes, note, []).push(term);
-                refs[term] = term;
-                return '[' + term + ']';
-            }).join(', ');
-        } else if (!/\[/.test(line) && !/\.$/.test(line) && /^[\w\s]+$/.test(line)) {
-            util.getset(notes, note, []).push(line);
-            line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> [' + line + ']';
-        } else {
-            line = '<i><a href="?q=' + note + '">' + note + '</a>:</i> ' + markup(line, refs, notes) + '';
-        }
-    }
-
-    while (/\[[^\]]+\]/.test(line)) {
-        var term = line.match(/\[([^\]]+)\]/)[1];
-        refs[term] = term;
-        line = line.replace(
-            /\[[^\]]+\]/,
-            '<tt><a href="?q=' + term + '">' + term + '</a></tt>'
-        );
-    }
-
-    while (/{{{.*?}}}/.test(line)) {
-        var code = line.match(/{{{(.*?)}}}/)[1];
-        line = line.replace(
-            /{{{.*?}}}/,
-            '<tt>' + code + '</tt>'
-        );
-    }
-
-    while (/\(\(.*?\)\)/.test(line)) {
-        var code = line.match(/\(\((.*?)\)\)/)[1];
-        line = line.replace(
-            /\(\(.*?\)\)/,
-            '<i>(' + code + ')</i>'
-        );
-    }
-
-    return line;
-};
 
 function unique(values) {
     var results = [];

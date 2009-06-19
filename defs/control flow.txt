@@ -1,0 +1,1 @@
+pertains to [statement]s that manage the [cursor] of [exec]ution (the [program counter]).

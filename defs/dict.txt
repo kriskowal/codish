@@ -1,4 +1,6 @@
-a <i>saque</i> of <i>item</i>s that expresses a <i>map</i>.
+an [unordered] [linear] [collection] (particularly a [set]) of [item]s that expresses a [map] of [key]s ([domain]) to [value]s ([range]).
+in systems where [dict] inherits [set], it overrides the [hash] and [eq] [attr function]s.
 see: item, key, value, keys, values, set, get, has, del, reset
 distinct: object
 perl: hash
+seuss: a [saque] of [item]s.

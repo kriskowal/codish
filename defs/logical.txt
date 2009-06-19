@@ -1,4 +1,160 @@
-pertains to [functions] that operate on [boolean] [value].
+pertains to [functions] that operate on [boolean] [value]s.
 includes: and, or, not
 [ne] functions as logical [xor].
 distinct: binary, bitwise, boolean
+
+<p><table>
+    <caption>Truth Tables</caption>
+    <tr>
+        <th></th>
+        <th>0</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>function</th>
+    </tr>
+    <tr>
+        <th><tt>X</tt></th>
+        <th><tt>false</tt></th>
+        <th><tt>false</tt></th>
+        <th><tt>true</tt></th>
+        <th><tt>true</tt></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th><tt>Y</tt></th>
+        <th><tt>false</tt></th>
+        <th><tt>true</tt></th>
+        <th><tt>false</tt></th>
+        <th><tt>true</tt></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt><a href="/false">false</a></tt></th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>X <a href="/and">and</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt>X <a href="/nimplies">nimplies</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>X</tt></th>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt>Y <a href="/nimplies">nimplies</a> X</tt></th>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>Y</tt></th>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt>X <a href="/xor">xor</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>X <a href="/or">or</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>~7 / 8</td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt>X <a href="/nor">nor</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>~6 / 9</td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>X <a href="/nxor">nxor</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>~5 / 10</td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt><a href="/not">not</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>~4 / 11</td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>Y <a href="/implies">implies</a> X</tt></th>
+    </tr>
+    <tr>
+        <td>~3 / 12</td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt><a href="/not">not</a> X</tt></th>
+    </tr>
+    <tr>
+        <td>~2 / 13</td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt>X <a href="/implies">implies</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>~1 / 14</td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <th><tt>X <a href="/nand">nand</a> Y</tt></th>
+    </tr>
+    <tr>
+        <td>~0 / 15</td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <th><tt><a href="/true">true</a></tt></th>
+    </tr>
+</table</p>

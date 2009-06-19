@@ -1,5 +1,4 @@
-[logical] and.
-related: and2, intersect, mul
+[logical] [not] [or].
 opposite: or, nand
 
 <p><table>
@@ -7,12 +6,12 @@ opposite: or, nand
     <tr>
         <th><tt>X</tt></th>
         <th><tt>Y</tt></th>
-        <th><tt>X and Y</tt></th>
+        <th><tt>X nor Y</tt></th>
     </tr>
     <tr>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
     </tr>
     <tr>
         <td><tt>false</tt></td>
@@ -27,6 +26,6 @@ opposite: or, nand
     <tr>
         <td><tt>true</tt></td>
         <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
     </tr>
 </table></p>

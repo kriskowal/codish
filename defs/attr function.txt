@@ -1,0 +1,2 @@
+a [function] that is an [attr]ibute of a [class], that receives either the [context object] or [context class] as a first [param]eter either implicitly or explicitly.
+related: object attr function, class attr function

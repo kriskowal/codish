@@ -1,1 +1,1 @@
-codish: string
+seuss: string

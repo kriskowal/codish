@@ -1,2 +1,33 @@
-bitwise exclusive or.
-see: ne
+[logical] exclusive [or].
+see: [ne] is equivalent for the [domain] of [boolean]s.
+related: xor2
+opposite: nxor
+
+<p><table>
+    <caption>Truth Table</caption>
+    <tr>
+        <th><tt>X</tt></th>
+        <th><tt>Y</tt></th>
+        <th><tt>X xor Y</tt></th>
+    </tr>
+    <tr>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>false</tt></td>
+    </tr>
+    <tr>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+    </tr>
+    <tr>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+        <td><tt>true</tt></td>
+    </tr>
+    <tr>
+        <td><tt>true</tt></td>
+        <td><tt>true</tt></td>
+        <td><tt>false</tt></td>
+    </tr>
+</table></p>

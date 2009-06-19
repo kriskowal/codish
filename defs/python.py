@@ -28,12 +28,12 @@ def define(name, value, context=None):
             forms.append('{{{%s}}} %s' % (example, meaning))
         else:
             definition.append(line)
-    definitions[name] = {
+    definitions.setdefault(name, []).append({
         'name': name,
         'forms': forms,
         'definition': " ".join(definition).strip(),
         'context': context,
-    }
+    })
 
 for name in dir(__builtins__):
     if name.startswith('__'):
@@ -43,12 +43,13 @@ for name in dir(__builtins__):
         continue
     define(name, value)
 
-for name, definition in definitions.items():
-    forms = definition['forms']
-    parts = [name + ':', 'python:']
-    if definition['context']:
-        parts.append('[%s]: ' % definition['context'])
-    if forms:
-        parts.append('; '.join(forms))
-    parts.append(definition['definition'])
-    print " ".join(parts)
+for name, definitions in definitions.items():
+    for definition in definitions:
+        forms = definition['forms']
+        parts = [name + ':', 'python:']
+        if definition['context']:
+            parts.append('[%s]: ' % definition['context'])
+        if forms:
+            parts.append('; '.join(forms))
+        parts.append(definition['definition'])
+        print " ".join(parts)
