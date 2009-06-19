@@ -1,0 +1,2 @@
+return a version of a [string] for a particular [language] with all of the special characters, like new lines and quotes, annotated.
+related: enquote

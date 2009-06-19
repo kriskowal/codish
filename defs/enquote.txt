@@ -1,0 +1,3 @@
+return the [repr]esentation of a [string] as a [literal] in a particular [language], usually by [escape]ing all of the special characters and bounding between quotes.
+related: escape, repr
+opposite: repr

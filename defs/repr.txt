@@ -1,4 +1,4 @@
-a <i>text</i> representation of an <i>object</i> graph starting from a given <i>object</i>, possibly abbreviated, sometimes suitable for <i>eval</i>.
+a [string] representation of an [object] [graph] [start]ing from a given [object], possibly abbreviated, sometimes suitable for [eval].
 inverse: eval
 ruby: inspect
 python: repr
