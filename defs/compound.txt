@@ -1,1 +1,3 @@
-pertains to [data] that are composed of other data.
+pertains to [data] that are composed of other [data].
+related: collection
+opposite: atomic

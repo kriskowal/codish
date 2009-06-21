@@ -1,0 +1,131 @@
+a [collection] for storage and retrieval of [value]s in a 1-dimensional [domain].  [linear collection]s can be [ordered], [sorted], or [unordered].  [linear collection]s can be [unique] or [nonunique].  [linear collection]s may be [mapping]s.
+interfaces: list, bag, dict, queue, deque, stack
+implementations: array, chain, tree, hash array, heap array, trie
+
+<p><table>
+    <caption>Linear Collection Classes</caption>
+    <tr>
+        <td><tt>ordered</tt></td>
+        <td><tt>nonunique</tt></td>
+        <td><tt></tt></td>
+        <td>
+            <tt><a href="/list">list</a></tt>,
+            <tt><a href="/deque">deque</a></tt>,
+            <tt><a href="/queue">queue</a></tt>,
+            <tt><a href="/stack">stack</a></tt>
+        </td>
+    </tr>
+    <tr>
+        <td><tt>ordered</tt></td>
+        <td><tt>nonunique</tt></td>
+        <td class="odd"><tt>mapping</tt></td>
+        <td><tt><a href="/ordered+multi+dict">ordered multi dict</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt>ordered</tt></td>
+        <td class="odd"><tt>unique</tt></td>
+        <td><tt></tt></td>
+        <td><tt><a href="/ordered+bag">ordered bag</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt>ordered</tt></td>
+        <td class="odd"><tt>unique</tt></td>
+        <td class="odd"><tt>mapping</tt></td>
+        <td><tt><a href="/ordered+dict">ordered dict</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>sorted</tt></td>
+        <td><tt>nonunique</tt></td>
+        <td><tt></tt></td>
+        <td><tt><a href="/sorted+multi+bag">sorted multi bag</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>sorted</tt></td>
+        <td><tt>nonunique</tt></td>
+        <td class="odd"><tt>mapping</tt></td>
+        <td><tt><a href="/sorted+multi+dict">sorted multi dict</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>sorted</tt></td>
+        <td class="odd"><tt>unique</tt></td>
+        <td><tt></tt></td>
+        <td><tt><a href="/sorted+bag">sorted bag</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>sorted</tt></td>
+        <td class="odd"><tt>unique</tt></td>
+        <td class="odd"><tt>mapping</tt></td>
+        <td><tt><a href="/sorted+dict">sorted dict</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt>unordered</tt></td>
+        <td><tt>nonunique</tt></td>
+        <td><tt></tt></td>
+        <td><tt><a href="/multi+bag">multi bag</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt>unordered</tt></td>
+        <td><tt>nonunique</tt></td>
+        <td class="odd"><tt>mapping</tt></td>
+        <td><tt><a href="/multi+dict">multi dict</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt>unordered</tt></td>
+        <td class="odd"><tt>unique</tt></td>
+        <td><tt></tt></td>
+        <td><tt><a href="/bag">bag</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt>unordered</tt></td>
+        <td class="odd"><tt>unique</tt></td>
+        <td class="odd"><tt>mapping</tt></td>
+        <td><tt><a href="/dict">dict</a></tt></td>
+    </tr>
+</table></p>
+
+<p>Some collections are defined by the subset of the collection interface that they implement.  By declaring the subset of a collection interface that you intend to use, you provide performance optimization opportunities for the underlying implementation.  For example, if you only use <tt><a href="/push">push</a></tt> and <tt><a href="/pop">pop</a></tt>, the implementation can be <a href="/chain">chain</a> with nearly instantaneous storage and retrieval.</p>
+
+<p><table>
+    <caption>Ordered Nonunique Collection Interfaces</caption>
+    <tr>
+        <th><tt><a href="/push">push</a></tt></th>
+        <th><tt><a href="/pop">pop</a></tt></th>
+        <th><tt><a href="/shift">shift</a></tt></th>
+        <th><tt><a href="/unshift">unshift</a></tt></th>
+        <th><tt><a href="/random+access">random access</a></tt></th>
+        <th><tt><a href="/interface">interface</a></tt></th>
+    </tr>
+    <tr>
+        <td class="odd"><tt>push</tt></td>
+        <td class="odd"><tt>pop</tt></td>
+        <td class="odd"><tt>shift</tt></td>
+        <td class="odd"><tt>unshift</tt></td>
+        <td class="odd"><tt>random access</tt></td>
+        <td><tt><a href="/list">list</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>push</tt></td>
+        <td class="odd"><tt>pop</tt></td>
+        <td class="odd"><tt>shift</tt></td>
+        <td class="odd"><tt>unshift</tt></td>
+        <td></td>
+        <td><tt><a href="/deque">deque</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>push</tt></td>
+        <td></td>
+        <td class="odd"><tt>shift</tt></td>
+        <td></td>
+        <td></td>
+        <td><tt><a href="/queue">queue</a></tt></td>
+    </tr>
+    <tr>
+        <td class="odd"><tt>push</tt></td>
+        <td class="odd"><tt>pop</tt></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><tt><a href="/stack">stack</a></tt></td>
+    </tr>
+</table></p>
+

@@ -1,1 +1,2 @@
 an acyclic [graph], usually having a [root] [node].
+as an [implementation] of a [sorted] [linear collection], the [vertex]es of a [graph] contain [value]s and [ref]erences to the memory locations of other [vertex]es.

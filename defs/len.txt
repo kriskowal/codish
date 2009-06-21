@@ -1,3 +1,4 @@
 the number of <i>value</i>s in a [collection], even unordered collections.
 distinct: size, width, count
 aka: length
+pertains: collection

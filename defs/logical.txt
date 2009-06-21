@@ -1,6 +1,5 @@
 pertains to [functions] that operate on [boolean] [value]s.
-includes: and, or, not
-[ne] functions as logical [xor].
+includes: not, and, or, xor, nand, nor, nxor, cond, ncond
 distinct: binary, bitwise, boolean
 is: math
 
@@ -18,20 +17,20 @@ is: math
         <th><tt>X</tt></th>
         <th><tt>false</tt></th>
         <th><tt>false</tt></th>
-        <th><tt>true</tt></th>
-        <th><tt>true</tt></th>
+        <th class="odd"><tt>true</tt></th>
+        <th class="odd"><tt>true</tt></th>
         <th></th>
     </tr>
     <tr>
         <th><tt>Y</tt></th>
         <th><tt>false</tt></th>
-        <th><tt>true</tt></th>
+        <th class="odd"><tt>true</tt></th>
         <th><tt>false</tt></th>
-        <th><tt>true</tt></th>
+        <th class="odd"><tt>true</tt></th>
         <th></th>
     </tr>
     <tr>
-        <td>0</td>
+        <th>0</th>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
@@ -39,123 +38,123 @@ is: math
         <th><tt><a href="/false">false</a></tt></th>
     </tr>
     <tr>
-        <td>1</td>
+        <th>1</th>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <th><tt>X <a href="/and">and</a> Y</tt></th>
     </tr>
     <tr>
-        <td>2</td>
+        <th>2</th>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
-        <th><tt>X <a href="/nimplies">nimplies</a> Y</tt></th>
+        <th><tt>X <a href="/ncond">ncond</a> Y</tt></th>
     </tr>
     <tr>
-        <td>3</td>
+        <th>3</th>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <th><tt>X</tt></th>
     </tr>
     <tr>
-        <td>4</td>
+        <th>4</th>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
-        <th><tt>Y <a href="/nimplies">nimplies</a> X</tt></th>
+        <th><tt>Y <a href="/ncond">ncond</a> X</tt></th>
     </tr>
     <tr>
-        <td>5</td>
+        <th>5</th>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <th><tt>Y</tt></th>
     </tr>
     <tr>
-        <td>6</td>
+        <th>6</th>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <th><tt>X <a href="/xor">xor</a> Y</tt></th>
     </tr>
     <tr>
-        <td>7</td>
+        <th>7</th>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <th><tt>X <a href="/or">or</a> Y</tt></th>
     </tr>
     <tr>
-        <td>~7 / 8</td>
-        <td><tt>true</tt></td>
+        <th>~7 / 8</th>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
         <th><tt>X <a href="/nor">nor</a> Y</tt></th>
     </tr>
     <tr>
-        <td>~6 / 9</td>
-        <td><tt>true</tt></td>
+        <th>~6 / 9</th>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <th><tt>X <a href="/nxor">nxor</a> Y</tt></th>
     </tr>
     <tr>
-        <td>~5 / 10</td>
-        <td><tt>true</tt></td>
+        <th>~5 / 10</th>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <th><tt><a href="/not">not</a> Y</tt></th>
     </tr>
     <tr>
-        <td>~4 / 11</td>
-        <td><tt>true</tt></td>
+        <th>~4 / 11</th>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
-        <th><tt>Y <a href="/implies">implies</a> X</tt></th>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <th><tt>Y <a href="/cond">cond</a> X</tt></th>
     </tr>
     <tr>
-        <td>~3 / 12</td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <th>~3 / 12</th>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
         <th><tt><a href="/not">not</a> X</tt></th>
     </tr>
     <tr>
-        <td>~2 / 13</td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <th>~2 / 13</th>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
-        <th><tt>X <a href="/implies">implies</a> Y</tt></th>
+        <td class="odd"><tt>true</tt></td>
+        <th><tt>X <a href="/cond">cond</a> Y</tt></th>
     </tr>
     <tr>
-        <td>~1 / 14</td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <th>~1 / 14</th>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <th><tt>X <a href="/nand">nand</a> Y</tt></th>
     </tr>
     <tr>
-        <td>~0 / 15</td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <th>~0 / 15</th>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
         <th><tt><a href="/true">true</a></tt></th>
     </tr>
 </table</p>

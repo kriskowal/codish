@@ -1,2 +1,3 @@
 concept: pertains to systems that support [encapsulation], [polymorphism], and [inheritance].
+object oriented languages may have a [static class system] or a [dynamic class system].
 aka: oop

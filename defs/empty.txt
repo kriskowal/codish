@@ -1,0 +1,3 @@
+pertains to [collection]s that have no [value]s.
+a [boolean function] that [return]s [whether] a [collection] has a [len]gth of [zero].  [empty] must be implemented in terms of [len] such that if [len] is [polymorphic]ally [overridden], [empty]'s behavior will be consistent.
+distinct: erase

@@ -1,0 +1,1 @@
+a [complexity function] with the character of {{{y = x [mul] ([log] x}}}.

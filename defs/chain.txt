@@ -1,1 +1,3 @@
-use: staque
+an [ordered] [linear collection] [implementation] that employs a [memory] [graph] where each [value] is stored in a [vertex] with a [ref]erence to the [next] [vertex] in the order, and the [graph] has a [first] or [start] [ref]erence to the [head] [vertex].
+a [chain] can be either [singly] or [doubly] linked.
+related: array

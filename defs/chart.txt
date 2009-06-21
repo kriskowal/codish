@@ -1,3 +1,3 @@
 a graphic representation of data.
-includes: histogram, pie chart, bar chart, line chart
+includes: plot, histogram, pie chart, bar chart, line chart
 distinct: graph

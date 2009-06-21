@@ -1,2 +1,2 @@
-to produce a deterministic or consistent [scalar] [value] from an [object] for the purpose of fast storage and retrieval in hashing (as in a hash table) [unordered] [linear] [collection]s like [dict] and [set].  ideally, a [hash] is a [psuedo random] [number] produced by [seed]ing a [random] [number] generator with numeric data intrinsic to the [object] in question.
-perl: [dict]
+to produce a deterministic or consistent [scalar] [value] from an [object] for the purpose of fast storage and retrieval in a [hash array] for [unordered] [linear collection]s like [dict] and [bag].  ideally, a [hash] is often a [psuedo random] [number] produced by [seed]ing a [random] [number] generator with numeric data [intrinsic] to the [object] in question.
+perl: the perl {{{%hash}}} type is a [dict], in codish parlance.

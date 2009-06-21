@@ -1,0 +1,1 @@
+concept: in [object oriented programming], the [class] of a [function attr]ibute [apply]cation, passed either implicitly or explicitly as the first [param]eter of a [function attr]biute.

@@ -1,2 +1,2 @@
-a <i>value</i>.
-use: value
+see: value
+plural: data

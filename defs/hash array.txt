@@ -1,0 +1,1 @@
+an [implementation] of an [unordered] [linear collection] where each [value] or [item] has an intrinsic [hash] [value] that is used as a heuristic for the [index] at which it ought to be stored and retrieved within an [array].

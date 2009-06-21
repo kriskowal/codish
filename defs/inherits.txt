@@ -1,0 +1,2 @@
+a [binary relation] that returns [whether] a [child class] [inherit]s a [parent class].
+see: inherit

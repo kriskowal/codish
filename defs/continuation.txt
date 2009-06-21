@@ -1,2 +1,2 @@
-the <i>state</i> of a <i>thread</i> that includes the <i>cursor</i> of execution and all of the <i>frame</i>s for functions that the program must return to before completion.
+the [state] of a [process] or [thread] that includes the [cursor] of [exec]ution and all of the [frame]s for [function]s that the process must return to before completion.
 replaces: context

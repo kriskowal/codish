@@ -1,4 +1,5 @@
 a [transitive relation] on two [vertex]es that returns [whether] the former vertex 
 is: transitive iteration
 plural: descendants
+related: family
 opposite: ancestor

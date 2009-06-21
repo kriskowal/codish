@@ -1,3 +1,2 @@
-a variable of any kind.
-replaces: variable
-see: def
+[data] of any [class].
+see: def, variable

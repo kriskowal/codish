@@ -1,0 +1,1 @@
+a [function attr]ibute that receives a [class] as its [context object].

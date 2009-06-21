@@ -1,2 +1,2 @@
-a collection of meaningful <i>value</i>s in <i>memory</i>.
-see: datum
+a collection of meaningful [value]s in [memory].
+singular: datum

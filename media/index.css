@@ -100,6 +100,10 @@
         .tag {
         }
 
+        .odd {
+            background-color: #ddddee;
+        }
+
 /* layout */
 
     .content {
@@ -122,6 +126,8 @@
             height: 90%;
         }
 
+    /* disqus */
+
         #disqus {
             position: relative;
         }
@@ -136,6 +142,8 @@
         .dsq-brlink {
             display: none;
         }
+
+    /* ad and share */
 
         .right {
             position: relative;
@@ -153,5 +161,4 @@
             width: 250px;
             min-height: 300px;
         }
-
 

@@ -1,3 +1,4 @@
 dict: get the [value] for a given [key], beforehand setting the [value] for the [key] to a [default] if no [key] exists yet.
 is: stateful
 distinct: [get] with a [default] [value] is [stateless] as it does not modify the [object] when it returns the [default] [value].
+pertains: collection

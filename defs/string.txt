@@ -1,2 +1,3 @@
 an [order]ed, though not sorted, [collection] of [char]acters.
+inherits: linear collection
 seuss: text

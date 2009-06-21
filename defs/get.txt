@@ -1,1 +1,2 @@
-returns the <i>value</i> corresponding to a <i>key</i> in a <i>dict</i>.
+returns the [value] corresponding to a [key] in a [collection].  throws a [key error] if no [value] exists for the [key], or returns a [default] value if one is provided as the optional second [param]eter.
+pertains: collection

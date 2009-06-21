@@ -1,0 +1,3 @@
+in [object oriented programming], to provide a [function attr] with the same [name] or [symbol] as a [function attr] of a [super class], changing the behavior of its [family].
+related: polymorphism
+distinct: overload

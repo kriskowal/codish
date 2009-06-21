@@ -1,0 +1,26 @@
+
+<pre>
+ordered, unordered, sorted
+unique, nonunique, mapping, nonmapping
+interfaces: list, staque, queue, deque
+implementations: array, chain, tree, hash, heap, trie
+
+push pop shift unshift set
+1    1   1     1       1   list
+1    1   1     1       0   deque
+1    0   1     0       0   queue
+1    1   0     0       0   staque
+
+ordered    nonunique     list/deque/queue/staque
+ordered    nonunique map ordered multi dique
+ordered    unique        ordered unique
+ordered    unique    map ordered dique
+sorted     nonunique     multi saque
+sorted     nonunique map multi cataloque
+sorted     unique        saque
+sorted     unique    map catalogue
+unordered  nonunique     bague
+unordered  nonunique map multi dique
+unordered  unique        unique
+unordered  unique    map dique
+</pre>

@@ -1,0 +1,4 @@
+pertains to [collections] that do not maintain the respective order of their contents.
+interfaces: bag, dict, multi bag, multi dict
+implementations: hash array
+related: sorted, ordered

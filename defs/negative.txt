@@ -1,2 +1,3 @@
-[lt] [zero].
-see: neg
+a [unary] [boolean function] that returns whether a [value] is [lt] [zero].
+opposite: positive
+related: neg

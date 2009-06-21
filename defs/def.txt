@@ -1,1 +1,1 @@
-to define; to put a <i>symbol</i> in the topmost <i>scope</i> of a <i>continuation</i>.
+to define; to put a [local] [variable] in the [current] [scope] of a [context].

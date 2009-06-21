@@ -1,1 +1,2 @@
-dict: [get] the [value] for a [key] and [del]ete the [item].  the [value] must be temporarily stored before it is [del]eted, then [return]ed.  like, [get], accepts a [default]: if there is no [value] for the [key], returns the [default]; if no [default] is provided, throws a [key error].
+[get] the [value] for a [key] and [del]ete the [item].  the [value] must be temporarily stored before it is [del]eted, then [return]ed.  like [get], accepts a [default]: if there is no [value] for the [key], returns the [default]; if no [default] is provided, throws a [key error].
+pertains: collection

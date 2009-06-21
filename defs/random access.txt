@@ -1,0 +1,1 @@
+pertains to [collections], particularly [class]es of [memory] where every [value] is accessible in [constant time].

@@ -1,0 +1,1 @@
+a [complexity function] that cannot be expressed with an algebraic function composed only of [add]ition, [mul]tiplication, constant base [log]arithm, and constant base [exp]onentiation.

@@ -1,3 +1,3 @@
-an [object] with the [interface] of a [set] (or its descendant, [dict]) except that the [key]s must all be [string]s.
+an [object] with the [interface] of a [bag] (or its [child class], [dict]) except that the [key]s must all be [string]s.
 internally, a trie is a [tree] where each [vertex] has a [child] for each [char]acter.
 purportedly, the name "trie" was derrived from "retrieve". 

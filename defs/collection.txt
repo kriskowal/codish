@@ -1,3 +1,4 @@
-attrs: len, has, get, set, getset, put, del, cut
-subclass: list, array, dict, queue, deque, stack, heap, tree, trie
+a [class] of [compound] [object]s that contain and organize [value]s.
+attrs: len, has, get, set, reset, getset, put, del, cut, insert, remove, discard, empty, erase, trim, trim begin, trim end
+subclass: linear collection, planar collection, spatial collection
 seuss: que

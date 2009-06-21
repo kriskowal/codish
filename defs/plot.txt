@@ -1,0 +1,2 @@
+a graphic that shows [point]s, [line]s, or [surface]s with [number] [value]s in relationship to their respective [dimension] [axis].
+is a: chart

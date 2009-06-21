@@ -1,0 +1,2 @@
+in [object oriented programming], the [parent] of a [class] in an [inheritance] [graph].
+related: base class

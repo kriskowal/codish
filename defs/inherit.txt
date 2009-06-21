@@ -1,0 +1,2 @@
+to be derrived from or be a [descendant] [child class] of a [parent class].
+see: inheritance

@@ -1,2 +1,1 @@
-an unordered, non-unique collection that provides <i>insert</i>, <i>remove</i>, and <i>discard</i> as its <i>method</i>s of storage and retrieval.
-includes: unique
+seuss: [sorted] [bag]

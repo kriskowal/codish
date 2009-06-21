@@ -1,3 +1,4 @@
 a <i>value</i>, usually a <i>number</i>, that has a corresponding name in an enumeration (<i>enumerate</i>).
 a number that indicates an identity.
 nominal values are <i>ordinal</i> by default, but may be <i>cardinal</i>.
+related: cardinal, ordinal

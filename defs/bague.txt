@@ -1,2 +1,1 @@
-see: bag
-seuss: a [sorted] [linear] [collection] that provides [insert] and [shoft] as its [storage] and [retrieval] methods.
+seuss: a [multi bag], [unordered] [nonunique] [linear collection].

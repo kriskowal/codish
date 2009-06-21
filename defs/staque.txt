@@ -1,2 +1,1 @@
-seuss: a [list] that only provides [posh] and [shoft] as its methods for storage and retrieval.
-aka: stack, chain
+seuss: stack

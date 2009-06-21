@@ -1,0 +1,2 @@
+a feature of some [static] [object oriented] languages that allows different [function attr]ibutes to have the same [name] but a different pattern of [class]es for their [arg]uments.
+see: pattern matching

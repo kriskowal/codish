@@ -1,2 +1,3 @@
-a collection of unique elements.  uniqueness is determined by a given equivalence function, albeit equality.  implemented with a <i>hash</i>.
+an [unordered] [collection] of unique [value]s.  uniqueness is determined by a given [equivalence relation], albeit [eq]uality by default.
+implementations: hash array
 distinct: set

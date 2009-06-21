@@ -1,0 +1,1 @@
+a [sorted] [collection] with a [stack] [interface] that organizes its [value]s in an [array] but conceptually modelling  a [tree], with [parent] and [child] [vertex]es reachable with [expression]s in terms of the [node]'s [index], such that the [last] [value] of the [collection] in [sorted] [order] is always the [first] [value] in the [array].

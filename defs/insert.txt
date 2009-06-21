@@ -1,2 +1,2 @@
-to add a value to a collection.  for <i>saque</i>s, <i>insert</i> does not replace equivalent objects.  for <i>unique</i>s, <i>insert</i> silently replaces equivalent objects.  for ordered collections, <i>insert</i> is equivalent to <i>posh</i>.
+to add a [value] to a [collection].
 opposite: remove

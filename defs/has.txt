@@ -1,4 +1,4 @@
-returns [whether] a [collection] contains an [object].
+returns [whether] a [collection] contains an [value].
 returns [whether] a [list] contains a [value].
 returns [whether] a [dict] contains a [key].
 <tt>has(collection, value)</tt>

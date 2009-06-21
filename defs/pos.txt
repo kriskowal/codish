@@ -1,3 +1,2 @@
-position.
-see: offset, index, key
-distinct: positive
+temporal: position.
+distinct: positive, abs, index, key

@@ -1,0 +1,4 @@
+pertains to [collection]s that maintain the respective order of their contents.
+interfaces: list, queue, deque, stack
+implementations: array, chain
+related: sorted, unordered

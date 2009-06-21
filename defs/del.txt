@@ -1,1 +1,2 @@
-to remove an [attr] with a given [key] or [pos].
+to remove an [attr] with a given [key] from a [collection].  throws a [key error] if no [value] exists for the given [key].
+pertains: collection

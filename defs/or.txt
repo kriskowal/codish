@@ -1,32 +1,37 @@
-[logical] or.
+[logical] disjunction.
 related: and, or2, union, add
 opposite: and, nor
 
 <p><table>
     <caption>Truth Table</caption>
     <tr>
+        <th></th>
         <th><tt>X</tt></th>
         <th><tt>Y</tt></th>
         <th><tt>X or Y</tt></th>
     </tr>
     <tr>
+        <th>0</th>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
     </tr>
     <tr>
+        <th>1</th>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
     </tr>
     <tr>
-        <td><tt>true</tt></td>
+        <th>2</th>
+        <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
-        <td><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
     </tr>
     <tr>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
-        <td><tt>true</tt></td>
+        <th>3</th>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
+        <td class="odd"><tt>true</tt></td>
     </tr>
 </table></p>

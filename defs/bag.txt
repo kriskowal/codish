@@ -1,3 +1,7 @@
-a [sorted] [linear] [collection] that provides [insert] and ([shift] or [pop]) as its [storage] and [retrieval] methods.
+an [unordered], [nonunique] [collection] that provides [insert], [remove], and [discard] as its [function attr]ibutes of storage and retrieval.
+[shift] or [pop] are [alias]es for [remove]; [push] and [unshift] are [alias]es of [insert].
+attrs: insert, remove, discard
+inherits: linear collection
+a [sorted] [linear] [nonunique] [collection] that provides [insert] and ([shift] or [pop]) as its [storage] and [retrieval] methods.
 seuss: bague
 distinct: heap

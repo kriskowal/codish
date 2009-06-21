@@ -1,1 +1,2 @@
+an [ordered] [linear collection] [implementation] that employs a region of [contiguous] [memory] where each [value] is stored at an [index] offset from the beginning of the memory region.
 a [linear] [collection] that provides fast random access and [iter]ation to its [value]s with [get], [set], and [iter].

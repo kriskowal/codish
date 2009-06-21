@@ -1,5 +1,5 @@
 a [linear] [collection] that provides fast [put], [push], [pop], [shift], and [unshift] operations.
-a linear collection.
+an [ordered] [nonunique] [linear] [collection].
 applies to [directory] listing.
 distinct: symbols
 includes: queue, deque, staque

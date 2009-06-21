@@ -64,7 +64,7 @@ var indexRawHtml = function (env) {
     var path = env.PATH_INFO.replace(/^\//, '').split('/').shift();
     if (path) {
         redirect = true;
-        query = lower(path, '-');
+        query = lower(decodeURIComponent(path), '-');
     }
     if (page < 1)
         return route.fallback(env);

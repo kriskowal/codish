@@ -3,105 +3,105 @@ code: python: [system exit]: exception code.
 set: python: {{{set(iterable) -> set object}}} Build an unordered collection of unique elements.
 help: python: Define the built-in 'help'. This is a wrapper around pydoc.help (with a twist).
 difference_update: python: [set]:  Remove all elements of another set from this set.
-symmetric_difference: python: [frozenset]:  Return the symmetric difference of two sets as a new set.  (i.e. all elements that are in exactly one of the sets.)
-symmetric_difference: python: [set]:  Return the symmetric difference of two sets as a new set.  (i.e. all elements that are in exactly one of the sets.)
-SyntaxError: python: an [exception], 'Invalid syntax.'
-popitem: python: [dict]:  {{{D.popitem() -> (k, v), remove and return some (key, value) pair as a}}} 2-tuple; but raise KeyError if D is empty
+symmetric_difference: python: [frozenset]:  Return the symmetric difference of two sets as a new set.  (i.e. all elements that are in exactly one of the sets.).
+symmetric_difference: python: [set]:  Return the symmetric difference of two sets as a new set.  (i.e. all elements that are in exactly one of the sets.).
+SyntaxError: python: an [exception], 'Invalid syntax'.
+popitem: python: [dict]:  {{{D.popitem() -> (k, v), remove and return some (key, value) pair as a}}} 2-tuple; but raise KeyError if D is empty.
 issuperset: python: [frozenset]:  Report whether this set contains another set.
 issuperset: python: [set]:  Report whether this set contains another set.
-has_key: python: [dict]:  {{{D.has_key(k) -> True if D has a key k, else False}}} 
+has_key: python: [dict]:  {{{D.has_key(k) -> True if D has a key k, else False}}}.
 unicode: python: {{{unicode(string [, encoding[, errors]]) -> object}}} Create a new Unicode object from the given encoded string. encoding defaults to the current default string encoding. errors can be 'strict', 'replace' or 'ignore' and defaults to 'strict'.
-sorted: python: {{{sorted(iterable, cmp=None, key=None, reverse=False) -> new sorted list}}} 
+sorted: python: {{{sorted(iterable, cmp=None, key=None, reverse=False) -> new sorted list}}}.
 isinstance: python: {{{isinstance(object, class-or-type-or-tuple) -> bool}}} Return whether an object is an instance of a class or of a subclass thereof. With a type as second argument, return whether that is the object's type. The form using a tuple, isinstance(x, (A, B, ...)), is a shortcut for isinstance(x, A) or isinstance(x, B) or ... (etc.).
 find: python: [str]:  {{{S.find(sub [,start [,end]]) -> int}}} Return the lowest index in S where substring sub is found, such that sub is contained within s[start,end].  Optional arguments start and end are interpreted as in slice notation.  Return -1 on failure.
 find: python: [unicode]:  {{{S.find(sub [,start [,end]]) -> int}}} Return the lowest index in S where substring sub is found, such that sub is contained within s[start,end].  Optional arguments start and end are interpreted as in slice notation.  Return -1 on failure.
-newlines: python: [file]:  end-of-line convention used in this file
-difference: python: [frozenset]:  Return the difference of two sets as a new set.  (i.e. all elements that are in this set but not the other.)
-difference: python: [set]:  Return the difference of two sets as a new set.  (i.e. all elements that are in this set but not the other.)
+newlines: python: [file]:  end-of-line convention used in this file.
+difference: python: [frozenset]:  Return the difference of two sets as a new set.  (i.e. all elements that are in this set but not the other.).
+difference: python: [set]:  Return the difference of two sets as a new set.  (i.e. all elements that are in this set but not the other.).
 vars: python: {{{vars([object]) -> dictionary}}} Without arguments, equivalent to locals(). With an argument, equivalent to object.__dict__.
 copyright: python: interactive prompt objects for printing the license text, a list of contributors and the copyright notice.
 title: python: [str]:  {{{S.title() -> string}}} Return a titlecased version of S, i.e. words start with uppercase characters, all remaining cased characters have lowercase.
 title: python: [unicode]:  {{{S.title() -> unicode}}} Return a titlecased version of S, i.e. words start with title case characters, all remaining cased characters have lower case.
-NameError: python: an [exception], 'Name not found globally.'
+NameError: python: an [exception], 'Name not found globally'.
 add: python: [set]:  Add an element to a set.  This has no effect if the element is already present.
 dict: python: {{{dict() -> new empty dictionary.}}}; {{{dict(mapping) -> new dictionary initialized from a mapping object's}}} (key, value) pairs.
-rstrip: python: [str]:  {{{S.rstrip([chars]) -> string or unicode}}} Return a copy of the string S with trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is unicode, S will be converted to unicode before stripping
-rstrip: python: [unicode]:  {{{S.rstrip([chars]) -> unicode}}} Return a copy of the string S with trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is a str, it will be converted to unicode before stripping
-IOError: python: an [exception], 'I/O operation failed.'
+rstrip: python: [str]:  {{{S.rstrip([chars]) -> string or unicode}}} Return a copy of the string S with trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is unicode, S will be converted to unicode before stripping.
+rstrip: python: [unicode]:  {{{S.rstrip([chars]) -> unicode}}} Return a copy of the string S with trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is a str, it will be converted to unicode before stripping.
+IOError: python: an [exception], 'I/O operation failed'.
 oct: python: {{{oct(number) -> string}}} Return the octal representation of an integer or long integer.
 split: python: [str]:  {{{S.split([sep [,maxsplit]]) -> list of strings}}} Return a list of the words in the string S, using sep as the delimiter string.  If maxsplit is given, at most maxsplit splits are done. If sep is not specified or is None, any whitespace string is a separator.
 split: python: [unicode]:  {{{S.split([sep [,maxsplit]]) -> list of strings}}} Return a list of the words in S, using sep as the delimiter string.  If maxsplit is given, at most maxsplit splits are done. If sep is not specified or is None, any whitespace string is a separator.
-real: python: [complex]:  the real part of a complex number
+real: python: [complex]:  the real part of a complex number.
 SystemExit: python: Request to exit from the interpreter.
-StandardError: python: an [exception], 'Base class for all standard Python exceptions that do not represent interpreter exiting.'
-get: python: [dict]:  {{{D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.}}} 
+StandardError: python: an [exception], 'Base class for all standard Python exceptions that do not represent interpreter exiting'.
+get: python: [dict]:  {{{D.get(k[,d]) -> D[k] if k in D, else d.  d defaults to None.}}}.
 read: python: [file]:  {{{read([size]) -> read at most size bytes, returned as a string.}}} If the size argument is negative or omitted, read until EOF is reached. Notice that when in non-blocking mode, less data than what was requested may be returned, even if no size parameter was given.
-TabError: python: an [exception], 'Improper mixture of spaces and tabs.'
-next: python: [enumerate]:  {{{x.next() -> the next value, or raise StopIteration}}} 
-next: python: [file]:  {{{x.next() -> the next value, or raise StopIteration}}} 
-next: python: [reversed]:  {{{x.next() -> the next value, or raise StopIteration}}} 
+TabError: python: an [exception], 'Improper mixture of spaces and tabs'.
+next: python: [enumerate]:  {{{x.next() -> the next value, or raise StopIteration}}}.
+next: python: [file]:  {{{x.next() -> the next value, or raise StopIteration}}}.
+next: python: [reversed]:  {{{x.next() -> the next value, or raise StopIteration}}}.
 rpartition: python: [str]:  {{{S.rpartition(sep) -> (tail, sep, head)}}} Searches for the separator sep in S, starting at the end of S, and returns the part before it, the separator itself, and the part after it.  If the separator is not found, returns two empty strings and S.
 rpartition: python: [unicode]:  {{{S.rpartition(sep) -> (tail, sep, head)}}} Searches for the separator sep in S, starting at the end of S, and returns the part before it, the separator itself, and the part after it.  If the separator is not found, returns two empty strings and S.
-iteritems: python: [dict]:  {{{D.iteritems() -> an iterator over the (key, value) items of D}}} 
-UnicodeDecodeError: python: an [exception], 'Unicode decoding error.'
-intersection: python: [frozenset]:  Return the intersection of two sets as a new set.  (i.e. all elements that are in both sets.)
-intersection: python: [set]:  Return the intersection of two sets as a new set.  (i.e. all elements that are in both sets.)
+iteritems: python: [dict]:  {{{D.iteritems() -> an iterator over the (key, value) items of D}}}.
+UnicodeDecodeError: python: an [exception], 'Unicode decoding error'.
+intersection: python: [frozenset]:  Return the intersection of two sets as a new set.  (i.e. all elements that are in both sets.).
+intersection: python: [set]:  Return the intersection of two sets as a new set.  (i.e. all elements that are in both sets.).
 rsplit: python: [str]:  {{{S.rsplit([sep [,maxsplit]]) -> list of strings}}} Return a list of the words in the string S, using sep as the delimiter string, starting at the end of the string and working to the front.  If maxsplit is given, at most maxsplit splits are done. If sep is not specified or is None, any whitespace string is a separator.
 rsplit: python: [unicode]:  {{{S.rsplit([sep [,maxsplit]]) -> list of strings}}} Return a list of the words in S, using sep as the delimiter string, starting at the end of the string and working to the front.  If maxsplit is given, at most maxsplit splits are done. If sep is not specified, any whitespace string is a separator.
-iterkeys: python: [dict]:  {{{D.iterkeys() -> an iterator over the keys of D}}} 
+iterkeys: python: [dict]:  {{{D.iterkeys() -> an iterator over the keys of D}}}.
 fileno: python: [file]:  {{{fileno() -> integer "file descriptor".}}} This is needed for lower-level file interfaces, such os.read().
-IndexError: python: an [exception], 'Sequence index out of range.'
-name: python: [file]:  file name
-RuntimeWarning: python: an [exception], 'Base class for warnings about dubious runtime behavior.'
+IndexError: python: an [exception], 'Sequence index out of range'.
+name: python: [file]:  file name.
+RuntimeWarning: python: an [exception], 'Base class for warnings about dubious runtime behavior'.
 upper: python: [str]:  {{{S.upper() -> string}}} Return a copy of the string S converted to uppercase.
 upper: python: [unicode]:  {{{S.upper() -> unicode}}} Return a copy of S converted to uppercase.
-list: python: {{{list() -> new list}}}; {{{list(sequence) -> new list initialized from sequence's items}}} 
+list: python: {{{list() -> new list}}}; {{{list(sequence) -> new list initialized from sequence's items}}}.
 iter: python: {{{iter(collection) -> iterator}}}; {{{iter(callable, sentinel) -> iterator}}} Get an iterator from an object.  In the first form, the argument must supply its own iterator, or be a sequence. In the second form, the callable is called until it returns the sentinel.
 reload: python: {{{reload(module) -> module}}} Reload the module.  The module must have been successfully imported before.
-Warning: python: an [exception], 'Base class for warning categories.'
-mode: python: [file]:  file mode ('r', 'U', 'w', 'a', possibly with 'b' or '+' added)
+Warning: python: an [exception], 'Base class for warning categories'.
+mode: python: [file]:  file mode ('r', 'U', 'w', 'a', possibly with 'b' or '+' added).
 splitlines: python: [str]:  {{{S.splitlines([keepends]) -> list of strings}}} Return a list of the lines in S, breaking at line boundaries. Line breaks are not included in the resulting list unless keepends is given and true.
 splitlines: python: [unicode]:  {{{S.splitlines([keepends]]) -> list of strings}}} Return a list of the lines in S, breaking at line boundaries. Line breaks are not included in the resulting list unless keepends is given and true.
 indices: python: [slice]:  {{{S.indices(len) -> (start, stop, stride)}}} Assuming a sequence of length len, calculate the start and stop indices, and the stride length of the extended slice described by S. Out of bounds indices are clipped in a manner consistent with the handling of normal slices.
 round: python: {{{round(number[, ndigits]) -> floating point number}}} Round a number to a given precision in decimal digits (default 0 digits). This always returns a floating point number.  Precision may be negative.
-dir: python: {{{dir([object]) -> list of strings}}} Return an alphabetized list of names comprising (some of) the attributes
+dir: python: {{{dir([object]) -> list of strings}}} Return an alphabetized list of names comprising (some of) the attributes.
 cmp: python: {{{cmp(x, y) -> integer}}} Return negative if x<y, zero if x==y, positive if x>y.
 False: python: {{{bool(x) -> bool}}} Returns True when the argument x is true, False otherwise. The builtins True and False are the only two instances of the class bool. The class bool is a subclass of the class int, and cannot be subclassed.
-softspace: python: [file]:  flag indicating that a space needs to be printed; used by print
-lstrip: python: [str]:  {{{S.lstrip([chars]) -> string or unicode}}} Return a copy of the string S with leading whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is unicode, S will be converted to unicode before stripping
-lstrip: python: [unicode]:  {{{S.lstrip([chars]) -> unicode}}} Return a copy of the string S with leading whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is a str, it will be converted to unicode before stripping
-strip: python: [str]:  {{{S.strip([chars]) -> string or unicode}}} Return a copy of the string S with leading and trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is unicode, S will be converted to unicode before stripping
-strip: python: [unicode]:  {{{S.strip([chars]) -> unicode}}} Return a copy of the string S with leading and trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is a str, it will be converted to unicode before stripping
-UnicodeTranslateError: python: an [exception], 'Unicode translation error.'
+softspace: python: [file]:  flag indicating that a space needs to be printed; used by print.
+lstrip: python: [str]:  {{{S.lstrip([chars]) -> string or unicode}}} Return a copy of the string S with leading whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is unicode, S will be converted to unicode before stripping.
+lstrip: python: [unicode]:  {{{S.lstrip([chars]) -> unicode}}} Return a copy of the string S with leading whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is a str, it will be converted to unicode before stripping.
+strip: python: [str]:  {{{S.strip([chars]) -> string or unicode}}} Return a copy of the string S with leading and trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is unicode, S will be converted to unicode before stripping.
+strip: python: [unicode]:  {{{S.strip([chars]) -> unicode}}} Return a copy of the string S with leading and trailing whitespace removed. If chars is given and not None, remove characters in chars instead. If chars is a str, it will be converted to unicode before stripping.
+UnicodeTranslateError: python: an [exception], 'Unicode translation error'.
 intern: python: {{{intern(string) -> string}}} ``Intern'' the given string.  This enters the string in the (global) table of interned strings whose purpose is to speed up dictionary lookups. Return the string itself or the previously interned string object with the same value.
 issubclass: python: {{{issubclass(C, B) -> bool}}} Return whether class C is a subclass (i.e., a derived class) of class B. When using a tuple as the second argument issubclass(X, (A, B, ...)), is a shortcut for issubclass(X, A) or issubclass(X, B) or ... (etc.).
-remove: python: [list]:  {{{L.remove(value)}}} remove first occurrence of value 
+remove: python: [list]:  {{{L.remove(value)}}} remove first occurrence of value.
 remove: python: [set]:  Remove an element from a set; it must be a member.  If the element is not a member, raise a KeyError.
-flush: python: [file]:  {{{flush() -> None.  Flush the internal I/O buffer.}}} 
+flush: python: [file]:  {{{flush() -> None.  Flush the internal I/O buffer.}}}.
 close: python: [file]:  {{{close() -> None or (perhaps) an integer.  Close the file.}}} Sets data attribute .closed to True.  A closed file cannot be used for further I/O operations.  close() may be called more than once without error.  Some kinds of file objects (for example, opened by popen()) may return an exit status upon closing.
-reversed: python: {{{reversed(sequence) -> reverse iterator over values of the sequence}}} Return a reverse iterator
+reversed: python: {{{reversed(sequence) -> reverse iterator over values of the sequence}}} Return a reverse iterator.
 isdecimal: python: [unicode]:  {{{S.isdecimal() -> bool}}} Return True if there are only decimal characters in S, False otherwise.
-append: python: [list]:  {{{L.append(object)}}} append object to end 
-index: python: [list]:  {{{L.index(value, [start, [stop]]) -> integer -- return first index of value}}} 
+append: python: [list]:  {{{L.append(object)}}} append object to end.
+index: python: [list]:  {{{L.index(value, [start, [stop]]) -> integer -- return first index of value}}}.
 index: python: [str]:  {{{S.index(sub [,start [,end]]) -> int}}} Like S.find() but raise ValueError when the substring is not found.
 index: python: [unicode]:  {{{S.index(sub [,start [,end]]) -> int}}} Like S.find() but raise ValueError when the substring is not found.
 slice: python: slice([start,] stop[, step])  Create a slice object.  This is used for extended slicing (e.g. a[0:10:2]).
-FloatingPointError: python: an [exception], 'Floating point operation failed.'
+FloatingPointError: python: an [exception], 'Floating point operation failed'.
 sum: python: {{{sum(sequence, start=0) -> value}}} Returns the sum of a sequence of numbers (NOT strings) plus the value of parameter 'start'.  When the sequence is empty, returns start.
 buffer: python: buffer(object [, offset[, size]])  Create a new buffer object which references the given object. The buffer will reference a slice of the target object from the start of the object (or at the specified offset). The slice will extend to the end of the target object (or with the specified size).
 getattr: python: {{{getattr(object, name[, default]) -> value}}} Get a named attribute from an object; getattr(x, 'y') is equivalent to x.y. When a default argument is given, it is returned when the attribute doesn't exist; without it, an exception is raised in that case.
 abs: python: {{{abs(number) -> number}}} Return the absolute value of the argument.
 ljust: python: [str]:  {{{S.ljust(width[, fillchar]) -> string}}} Return S left justified in a string of length width. Padding is done using the specified fill character (default is a space).
 ljust: python: [unicode]:  {{{S.ljust(width[, fillchar]) -> int}}} Return S left justified in a Unicode string of length width. Padding is done using the specified fill character (default is a space).
-closed: python: [file]:  True if the file is closed
+closed: python: [file]:  True if the file is closed.
 max: python: {{{max(iterable[, key=func]) -> value}}}; {{{max(a, b, c, ...[, key=func]) -> value}}} With a single iterable argument, return its largest item. With two or more arguments, return the largest argument.
 True: python: {{{bool(x) -> bool}}} Returns True when the argument x is true, False otherwise. The builtins True and False are the only two instances of the class bool. The class bool is a subclass of the class int, and cannot be subclassed.
 istitle: python: [str]:  {{{S.istitle() -> bool}}} Return True if S is a titlecased string and there is at least one character in S, i.e. uppercase characters may only follow uncased characters and lowercase characters only cased ones. Return False otherwise.
 istitle: python: [unicode]:  {{{S.istitle() -> bool}}} Return True if S is a titlecased string and there is at least one character in S, i.e. upper- and titlecase characters may only follow uncased characters and lowercase characters only cased ones. Return False otherwise.
-FutureWarning: python: an [exception], 'Base class for warnings about constructs that will change semantically in the future.'
-ImportWarning: python: an [exception], 'Base class for warnings about probable mistakes in module imports'
-EOFError: python: an [exception], 'Read beyond end of file.'
-extend: python: [list]:  {{{L.extend(iterable)}}} extend list by appending elements from the iterable 
+FutureWarning: python: an [exception], 'Base class for warnings about constructs that will change semantically in the future'.
+ImportWarning: python: an [exception], 'Base class for warnings about probable mistakes in module imports'.
+EOFError: python: an [exception], 'Read beyond end of file'.
+extend: python: [list]:  {{{L.extend(iterable)}}} extend list by appending elements from the iterable.
 symmetric_difference_update: python: [set]:  Update a set with the symmetric difference of itself and another.
 join: python: [str]:  {{{S.join(sequence) -> string}}} Return a string which is the concatenation of the strings in the sequence.  The separator between elements is S.
 join: python: [unicode]:  {{{S.join(sequence) -> unicode}}} Return a string which is the concatenation of the strings in the sequence.  The separator between elements is S.
@@ -111,13 +111,13 @@ swapcase: python: [unicode]:  {{{S.swapcase() -> unicode}}} Return a copy of S w
 credits: python: interactive prompt objects for printing the license text, a list of contributors and the copyright notice.
 frozenset: python: {{{frozenset(iterable) -> frozenset object}}} Build an immutable unordered collection of unique elements.
 ord: python: {{{ord(c) -> integer}}} Return the integer ordinal of a one-character string.
-super: python: {{{super(type) -> unbound super object}}}; {{{super(type, obj) -> bound super object; requires isinstance(obj, type)}}}; {{{super(type, type2) -> bound super object; requires issubclass(type2, type)}}} 
-TypeError: python: an [exception], 'Inappropriate argument type.'
-setdefault: python: [dict]:  {{{D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D}}} 
+super: python: {{{super(type) -> unbound super object}}}; {{{super(type, obj) -> bound super object; requires isinstance(obj, type)}}}; {{{super(type, type2) -> bound super object; requires issubclass(type2, type)}}}.
+TypeError: python: an [exception], 'Inappropriate argument type'.
+setdefault: python: [dict]:  {{{D.setdefault(k[,d]) -> D.get(k,d), also set D[k]=d if k not in D}}}.
 license: python: interactive prompt objects for printing the license text, a list of contributors and the copyright notice.
 KeyboardInterrupt: python: Program interrupted by user.
-insert: python: [list]:  {{{L.insert(index, object)}}} insert object before index 
-UserWarning: python: an [exception], 'Base class for warnings generated by user code.'
+insert: python: [list]:  {{{L.insert(index, object)}}} insert object before index.
+UserWarning: python: an [exception], 'Base class for warnings generated by user code'.
 rfind: python: [str]:  {{{S.rfind(sub [,start [,end]]) -> int}}} Return the highest index in S where substring sub is found, such that sub is contained within s[start,end].  Optional arguments start and end are interpreted as in slice notation.  Return -1 on failure.
 rfind: python: [unicode]:  {{{S.rfind(sub [,start [,end]]) -> int}}} Return the highest index in S where substring sub is found, such that sub is contained within s[start,end].  Optional arguments start and end are interpreted as in slice notation.  Return -1 on failure.
 filter: python: {{{filter(function or None, sequence) -> list, tuple, or string}}} Return those items of sequence for which function(item) is true.  If function is None, return the items that are true.  If sequence is a tuple or string, return the same type, else return a list.
@@ -130,148 +130,148 @@ islower: python: [unicode]:  {{{S.islower() -> bool}}} Return True if all cased 
 discard: python: [set]:  Remove an element from a set if it is a member.  If the element is not a member, do nothing.
 isupper: python: [str]:  {{{S.isupper() -> bool}}} Return True if all cased characters in S are uppercase and there is at least one cased character in S, False otherwise.
 isupper: python: [unicode]:  {{{S.isupper() -> bool}}} Return True if all cased characters in S are uppercase and there is at least one cased character in S, False otherwise.
-SystemError: python: an [exception], 'Internal error in the Python interpreter.  Please report this to the Python maintainer, along with the traceback, the Python version, and the hardware/OS platform and version.'
-BaseException: python: Common base class for all exceptions
+SystemError: python: an [exception], 'Internal error in the Python interpreter.  Please report this to the Python maintainer, along with the traceback, the Python version, and the hardware/OS platform and version'.
+BaseException: python: Common base class for all exceptions.
 issubset: python: [frozenset]:  Report whether another set contains this set.
 issubset: python: [set]:  Report whether another set contains this set.
-encoding: python: [file]:  file encoding
+encoding: python: [file]:  file encoding.
 pow: python: {{{pow(x, y[, z]) -> number}}} With two arguments, equivalent to x**y.  With three arguments, equivalent to (x**y) % z, but may be more efficient (e.g. for longs).
-RuntimeError: python: an [exception], 'Unspecified run-time error.'
+RuntimeError: python: an [exception], 'Unspecified run-time error'.
 float: python: {{{float(x) -> floating point number}}} Convert a string or number to a floating point number, if possible.
-MemoryError: python: an [exception], 'Out of memory.'
-pop: python: [dict]:  {{{D.pop(k[,d]) -> v, remove specified key and return the corresponding value}}} If key is not found, d is returned if given, otherwise KeyError is raised
-pop: python: [list]:  {{{L.pop([index]) -> item -- remove and return item at index (default last)}}} 
+MemoryError: python: an [exception], 'Out of memory'.
+pop: python: [dict]:  {{{D.pop(k[,d]) -> v, remove specified key and return the corresponding value}}} If key is not found, d is returned if given, otherwise KeyError is raised.
+pop: python: [list]:  {{{L.pop([index]) -> item -- remove and return item at index (default last)}}}.
 pop: python: [set]:  Remove and return an arbitrary set element.
 replace: python: [str]:  {{{S.replace (old, new[, count]) -> string}}} Return a copy of string S with all occurrences of substring old replaced by new.  If the optional argument count is given, only the first count occurrences are replaced.
 replace: python: [unicode]:  {{{S.replace (old, new[, maxsplit]) -> unicode}}} Return a copy of S with all occurrences of substring old replaced by new.  If the optional argument maxsplit is given, only the first maxsplit occurrences are replaced.
-StopIteration: python: an [exception], 'Signal the end from iterator.next().'
+StopIteration: python: an [exception], 'Signal the end from iterator.next()'.
 globals: python: {{{globals() -> dictionary}}} Return the dictionary containing the current scope's global variables.
 divmod: python: {{{divmod(x, y) -> (div, mod)}}} Return the tuple ((x-x%y)/y, x%y).  Invariant: div*y + mod == x.
-enumerate: python: {{{enumerate(iterable) -> iterator for index, value of iterable}}} Return an enumerate object.  iterable must be an other object that supports iteration.  The enumerate object yields pairs containing a count (from zero) and a value yielded by the iterable argument.  enumerate is useful for obtaining an indexed list: (0, seq[0]), (1, seq[1]), (2, seq[2]), ...
+enumerate: python: {{{enumerate(iterable) -> iterator for index, value of iterable}}} Return an enumerate object.  iterable must be an other object that supports iteration.  The enumerate object yields pairs containing a count (from zero) and a value yielded by the iterable argument.  enumerate is useful for obtaining an indexed list: (0, seq[0]), (1, seq[1]), (2, seq[2]),.
 apply: python: {{{apply(object[, args[, kwargs]]) -> value}}} Call a callable object with positional arguments taken from the tuple args, and keyword arguments taken from the optional dictionary kwargs. Note that classes are callable, as are instances with a __call__() method.
-message: python: [BaseException]:  exception message
-message: python: [SystemExit]:  exception message
-LookupError: python: an [exception], 'Base class for lookup errors.'
+message: python: [BaseException]:  exception message.
+message: python: [SystemExit]:  exception message.
+LookupError: python: an [exception], 'Base class for lookup errors'.
 open: python: {{{open(name[, mode[, buffering]]) -> file object}}} Open a file using the file() type, returns a file object.
-rjust: python: [str]:  {{{S.rjust(width[, fillchar]) -> string}}} Return S right justified in a string of length width. Padding is done using the specified fill character (default is a space)
+rjust: python: [str]:  {{{S.rjust(width[, fillchar]) -> string}}} Return S right justified in a string of length width. Padding is done using the specified fill character (default is a space).
 rjust: python: [unicode]:  {{{S.rjust(width[, fillchar]) -> unicode}}} Return S right justified in a Unicode string of length width. Padding is done using the specified fill character (default is a space).
 basestring: python: Type basestring cannot be instantiated; it is the base for str and unicode.
-UnicodeError: python: an [exception], 'Unicode related error.'
+UnicodeError: python: an [exception], 'Unicode related error'.
 isalnum: python: [str]:  {{{S.isalnum() -> bool}}} Return True if all characters in S are alphanumeric and there is at least one character in S, False otherwise.
 isalnum: python: [unicode]:  {{{S.isalnum() -> bool}}} Return True if all characters in S are alphanumeric and there is at least one character in S, False otherwise.
-union: python: [frozenset]:  Return the union of two sets as a new set.  (i.e. all elements that are in either set.)
-union: python: [set]:  Return the union of two sets as a new set.  (i.e. all elements that are in either set.)
+union: python: [frozenset]:  Return the union of two sets as a new set.  (i.e. all elements that are in either set.).
+union: python: [set]:  Return the union of two sets as a new set.  (i.e. all elements that are in either set.).
 hex: python: {{{hex(number) -> string}}} Return the hexadecimal representation of an integer or long integer.
 long: python: {{{long(x[, base]) -> integer}}} Convert a string or number to a long integer, if possible.  A floating point argument will be truncated towards zero (this does not include a string representation of a floating point number!)  When converting a string, use the optional base.  It is an error to supply a base when converting a non-string.
-IndentationError: python: an [exception], 'Improper indentation.'
+IndentationError: python: an [exception], 'Improper indentation'.
 decode: python: [str]:  {{{S.decode([encoding[,errors]]) -> object}}} Decodes S using the codec registered for encoding. encoding defaults to the default encoding. errors may be given to set a different error handling scheme. Default is 'strict' meaning that encoding errors raise a UnicodeDecodeError. Other possible values are 'ignore' and 'replace' as well as any other name registerd with codecs.register_error that is able to handle UnicodeDecodeErrors.
 decode: python: [unicode]:  {{{S.decode([encoding[,errors]]) -> string or unicode}}} Decodes S using the codec registered for encoding. encoding defaults to the default encoding. errors may be given to set a different error handling scheme. Default is 'strict' meaning that encoding errors raise a UnicodeDecodeError. Other possible values are 'ignore' and 'replace' as well as any other name registerd with codecs.register_error that is able to handle UnicodeDecodeErrors.
 int: python: {{{int(x[, base]) -> integer}}} Convert a string or number to an integer, if possible.  A floating point argument will be truncated towards zero (this does not include a string representation of a floating point number!)  When converting a string, use the optional base.  It is an error to supply a base when converting a non-string. If the argument is outside the integer range a long object will be returned instead.
 chr: python: {{{chr(i) -> character}}} Return a string of one character with ordinal i; 0 <= i < 256.
 isalpha: python: [str]:  {{{S.isalpha() -> bool}}} Return True if all characters in S are alphabetic and there is at least one character in S, False otherwise.
 isalpha: python: [unicode]:  {{{S.isalpha() -> bool}}} Return True if all characters in S are alphabetic and there is at least one character in S, False otherwise.
-itervalues: python: [dict]:  {{{D.itervalues() -> an iterator over the values of D}}} 
+itervalues: python: [dict]:  {{{D.itervalues() -> an iterator over the values of D}}}.
 encode: python: [str]:  {{{S.encode([encoding[,errors]]) -> object}}} Encodes S using the codec registered for encoding. encoding defaults to the default encoding. errors may be given to set a different error handling scheme. Default is 'strict' meaning that encoding errors raise a UnicodeEncodeError. Other possible values are 'ignore', 'replace' and 'xmlcharrefreplace' as well as any other name registered with codecs.register_error that is able to handle UnicodeEncodeErrors.
 encode: python: [unicode]:  {{{S.encode([encoding[,errors]]) -> string or unicode}}} Encodes S using the codec registered for encoding. encoding defaults to the default encoding. errors may be given to set a different error handling scheme. Default is 'strict' meaning that encoding errors raise a UnicodeEncodeError. Other possible values are 'ignore', 'replace' and 'xmlcharrefreplace' as well as any other name registered with codecs.register_error that can handle UnicodeEncodeErrors.
 translate: python: [str]:  {{{S.translate(table [,deletechars]) -> string}}} Return a copy of the string S, where all characters occurring in the optional argument deletechars are removed, and the remaining characters have been mapped through the given translation table, which must be a string of length 256.
 translate: python: [unicode]:  {{{S.translate(table) -> unicode}}} Return a copy of the string S, where all characters have been mapped through the given translation table, which must be a mapping of Unicode ordinals to Unicode ordinals, Unicode strings or None. Unmapped characters are left untouched. Characters mapped to None are deleted.
-type: python: {{{type(object) -> the object's type}}}; {{{type(name, bases, dict) -> a new type}}} 
-tell: python: [file]:  {{{tell() -> current file position, an integer (may be a long integer).}}} 
-sort: python: [list]:  {{{L.sort(cmp=None, key=None, reverse=False)}}} stable sort *IN PLACE*;; {{{cmp(x, y) -> -1, 0, 1}}} 
-Exception: python: an [exception], 'Common base class for all non-exit exceptions.'
+type: python: {{{type(object) -> the object's type}}}; {{{type(name, bases, dict) -> a new type}}}.
+tell: python: [file]:  {{{tell() -> current file position, an integer (may be a long integer).}}}.
+sort: python: [list]:  {{{L.sort(cmp=None, key=None, reverse=False)}}} stable sort *IN PLACE*;; {{{cmp(x, y) -> -1, 0, 1}}}.
+Exception: python: an [exception], 'Common base class for all non-exit exceptions'.
 zip: python: {{{zip(seq1 [, seq2 [...]]) -> [(seq1[0], seq2[0] ...), (...)]}}} Return a list of tuples, where each tuple contains the i-th element from each of the argument sequences.  The returned list is truncated in length to the length of the shortest argument sequence.
-isatty: python: [file]:  {{{isatty() -> true or false.  True if the file is connected to a tty device.}}} 
+isatty: python: [file]:  {{{isatty() -> true or false.  True if the file is connected to a tty device.}}}.
 tuple: python: {{{tuple() -> an empty tuple}}}; {{{tuple(sequence) -> tuple initialized from sequence's items}}} If the argument is a tuple, the return value is the same object.
 reduce: python: {{{reduce(function, sequence[, initial]) -> value}}} Apply a function of two arguments cumulatively to the items of a sequence, from left to right, so as to reduce the sequence to a single value. For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates ((((1+2)+3)+4)+5).  If initial is present, it is placed before the items of the sequence in the calculation, and serves as a default when the sequence is empty.
-imag: python: [complex]:  the imaginary part of a complex number
+imag: python: [complex]:  the imaginary part of a complex number.
 zfill: python: [str]:  {{{S.zfill(width) -> string}}} Pad a numeric string S with zeros on the left, to fill a field of the specified width.  The string S is never truncated.
 zfill: python: [unicode]:  {{{S.zfill(width) -> unicode}}} Pad a numeric string x with zeros on the left, to fill a field of the specified width. The string x is never truncated.
-UnicodeEncodeError: python: an [exception], 'Unicode encoding error.'
+UnicodeEncodeError: python: an [exception], 'Unicode encoding error'.
 input: python: {{{input([prompt]) -> value}}} Equivalent to eval(raw_input(prompt)).
-copy: python: [dict]:  {{{D.copy() -> a shallow copy of D}}} 
+copy: python: [dict]:  {{{D.copy() -> a shallow copy of D}}}.
 copy: python: [frozenset]:  Return a shallow copy of a set.
 copy: python: [set]:  Return a shallow copy of a set.
-hasattr: python: {{{hasattr(object, name) -> bool}}} Return whether the object has an attribute with the given name. (This is done by calling getattr(object, name) and catching exceptions.)
-reverse: python: [list]:  {{{L.reverse()}}} reverse *IN PLACE* 
-count: python: [list]:  {{{L.count(value) -> integer -- return number of occurrences of value}}} 
+hasattr: python: {{{hasattr(object, name) -> bool}}} Return whether the object has an attribute with the given name. (This is done by calling getattr(object, name) and catching exceptions.).
+reverse: python: [list]:  {{{L.reverse()}}} reverse *IN PLACE*.
+count: python: [list]:  {{{L.count(value) -> integer -- return number of occurrences of value}}}.
 count: python: [str]:  {{{S.count(sub[, start[, end]]) -> int}}} Return the number of non-overlapping occurrences of substring sub in string S[start:end].  Optional arguments start and end are interpreted as in slice notation.
 count: python: [unicode]:  {{{S.count(sub[, start[, end]]) -> int}}} Return the number of non-overlapping occurrences of substring sub in Unicode string S[start:end].  Optional arguments start and end are interpreted as in slice notation.
 delattr: python: delattr(object, name)  Delete a named attribute on an object; delattr(x, 'y') is equivalent to ``del x.y''.
 fromkeys: python: [dict]:  {{{dict.fromkeys(S[,v]) -> New dict with keys from S and values equal to v.}}} v defaults to None.
 setattr: python: setattr(object, name, value)  Set a named attribute on an object; setattr(x, 'y', v) is equivalent to ``x.y = v''.
 raw_input: python: {{{raw_input([prompt]) -> string}}} Read a string from standard input.  The trailing newline is stripped. If the user hits EOF (Unix: Ctl-D, Windows: Ctl-Z+Return), raise EOFError. On Unix, GNU readline is used if enabled.  The prompt string, if given, is printed without a trailing newline before reading.
-SyntaxWarning: python: an [exception], 'Base class for warnings about dubious syntax.'
+SyntaxWarning: python: an [exception], 'Base class for warnings about dubious syntax'.
 expandtabs: python: [str]:  {{{S.expandtabs([tabsize]) -> string}}} Return a copy of S where all tab characters are expanded using spaces. If tabsize is not given, a tab size of 8 characters is assumed.
 expandtabs: python: [unicode]:  {{{S.expandtabs([tabsize]) -> unicode}}} Return a copy of S where all tab characters are expanded using spaces. If tabsize is not given, a tab size of 8 characters is assumed.
 isspace: python: [str]:  {{{S.isspace() -> bool}}} Return True if all characters in S are whitespace and there is at least one character in S, False otherwise.
 isspace: python: [unicode]:  {{{S.isspace() -> bool}}} Return True if all characters in S are whitespace and there is at least one character in S, False otherwise.
 compile: python: {{{compile(source, filename, mode[, flags[, dont_inherit]]) -> code object}}} Compile the source string (a Python module, statement or expression) into a code object that can be executed by the exec statement or eval(). The filename will be used for run-time error messages. The mode must be 'exec' to compile a module, 'single' to compile a single (interactive) statement, or 'eval' to compile an expression. The flags argument, if present, controls which future statements influence the compilation of the code. The dont_inherit argument, if non-zero, stops the compilation inheriting the effects of any future statements in effect in the code calling compile; if absent or zero these statements do influence the compilation, in addition to any features explicitly specified.
-ArithmeticError: python: an [exception], 'Base class for arithmetic errors.'
-values: python: [dict]:  {{{D.values() -> list of D's values}}} 
+ArithmeticError: python: an [exception], 'Base class for arithmetic errors'.
+values: python: [dict]:  {{{D.values() -> list of D's values}}}.
 str: python: {{{str(object) -> string}}} Return a nice string representation of the object. If the argument is a string, the return value is the same object.
-items: python: [dict]:  {{{D.items() -> list of D's (key, value) pairs, as 2-tuples}}} 
-property: python: {{{property(fget=None, fset=None, fdel=None, doc=None) -> property attribute}}} fget is a function to be used for getting an attribute value, and likewise fset is a function for setting, and fdel a function for del'ing, an
-GeneratorExit: python: an [exception], 'Request that a generator exit.'
+items: python: [dict]:  {{{D.items() -> list of D's (key, value) pairs, as 2-tuples}}}.
+property: python: {{{property(fget=None, fset=None, fdel=None, doc=None) -> property attribute}}} fget is a function to be used for getting an attribute value, and likewise fset is a function for setting, and fdel a function for del'ing, an.
+GeneratorExit: python: an [exception], 'Request that a generator exit'.
 hash: python: {{{hash(object) -> integer}}} Return a hash value for the object.  Two objects with the same value have the same hash value.  The reverse is not necessarily true, but likely.
 startswith: python: [str]:  {{{S.startswith(prefix[, start[, end]]) -> bool}}} Return True if S starts with the specified prefix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. prefix can also be a tuple of strings to try.
 startswith: python: [unicode]:  {{{S.startswith(prefix[, start[, end]]) -> bool}}} Return True if S starts with the specified prefix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. prefix can also be a tuple of strings to try.
-ImportError: python: an [exception], "Import can't find module, or can't find name in module."
+ImportError: python: an [exception], "Import can't find module, or can't find name in module".
 xrange: python: {{{xrange([start,] stop[, step]) -> xrange object}}} Like range(), but instead of returning a list, returns an object that generates the numbers in the range on demand.  For looping, this is slightly faster than range() and more memory efficient.
 xreadlines: python: [file]:  {{{xreadlines() -> returns self.}}} For backward compatibility. File objects now include the performance optimizations previously implemented in the xreadlines module.
 readlines: python: [file]:  {{{readlines([size]) -> list of strings, each a line from the file.}}} Call readline() repeatedly and return a list of the lines so read. The optional size argument, if given, is an approximate bound on the total number of bytes in the lines returned.
-KeyError: python: an [exception], 'Mapping key not found.'
+KeyError: python: an [exception], 'Mapping key not found'.
 endswith: python: [str]:  {{{S.endswith(suffix[, start[, end]]) -> bool}}} Return True if S ends with the specified suffix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. suffix can also be a tuple of strings to try.
 endswith: python: [unicode]:  {{{S.endswith(suffix[, start[, end]]) -> bool}}} Return True if S ends with the specified suffix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. suffix can also be a tuple of strings to try.
 coerce: python: {{{coerce(x, y) -> (x1, y1)}}} Return a tuple consisting of the two numeric arguments converted to a common type, using the same rules as used by arithmetic operations. If coercion is not possible, raise TypeError.
-PendingDeprecationWarning: python: an [exception], 'Base class for warnings about features which will be deprecated in the future.'
+PendingDeprecationWarning: python: an [exception], 'Base class for warnings about features which will be deprecated in the future'.
 file: python: {{{file(name[, mode[, buffering]]) -> file object}}} Open a file.  The mode can be 'r', 'w' or 'a' for reading (default), writing or appending.  The file will be created if it doesn't exist when opened for writing or appending; it will be truncated when opened for writing.  Add a 'b' to the mode for binary files. Add a '+' to the mode to allow simultaneous reading and writing. If the buffering argument is given, 0 means unbuffered, 1 means line buffered, and larger numbers specify the buffer size. Add a 'U' to mode to open the file for input with universal newline support.  Any line ending in the input file will be seen as a '\n' in Python.  Also, a file so opened gains the attribute 'newlines'; the value for this attribute is one of None (no newline read yet), '\r', '\n', '\r\n' or a tuple containing all the newline types seen.  'U' cannot be combined with 'w' or '+' mode.
-EnvironmentError: python: an [exception], 'Base class for I/O related errors.'
+EnvironmentError: python: an [exception], 'Base class for I/O related errors'.
 isdigit: python: [str]:  {{{S.isdigit() -> bool}}} Return True if all characters in S are digits and there is at least one character in S, False otherwise.
 isdigit: python: [unicode]:  {{{S.isdigit() -> bool}}} Return True if all characters in S are digits and there is at least one character in S, False otherwise.
 unichr: python: {{{unichr(i) -> Unicode character}}} Return a Unicode string of one character with ordinal i; 0 <= i <= 0x10ffff.
 seek: python: [file]:  {{{seek(offset[, whence]) -> None.  Move to new file position.}}} Argument offset is a byte count.  Optional argument whence defaults to 0 (offset from start of file, offset should be >= 0); other values are 1 (move relative to current position, positive or negative), and 2 (move relative to end of file, usually negative, although many platforms allow seeking beyond the end of a file).  If the file is opened in text mode, only offsets returned by tell() are legal.  Use of other offsets causes undefined behavior. Note that not all file objects are seekable.
 any: python: {{{any(iterable) -> bool}}} Return True if bool(x) is True for any x in the iterable.
-OSError: python: an [exception], 'OS system call failed.'
-DeprecationWarning: python: an [exception], 'Base class for warnings about deprecated features.'
+OSError: python: an [exception], 'OS system call failed'.
+DeprecationWarning: python: an [exception], 'Base class for warnings about deprecated features'.
 min: python: {{{min(iterable[, key=func]) -> value}}}; {{{min(a, b, c, ...[, key=func]) -> value}}} With a single iterable argument, return its smallest item. With two or more arguments, return the smallest argument.
-UnicodeWarning: python: an [exception], 'Base class for warnings about Unicode related problems, mostly related to conversion problems.'
-readinto: python: [file]:  {{{readinto() -> Undocumented.  Don't use this; it may go away.}}} 
+UnicodeWarning: python: an [exception], 'Base class for warnings about Unicode related problems, mostly related to conversion problems'.
+readinto: python: [file]:  {{{readinto() -> Undocumented.  Don't use this; it may go away.}}}.
 execfile: python: execfile(filename[, globals[, locals]])  Read and execute a Python script from a file. The globals and locals are dictionaries, defaulting to the current globals and locals.  If only globals is given, locals defaults to it.
-id: python: {{{id(object) -> integer}}} Return the identity of an object.  This is guaranteed to be unique among simultaneously existing objects.  (Hint: it's the object's memory address.)
+id: python: {{{id(object) -> integer}}} Return the identity of an object.  This is guaranteed to be unique among simultaneously existing objects.  (Hint: it's the object's memory address.).
 write: python: [file]:  {{{write(str) -> None.  Write string str to file.}}} Note that due to buffering, flush() or close() may be needed before the file on disk reflects the data written.
 complex: python: {{{complex(real[, imag]) -> complex number}}} Create a complex number from a real part and an optional imaginary part. This is equivalent to (real + imag*1j) where imag defaults to 0.
 bool: python: {{{bool(x) -> bool}}} Returns True when the argument x is true, False otherwise. The builtins True and False are the only two instances of the class bool. The class bool is a subclass of the class int, and cannot be subclassed.
 locals: python: {{{locals() -> dictionary}}} Update and return a dictionary containing the current scope's local variables.
 isnumeric: python: [unicode]:  {{{S.isnumeric() -> bool}}} Return True if there are only numeric characters in S, False otherwise.
-ValueError: python: an [exception], 'Inappropriate argument value (of correct type).'
+ValueError: python: an [exception], 'Inappropriate argument value (of correct type)'.
 map: python: {{{map(function, sequence[, sequence, ...]) -> list}}} Return a list of the results of applying the function to the items of the argument sequence(s).  If more than one sequence is given, the function is called with an argument list consisting of the corresponding item of each sequence, substituting None for missing values when not all sequences have the same length.  If the function is None, return a list of the items of the sequence (or a list of tuples if more than one sequence).
 truncate: python: [file]:  {{{truncate([size]) -> None.  Truncate the file to at most size bytes.}}} Size defaults to the current file position, as returned by tell().
-keys: python: [dict]:  {{{D.keys() -> list of D's keys}}} 
+keys: python: [dict]:  {{{D.keys() -> list of D's keys}}}.
 writelines: python: [file]:  {{{writelines(sequence_of_strings) -> None.  Write the strings to the file.}}} Note that newlines are not added.  The sequence can be any iterable object producing strings. This is equivalent to calling write() for each string.
-object: python: The most base type
-update: python: [dict]:  {{{D.update(E, **F) -> None.  Update D from E and F: for k in E: D[k] = E[k]}}} (if E has keys else: for (k, v) in E: D[k] = v) then: for k in F: D[k] = F[k]
+object: python: The most base type.
+update: python: [dict]:  {{{D.update(E, **F) -> None.  Update D from E and F: for k in E: D[k] = E[k]}}} (if E has keys else: for (k, v) in E: D[k] = v) then: for k in F: D[k] = F[k].
 update: python: [set]:  Update a set with the union of itself and another.
 repr: python: {{{repr(object) -> string}}} Return the canonical string representation of the object. For most object types, eval(repr(object)) == object.
 callable: python: {{{callable(object) -> bool}}} Return whether the object is callable (i.e., some kind of function). Note that classes are callable, as are instances with a __call__() method.
-ZeroDivisionError: python: an [exception], 'Second argument to a division or modulo operation was zero.'
+ZeroDivisionError: python: an [exception], 'Second argument to a division or modulo operation was zero'.
 eval: python: {{{eval(source[, globals[, locals]]) -> value}}} Evaluate the source in the context of globals and locals. The source may be a string representing a Python expression or a code object as returned by compile(). The globals must be a dictionary and locals can be any mapping, defaulting to the current globals and locals. If only globals is given, locals defaults to it.
 readline: python: [file]:  {{{readline([size]) -> next line from the file, as a string.}}} Retain newline.  A non-negative size argument limits the maximum number of bytes to return (an incomplete line may be returned then). Return an empty string at EOF.
 capitalize: python: [str]:  {{{S.capitalize() -> string}}} Return a copy of the string S with only its first character capitalized.
 capitalize: python: [unicode]:  {{{S.capitalize() -> unicode}}} Return a capitalized version of S, i.e. make the first character have upper case.
-ReferenceError: python: an [exception], 'Weak ref proxy used after referent went away.'
-AssertionError: python: an [exception], 'Assertion failed.'
+ReferenceError: python: an [exception], 'Weak ref proxy used after referent went away'.
+AssertionError: python: an [exception], 'Assertion failed'.
 lower: python: [str]:  {{{S.lower() -> string}}} Return a copy of the string S converted to lowercase.
 lower: python: [unicode]:  {{{S.lower() -> unicode}}} Return a copy of the string S converted to lowercase.
-center: python: [str]:  {{{S.center(width[, fillchar]) -> string}}} Return S centered in a string of length width. Padding is done using the specified fill character (default is a space)
-center: python: [unicode]:  {{{S.center(width[, fillchar]) -> unicode}}} Return S centered in a Unicode string of length width. Padding is done using the specified fill character (default is a space)
+center: python: [str]:  {{{S.center(width[, fillchar]) -> string}}} Return S centered in a string of length width. Padding is done using the specified fill character (default is a space).
+center: python: [unicode]:  {{{S.center(width[, fillchar]) -> unicode}}} Return S centered in a Unicode string of length width. Padding is done using the specified fill character (default is a space).
 classmethod: python: {{{classmethod(function) -> method}}} Convert a function to be a class method.  A class method receives the class as implicit first argument, just like an instance method receives the instance.
-clear: python: [dict]:  {{{D.clear() -> None.  Remove all items from D.}}} 
+clear: python: [dict]:  {{{D.clear() -> None.  Remove all items from D.}}}.
 clear: python: [set]:  Remove all elements from this set.
 partition: python: [str]:  {{{S.partition(sep) -> (head, sep, tail)}}} Searches for the separator sep in S, and returns the part before it, the separator itself, and the part after it.  If the separator is not found, returns S and two empty strings.
 partition: python: [unicode]:  {{{S.partition(sep) -> (head, sep, tail)}}} Searches for the separator sep in S, and returns the part before it, the separator itself, and the part after it.  If the separator is not found, returns S and two empty strings.
 intersection_update: python: [set]:  Update a set with the intersection of itself and another.
-UnboundLocalError: python: an [exception], 'Local name referenced but not bound to a value.'
-mro: python: [type]:  {{{mro() -> list}}} return a type's method resolution order
-NotImplementedError: python: an [exception], "Method or function hasn't been implemented yet."
-AttributeError: python: an [exception], 'Attribute not found.'
-OverflowError: python: an [exception], 'Result too large to be represented.'
+UnboundLocalError: python: an [exception], 'Local name referenced but not bound to a value'.
+mro: python: [type]:  {{{mro() -> list}}} return a type's method resolution order.
+NotImplementedError: python: an [exception], "Method or function hasn't been implemented yet".
+AttributeError: python: an [exception], 'Attribute not found'.
+OverflowError: python: an [exception], 'Result too large to be represented'.

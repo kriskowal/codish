@@ -1,1 +1,3 @@
 pertains to [collection]s that maintain the [invariant] that the contained [value]s are in a sorted order with a given [comparator] ([compare] by default).
+related: ordered, unordered
+includes: sorted bag, sorted dict, sorted multi bag, sorted multi dict

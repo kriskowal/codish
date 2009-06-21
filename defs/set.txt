@@ -1,2 +1,4 @@
-to assign a <i>value</i> for a <i>key</i> in an <i>item</i>.
-distinct: unique
+to assign a [value] for a [key] in an [item].
+in math, a [set] is a [collection] of [unique] [values] that meet certain criteria. to avoid amgiguity, such collections are called [bag]s in [codish], or [unique]s in [seuss].
+distinct: unique, bag
+pertains: collection
