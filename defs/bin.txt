@@ -1,1 +1,2 @@
+to convert a number to [radix] 2.
 distinct: binary, exec, executable, app

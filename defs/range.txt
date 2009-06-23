@@ -1,2 +1,4 @@
-a <i>lazy</i> collection of <i>value</i>s between a <i>begin</i>ning and an ending (<i>begon</i>ing) with a <i>step</i> between each <i>value</i>.  a <i>range</i> can be <i>cardinal</i> or <i>ordinal</i> based on whether the end is inclusive or exclusive.  <i>ordinal</i> implies <i>inclusive</i>; <i>cardinal</i> implies <i>exclusive</i>.  the default for a <i>range</i> depends on whether the language favors <i>ordinal</i> or <i>cardinal</i> <i>index</i>ing.
+a [lazy] [collection] of [value]s between a [begin]ning and an [end]ing with a [step] between each [value].
+a [range] can have either an [inclusive] or [exclusive] [end], with [exclusive] being default in [index] contexts, and [inclusive] default in [count]ing contexts.
 has: begin, begon, step
+concept: in math, a [range] is the set of all possible output [value]s of a [relation] given a particular [domain] of input [value]s.

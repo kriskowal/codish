@@ -1,2 +1,3 @@
-to convert a number to <i>radix</i> 16.
-a number of <i>radix</i> 16.
+a number of [radix] 16, with 4-[bit] [digit]s, two of which comprise a [byte].
+to convert a number to [radix] 16.
+latin: sedenary

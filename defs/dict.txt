@@ -1,4 +1,4 @@
-an [unordered] [linearl collection] (particularly a [set]) of [item]s that expresses a [relation] of [key]s ([domain]) to [value]s ([range]).
+an [unordered] [linear collection] (particularly a [set]) of [item]s that expresses a [relation] of [key]s ([domain]) to [value]s ([range]).
 in systems where [dict] inherits [bag], it overrides the [hash] and [eq] [attr function]s.
 inherits: collection, bag
 attrs: keys, values, items, update, complete

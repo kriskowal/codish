@@ -1,0 +1,2 @@
+a version of [unique] that returns a [list] of only the unique [value]s of an [iter]ation assuming that they are in [sorted] order, which is to say that it reduces repeated [value]s in [order] to a single [value].
+related: unique

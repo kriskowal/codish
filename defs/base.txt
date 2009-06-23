@@ -1,2 +1,2 @@
 the [root] of an [inheritance] [tree].
-distinct: radix
+distinct: radix, root

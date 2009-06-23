@@ -1,1 +1,1 @@
-use instead of <i>for each</i>.
+aka: for each

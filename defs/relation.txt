@@ -1,1 +1,4 @@
-a function that accepts a value and returns a corresponding value for a relationship.
+a "finitary relation".
+a [function] of a particular number of [arg]uments that returns [whether] the arguments have a particular relationship.
+related: binary relation, transitive relation
+distinct: transitive function

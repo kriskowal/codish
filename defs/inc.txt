@@ -1,2 +1,3 @@
 to increment.
 to increase a <i>value</i> by a <i>unit</i>.
+opposite: dec

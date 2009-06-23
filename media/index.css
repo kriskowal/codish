@@ -10,14 +10,15 @@
             font-family: Monaco, Courier New, monospace;
             font-size: 90%;
             letter-spacing: 1px;
-            padding-left: .5ex;
+            padding-left: .4ex;
+            padding-right: .2ex;
         }
 
         tt > b, b > tt {
             letter-spacing: 1px;
         }
 
-        body {
+        body, caption, td, th, blockquote {
             font-family: Garamond;
             color: #000000;
         }

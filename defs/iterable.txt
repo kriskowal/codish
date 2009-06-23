@@ -1,2 +1,3 @@
 an [interface] for objects that can be [iter]ated.
-has: for each, map, all, any, some, every, count, where, filter
+has: for each, map, all, any, some, every, count, where, filter, group, bale
+related: iter, ordered

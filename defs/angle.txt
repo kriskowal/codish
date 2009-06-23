@@ -1,1 +1,2 @@
 a unitless [number], measured in radians, for expressing the direction of a [ray] from a [point] on a [plane].
+related: trig

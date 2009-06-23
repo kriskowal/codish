@@ -1,0 +1,2 @@
+a [number] of [radix] 64, the number of [char]acters in the set of [digit]s followed by [lower] and [upper] [case] [letter]s followed by two punctuation marks, and including the [eq]ual sign for "padding" since not all [stream]s of [byte]s are [div]isible [even]ly into the 6-[bit] [digit]s of [radix] 64 [number]s.
+latin: quattuorsexagenary

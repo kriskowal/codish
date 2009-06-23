@@ -1,1 +1,2 @@
-concept: a [unary] [function] that consistently [map]s [key]s to [value]s.
+concept: a [unary] [function] that consistently returns the corresponding [value] in a [range] for a given [key] in a [domain].
+distinct: relation, binary relation, transitive relation

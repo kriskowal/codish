@@ -1,3 +1,3 @@
 an [attr] of a [scope] that maps a [name] as a [key] to a [value].
 syntactically, uttering the name of a variable is an expression that evaluates to the [value] corresponding to the given [name] in the current [context].
-related: free variable
+related: free variable, literal, verbatim

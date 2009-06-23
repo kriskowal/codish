@@ -1,0 +1,4 @@
+pertains to the [next] [value].
+seuss: forth
+opposite: back
+related: next

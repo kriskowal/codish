@@ -1,0 +1,4 @@
+to [copy] [var]iables from another [module]s [export]s.
+opposite: export
+related: module
+aka: require, provide, use

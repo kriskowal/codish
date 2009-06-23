@@ -1,0 +1,1 @@
+concept: to convert a [path] to a [canonical] [path], usually with the [canonical] [transitive function].

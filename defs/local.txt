@@ -1,2 +1,3 @@
 the [client] [host] from a [program]'s perspective.
-opposite: local
+opposite: global
+aka: my, var

@@ -1,0 +1,1 @@
+to rotate the [value]s in an [ordered] [collection], either [left] or [right], so that [value]s from the [begin] or [end] wrap around the other side.

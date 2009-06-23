@@ -1,4 +1,40 @@
 pertains to [collection]s that maintain the respective order of their contents.
 interfaces: list, queue, deque, stack
+attrs: push, pop, shift, unshift, first, last, begins, ends, trim left, trim right, rot left, rot right, chip, chop, erase
 implementations: array, chain
 related: sorted, unordered
+
+<p><table>
+    <tr>
+        <th>left</th>
+        <th>right</th>
+    </tr>
+    <tr>
+        <td><tt><a href="/unshift">unshift</a></tt></td>
+        <td><tt><a href="/push">push</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt><a href="/shift">shift</a></tt></td>
+        <td><tt><a href="/pop">pop</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt><a href="/first">first</a></tt></td>
+        <td><tt><a href="/last">last</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt><a href="/begins">begins</a></tt></td>
+        <td><tt><a href="/ends">ends</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt><a href="/trim+left">trim left</a></tt></td>
+        <td><tt><a href="/trim+right">trim right</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt><a href="/rot+left">rot left</a></tt></td>
+        <td><tt><a href="/rot+right">rot right</a></tt></td>
+    </tr>
+    <tr>
+        <td><tt><a href="/chip">chip</a></tt></td>
+        <td><tt><a href="/chop">chop</a></tt></td>
+    </tr>
+</table></p>

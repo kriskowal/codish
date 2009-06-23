@@ -1,1 +1,2 @@
-<i>text</i> that may not contain interpolable values.
+a [string] [literal] that may not contain interpolable [value]s.
+related: literal, variable

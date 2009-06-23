@@ -1,4 +1,4 @@
 to assign a [value] for a [key] in an [item].
-in math, a [set] is a [collection] of [unique] [values] that meet certain criteria. to avoid amgiguity, such collections are called [bag]s in [codish], or [unique]s in [seuss].
+in math, a [set] is a [collection] of [unique] [values] that meet certain criteria. to avoid ambiguity, such collections are called [bag]s in [codish], or [unique]s in [seuss].
 distinct: unique, bag
 pertains: collection

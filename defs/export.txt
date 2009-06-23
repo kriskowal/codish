@@ -1,0 +1,4 @@
+to make a [var]iable available for other [module]s to [import].
+opposite: import
+related: module
+aka: provide

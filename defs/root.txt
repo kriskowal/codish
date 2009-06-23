@@ -1,2 +1,2 @@
 the [start] [node] in a [tree].
-distinct: radix
+distinct: radix, base

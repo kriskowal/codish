@@ -1,0 +1,1 @@
+a [number] of [radix] 32, including a visually unambiguous subset of the [alphanumeric] [char]acter set, appropriate for transmitting license [key]s through [meat space]<a href="http://www.crockford.com/wrmg/base32.html">&dagger;</a>.

@@ -1,3 +1,4 @@
 to decrement.
 to decrease a <i>value</i> by a <i>unit</i>.
 distinct: decimal
+opposite: inc

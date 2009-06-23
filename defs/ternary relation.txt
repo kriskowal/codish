@@ -1,0 +1,2 @@
+a [relation] on three [arg]uments.
+aka: triadic relation

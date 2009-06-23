@@ -1,0 +1,4 @@
+a [number] of [radix] 8, with 3-[bit] [digit]s.
+to convert a [number] from an [octal] [string] [repr]esentation.
+latin: octal
+related: bin, dec, hex, hextri

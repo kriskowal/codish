@@ -1,0 +1,7 @@
+transforms an [iterable] into a [list] of accumulated sub-[list]s of a given [len]gth.
+related: zip, add
+
+<p><tt>baled([1, 2, 3, 4]) eq [[1, 2], [3, 4]]</tt></p>
+<p><tt>baled([1, 2, 3, 4, 5, 6], 3) eq [[1, 2, 3], [4, 5, 6]]</tt></p>
+<p><tt>baled([1, 2, 3, 4, 5], 3) eq [[1, 2, 3], [4, 5]]</tt></p>
+<p><tt>baled([1, 2, 3, 4, 5], 3, 0) eq [[1, 2, 3], [4, 5, 0]]</tt></p>

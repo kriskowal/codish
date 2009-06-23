@@ -1,3 +1,8 @@
-to return a two dimensional collection where each <i>row</i> corresponds to the <i>col</i> of another two dimensional collection.
-replaces: unzip
-commute: transpose
+to return a two dimensional collection where each [row] corresponds to the [col] of another 2 [dimension]al [collection].
+related: zip
+aka: unzip
+inverse: transpose
+
+<p><tt>transpose([[1, 2, 3], [4, 5, 6]]) eq [[1, 4], [2, 5], [3, 6]]</tt></p>
+<p><tt>transpose([[1, 2, 3], [4, 5]]) eq [[1, 4], [2, 5]]</tt></p>
+<p><tt>transpose([[1, 2], [4, 5, 6]]) eq [[1, 4], [2, 5]]</tt></p>

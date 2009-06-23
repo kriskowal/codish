@@ -1,0 +1,2 @@
+a [number] of [radix] 36, the number of [char]acters in the set of [digit]s followed by [lower] [case] [letter]s.
+latin: sextrigenary

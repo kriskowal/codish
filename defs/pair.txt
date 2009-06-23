@@ -1,2 +1,2 @@
 use: duple, tuple
-see: zip, map, item, attr
+related: zip, map, item, attr

@@ -1,3 +1,3 @@
-relationship: also known as.
+transitive relation: also known as.
 "a.k.a." generally means that the present spelling is better (for orthogonality, consistency with a metaphore, whim, or fancy), but another spelling would make sense coming from precedent in another language or linguisitic inferrence. 
 opposite: see

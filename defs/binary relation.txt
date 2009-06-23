@@ -1,4 +1,4 @@
 concept: a [binary function] that returns [whether] the [param]eters have a given relationship ([source] to [target]), useful for [map] and for constructing [graph]s.
-is: binary function
+is: binary function, relation
 distinct: boolean function
 includes: eq, ne, lt, gt, le, ge

@@ -1,3 +1,4 @@
 a collection of equivalent [object]s for a given [equivalence relation]. 
-replaces: equivalence class
+a [function] that groups [value]s into [bag]s [key]ed by the results of a [transitive function] on [each] [value].  the [return]ed [object] is a [dict] of [set]s.
+aka: equivalence class
 distinct: class

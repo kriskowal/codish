@@ -1,0 +1,3 @@
+pertains to the [prev]ious [value].
+opposite: forward
+related: prev
