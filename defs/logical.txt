@@ -94,7 +94,7 @@ is: math
         <th><tt>X <a href="/or">or</a> Y</tt></th>
     </tr>
     <tr>
-        <th>~7 / 8</th>
+        <th>8</th>
         <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
@@ -102,7 +102,7 @@ is: math
         <th><tt>X <a href="/nor">nor</a> Y</tt></th>
     </tr>
     <tr>
-        <th>~6 / 9</th>
+        <th>9</th>
         <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td><tt>false</tt></td>
@@ -110,7 +110,7 @@ is: math
         <th><tt>X <a href="/nxor">nxor</a> Y</tt></th>
     </tr>
     <tr>
-        <th>~5 / 10</th>
+        <th>10</th>
         <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td class="odd"><tt>true</tt></td>
@@ -118,7 +118,7 @@ is: math
         <th><tt><a href="/not">not</a> Y</tt></th>
     </tr>
     <tr>
-        <th>~4 / 11</th>
+        <th>11</th>
         <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
         <td class="odd"><tt>true</tt></td>
@@ -126,7 +126,7 @@ is: math
         <th><tt>Y <a href="/cond">cond</a> X</tt></th>
     </tr>
     <tr>
-        <th>~3 / 12</th>
+        <th>12</th>
         <td class="odd"><tt>true</tt></td>
         <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
@@ -134,7 +134,7 @@ is: math
         <th><tt><a href="/not">not</a> X</tt></th>
     </tr>
     <tr>
-        <th>~2 / 13</th>
+        <th>13</th>
         <td class="odd"><tt>true</tt></td>
         <td class="odd"><tt>true</tt></td>
         <td><tt>false</tt></td>
@@ -142,7 +142,7 @@ is: math
         <th><tt>X <a href="/cond">cond</a> Y</tt></th>
     </tr>
     <tr>
-        <th>~1 / 14</th>
+        <th>14</th>
         <td class="odd"><tt>true</tt></td>
         <td class="odd"><tt>true</tt></td>
         <td class="odd"><tt>true</tt></td>
@@ -150,7 +150,7 @@ is: math
         <th><tt>X <a href="/nand">nand</a> Y</tt></th>
     </tr>
     <tr>
-        <th>~0 / 15</th>
+        <th>15</th>
         <td class="odd"><tt>true</tt></td>
         <td class="odd"><tt>true</tt></td>
         <td class="odd"><tt>true</tt></td>

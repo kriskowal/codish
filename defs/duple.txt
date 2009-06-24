@@ -1,1 +1,2 @@
-a [tuple] that has a [length] of 2.
+a [tuple] that has a [len]gth of 2.
+is: tuple

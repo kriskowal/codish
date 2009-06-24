@@ -1,1 +1,2 @@
-a [tuple] that has a [length] of 3.
+a [tuple] that has a [len]gth of 3.
+is: tuple
