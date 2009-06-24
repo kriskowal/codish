@@ -1,5 +1,5 @@
 phar: php:  the phar class provides a high-level interface to accessing and creating phar archives.  <a href="http://www.php.net/manual/en/class.Phar.php">&dagger</a>.
-phar data: php:  the phardata class provides a high-level interface to accessing and creating non-executable tar and zip archives. because these archives do not contain a stub and cannot be executed by the phar extension, it is possible to create and manipulate regular zip and tar files using the phardata class even if <i>phar.readonly</i> php.ini setting is <i>1</i>.  <a href="http://www.php.net/manual/en/class.PharData.php">&dagger</a>.
+phar data: php:  the phardata class provides a high-level interface to accessing and creating non-executable tar and zip archives. because these archives do not contain a stub and cannot be executed by the phar extension, it is possible to create and manipulate regular zip and tar files using the phardata class even if phar.readonly php.ini setting is 1.  <a href="http://www.php.net/manual/en/class.PharData.php">&dagger</a>.
 phar exception: php:  the pharexception class provides a phar-specific exception class for try/catch blocks.  <a href="http://www.php.net/manual/en/class.PharException.php">&dagger</a>.
 phar file info: php:  the pharfileinfo class provides a high-level interface to the contents and attributes of a single file within a phar archive.  <a href="http://www.php.net/manual/en/class.PharFileInfo.php">&dagger</a>.
 abs: php: absolute value <a href="http://www.php.net/manual/en/function.abs.php">&dagger</a>.
@@ -498,7 +498,7 @@ domdocument get elements by tagname: php:  returns array with nodes with given t
 domdocument html dump mem: php:  dumps the internal xml tree back into a string as html  <a href="http://www.php.net/manual/en/function.domdocument-html-dump-mem.php">&dagger</a>.
 domdocument xinclude: php:  substitutes xincludes in a domdocument object  <a href="http://www.php.net/manual/en/function.domdocument-xinclude.php">&dagger</a>.
 domdocumentfragment: php:  <a href="http://www.php.net/manual/en/class.domdocumentfragment.php">&dagger</a>.
-domdocumenttype: php:  each <a href="class.domdocument.php" class="classname">domdocument</a> has a <i>doctype</i> attribute whose value is either <b><tt class="constant">null</tt></b> or a <b class="classname">domdocumenttype</b> object.  <a href="http://www.php.net/manual/en/class.domdocumenttype.php">&dagger</a>.
+domdocumenttype: php:  each <a href="class.domdocument.php" class="classname">domdocument</a> has a <tt>doctype</tt> attribute whose value is either <b><tt class="constant">null</tt></b> or a <b class="classname">domdocumenttype</b> object.  <a href="http://www.php.net/manual/en/class.domdocumenttype.php">&dagger</a>.
 domdocumenttype entities: php:  returns list of entities  <a href="http://www.php.net/manual/en/function.domdocumenttype-entities.php">&dagger</a>.
 domdocumenttype internal subset: php:  returns internal subset  <a href="http://www.php.net/manual/en/function.domdocumenttype-internal-subset.php">&dagger</a>.
 domdocumenttype name: php:  returns name of document type  <a href="http://www.php.net/manual/en/function.domdocumenttype-name.php">&dagger</a>.
@@ -549,7 +549,7 @@ domnode set content: php:  sets content of node  <a href="http://www.php.net/man
 domnode set name: php:  sets name of node  <a href="http://www.php.net/manual/en/function.domnode-set-name.php">&dagger</a>.
 domnode set namespace: php:  sets namespace of a node  <a href="http://www.php.net/manual/en/function.domnode-set-namespace.php">&dagger</a>.
 domnode unlink node: php:  deletes node  <a href="http://www.php.net/manual/en/function.domnode-unlink-node.php">&dagger</a>.
-domnodelist: php:  the number of nodes in the list. the range of valid child node indices is 0 to <i>length - 1</i> inclusive.  <a href="http://www.php.net/manual/en/class.domnodelist.php">&dagger</a>.
+domnodelist: php:  the number of nodes in the list. the range of valid child node indices is 0 to <tt>length - 1</tt> inclusive.  <a href="http://www.php.net/manual/en/class.domnodelist.php">&dagger</a>.
 domnotation: php: prop description <a href="http://www.php.net/manual/en/class.domnotation.php">&dagger</a>.
 domprocessinginstruction: php: prop description <a href="http://www.php.net/manual/en/class.domprocessinginstruction.php">&dagger</a>.
 domprocessinginstruction data: php:  returns the data of processinginstruction node  <a href="http://www.php.net/manual/en/function.domprocessinginstruction-data.php">&dagger</a>.
@@ -1560,9 +1560,9 @@ ibase trans: php: begin a transaction <a href="http://www.php.net/manual/en/func
 ibase wait event: php: wait for an event to be posted by the database <a href="http://www.php.net/manual/en/function.ibase-wait-event.php">&dagger</a>.
 iconv: php: convert string to requested character encoding <a href="http://www.php.net/manual/en/function.iconv.php">&dagger</a>.
 iconv get encoding: php: retrieve internal configuration variables of iconv extension <a href="http://www.php.net/manual/en/function.iconv-get-encoding.php">&dagger</a>.
-iconv mime decode: php: decodes a <i>mime</i> header field <a href="http://www.php.net/manual/en/function.iconv-mime-decode.php">&dagger</a>.
-iconv mime decode headers: php: decodes multiple <i>mime</i> header fields at once <a href="http://www.php.net/manual/en/function.iconv-mime-decode-headers.php">&dagger</a>.
-iconv mime encode: php: composes a <i>mime</i> header field <a href="http://www.php.net/manual/en/function.iconv-mime-encode.php">&dagger</a>.
+iconv mime decode: php: decodes a <tt>mime</tt> header field <a href="http://www.php.net/manual/en/function.iconv-mime-decode.php">&dagger</a>.
+iconv mime decode headers: php: decodes multiple <tt>mime</tt> header fields at once <a href="http://www.php.net/manual/en/function.iconv-mime-decode-headers.php">&dagger</a>.
+iconv mime encode: php: composes a <tt>mime</tt> header field <a href="http://www.php.net/manual/en/function.iconv-mime-encode.php">&dagger</a>.
 iconv set encoding: php: set current setting for character encoding conversion <a href="http://www.php.net/manual/en/function.iconv-set-encoding.php">&dagger</a>.
 iconv strlen: php: returns the character count of string <a href="http://www.php.net/manual/en/function.iconv-strlen.php">&dagger</a>.
 iconv strpos: php: finds position of first occurrence of a needle within a haystack <a href="http://www.php.net/manual/en/function.iconv-strpos.php">&dagger</a>.
@@ -1600,7 +1600,7 @@ ifx free char: php: deletes the char object <a href="http://www.php.net/manual/e
 ifx free result: php: releases resources for the query <a href="http://www.php.net/manual/en/function.ifx-free-result.php">&dagger</a>.
 ifx get blob: php: return the content of a blob object <a href="http://www.php.net/manual/en/function.ifx-get-blob.php">&dagger</a>.
 ifx get char: php: return the content of the char object <a href="http://www.php.net/manual/en/function.ifx-get-char.php">&dagger</a>.
-ifx getsqlca: php: get the contents of sqlca.sqlerrd[0..5] after a query <a href="http://www.php.net/manual/en/function.ifx-getsqlca.php">&dagger</a>.
+ifx getsqlca: php: get the contents of {{{sqlca.sqlerrd[0..5]}}} after a query <a href="http://www.php.net/manual/en/function.ifx-getsqlca.php">&dagger</a>.
 ifx htmltbl result: php: formats all rows of a query into a html table <a href="http://www.php.net/manual/en/function.ifx-htmltbl-result.php">&dagger</a>.
 ifx nullformat: php: sets the default return value on a fetch row <a href="http://www.php.net/manual/en/function.ifx-nullformat.php">&dagger</a>.
 ifx num fields: php: returns the number of columns in the query <a href="http://www.php.net/manual/en/function.ifx-num-fields.php">&dagger</a>.
@@ -3751,7 +3751,7 @@ pg fetch assoc: php: fetch a row as an associative array <a href="http://www.php
 pg fetch object: php: fetch a row as an object <a href="http://www.php.net/manual/en/function.pg-fetch-object.php">&dagger</a>.
 pg fetch result: php: returns values from a result resource <a href="http://www.php.net/manual/en/function.pg-fetch-result.php">&dagger</a>.
 pg fetch row: php: get a row as an enumerated array <a href="http://www.php.net/manual/en/function.pg-fetch-row.php">&dagger</a>.
-pg field is null: php: test if a field is sql <i>null</i> <a href="http://www.php.net/manual/en/function.pg-field-is-null.php">&dagger</a>.
+pg field is null: php: test if a field is sql <tt>null</tt> <a href="http://www.php.net/manual/en/function.pg-field-is-null.php">&dagger</a>.
 pg field name: php: returns the name of a field <a href="http://www.php.net/manual/en/function.pg-field-name.php">&dagger</a>.
 pg field num: php: returns the field number of the named field <a href="http://www.php.net/manual/en/function.pg-field-num.php">&dagger</a>.
 pg field prtlen: php: returns the printed length <a href="http://www.php.net/manual/en/function.pg-field-prtlen.php">&dagger</a>.
@@ -4316,7 +4316,7 @@ simplexml element get name: php: gets the name of the xml element <a href="http:
 simplexml element get namespaces: php:  returns namespaces used in document  <a href="http://www.php.net/manual/en/function.simplexml-element-getNamespaces.php">&dagger</a>.
 simplexml element register x path namespace: php:  creates a prefix/ns context for the next xpath query  <a href="http://www.php.net/manual/en/function.simplexml-element-registerXPathNamespace.php">&dagger</a>.
 simplexml element xpath: php: runs xpath query on xml data <a href="http://www.php.net/manual/en/function.simplexml-element-xpath.php">&dagger</a>.
-simplexml import dom: php: get a <i>simplexmlelement</i> object from a dom node. <a href="http://www.php.net/manual/en/function.simplexml-import-dom.php">&dagger</a>.
+simplexml import dom: php: get a <tt>simplexmlelement</tt> object from a dom node. <a href="http://www.php.net/manual/en/function.simplexml-import-dom.php">&dagger</a>.
 simplexml load file: php:  interprets an xml file into an object  <a href="http://www.php.net/manual/en/function.simplexml-load-file.php">&dagger</a>.
 simplexml load string: php:  interprets a string of xml into an object  <a href="http://www.php.net/manual/en/function.simplexml-load-string.php">&dagger</a>.
 simplexmliterator: php:  the simplexmliterator provides recursive iteration over all nodes of a <b class="classname">simplexmlelement</b> object.  <a href="http://www.php.net/manual/en/class.simplexmliterator.php">&dagger</a>.
@@ -4330,7 +4330,7 @@ snmp read mib: php:  reads and parses a mib file into the active mib tree  <a hr
 snmp set enum print: php:  return all values that are enums with their enum value instead of the raw integer  <a href="http://www.php.net/manual/en/function.snmp-set-enum-print.php">&dagger</a>.
 snmp set oid numeric print: php:  return all objects including their respective object id within the specified one  <a href="http://www.php.net/manual/en/function.snmp-set-oid-numeric-print.php">&dagger</a>.
 snmp set oid output format: php:  set the oid output format  <a href="http://www.php.net/manual/en/function.snmp-set-oid-output-format.php">&dagger</a>.
-snmp set quick print: php: set the value of <i><tt class="parameter">quick_print</tt></i> within the ucd <acronym>snmp</acronym> library  <a href="http://www.php.net/manual/en/function.snmp-set-quick-print.php">&dagger</a>.
+snmp set quick print: php: set the value of <tt class="parameter">quick_print</tt> within the ucd <acronym>snmp</acronym> library  <a href="http://www.php.net/manual/en/function.snmp-set-quick-print.php">&dagger</a>.
 snmp set valueretrieval: php:  specify the method how the snmp values will be returned  <a href="http://www.php.net/manual/en/function.snmp-set-valueretrieval.php">&dagger</a>.
 snmpget: php: fetch an <acronym>snmp</acronym> object <a href="http://www.php.net/manual/en/function.snmpget.php">&dagger</a>.
 snmpgetnext: php:  fetch a snmp object  <a href="http://www.php.net/manual/en/function.snmpgetnext.php">&dagger</a>.
@@ -4518,7 +4518,7 @@ stats rand gen exponential: php: generates a single random deviate from an expon
 stats rand gen f: php: generates a random deviate <a href="http://www.php.net/manual/en/function.stats-rand-gen-f.php">&dagger</a>.
 stats rand gen funiform: php: generates uniform float between low (exclusive) and high (exclusive) <a href="http://www.php.net/manual/en/function.stats-rand-gen-funiform.php">&dagger</a>.
 stats rand gen gamma: php: generates random deviates from a gamma distribution <a href="http://www.php.net/manual/en/function.stats-rand-gen-gamma.php">&dagger</a>.
-stats rand gen ibinomial: php: generates a single random deviate from a binomial distribution whose number of trials is &quot;n&quot; (n &gt;= 0) and whose probability of an event in each trial is &quot;pp&quot; ([0;1]). method : algorithm btpe <a href="http://www.php.net/manual/en/function.stats-rand-gen-ibinomial.php">&dagger</a>.
+stats rand gen ibinomial: php: generates a single random deviate from a binomial distribution whose number of trials is &quot;n&quot; (n &gt;= 0) and whose probability of an event in each trial is &quot;pp&quot; ({{{[0;1]}}}). method : algorithm btpe <a href="http://www.php.net/manual/en/function.stats-rand-gen-ibinomial.php">&dagger</a>.
 stats rand gen ibinomial negative: php: generates a single random deviate from a negative binomial distribution. arguments : n - the number of trials in the negative binomial distribution from which a random deviate is to be generated (n &gt; 0), p - the probability of an event (0 &lt; p &lt; 1)). <a href="http://www.php.net/manual/en/function.stats-rand-gen-ibinomial-negative.php">&dagger</a>.
 stats rand gen int: php: generates random integer between 1 and 2147483562 <a href="http://www.php.net/manual/en/function.stats-rand-gen-int.php">&dagger</a>.
 stats rand gen ipoisson: php: generates a single random deviate from a poisson distribution with mean &quot;mu&quot; (mu &gt;= 0.0). <a href="http://www.php.net/manual/en/function.stats-rand-gen-ipoisson.php">&dagger</a>.
@@ -4582,7 +4582,7 @@ stream get meta data: php: retrieves header/meta data from streams/file pointers
 stream get transports: php: retrieve list of registered socket transports <a href="http://www.php.net/manual/en/function.stream-get-transports.php">&dagger</a>.
 stream get wrappers: php: retrieve list of registered streams <a href="http://www.php.net/manual/en/function.stream-get-wrappers.php">&dagger</a>.
 stream is local: php: checks if a stream is a local stream <a href="http://www.php.net/manual/en/function.stream-is-local.php">&dagger</a>.
-stream notification callback: php: a callback function for the <i>notification</i> context paramater <a href="http://www.php.net/manual/en/function.stream-notification-callback.php">&dagger</a>.
+stream notification callback: php: a callback function for the notification context paramater <a href="http://www.php.net/manual/en/function.stream-notification-callback.php">&dagger</a>.
 stream register wrapper: php: alias of <a href="function.stream-wrapper-register.php" class="function">stream_wrapper_register()</a> <a href="http://www.php.net/manual/en/function.stream-register-wrapper.php">&dagger</a>.
 stream resolve include path: php:  determine what file will be opened by calls to <a href="function.fopen.php" class="function">fopen()</a> with a relative path  <a href="http://www.php.net/manual/en/function.stream-resolve-include-path.php">&dagger</a>.
 stream select: php: runs the equivalent of the select() system call on the given arrays of streams with a timeout specified by tv_sec and tv_usec  <a href="http://www.php.net/manual/en/function.stream-select.php">&dagger</a>.

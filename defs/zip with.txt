@@ -1,0 +1,4 @@
+a shortcut provided in ((haskell)) among other [functional] programming languages for composing [zip] and [map] [variadic]ally.  
+
+<p>in the following notation, the "\" character declares a function as an expression and "*" is used as in python for <tt><a href="/variadic">variadic</a></tt> <tt><a href="/args">args</a></tt> and <tt><a href="/param">param</a>eters</tt>.</p>
+<p><i>identity</i>: <nobr><tt>zip-with(f, *tuples) eq map(\(tuples) f(*tuples), zip(*tuples))</tt></nobr>

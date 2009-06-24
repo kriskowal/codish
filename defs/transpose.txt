@@ -1,4 +1,4 @@
-to return a two dimensional collection where each [row] corresponds to the [col] of another 2 [dimension]al [collection].
+to return a 2 [dimension]al [collection] [where] [each] [row] corresponds to the [col] of another 2 [dimension]al [collection].
 related: zip
 aka: unzip
 inverse: transpose

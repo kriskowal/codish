@@ -47,11 +47,10 @@ function ref(from, to, type, tag) {
         // asymmetric
         'attrs': 'pertains',
         'pertains': '',
-    }[type];
+    }[type] || 'mentioned';
     if (tag != 'i') {
         util.getset(util.getset(refs, from, {}), type, {})[to] = true;
-        if (backType)
-            util.getset(util.getset(util.getset(refs, to, {}), backType, {}), from, false);
+        util.getset(util.getset(util.getset(refs, to, {}), backType, {}), from, false);
     }
     return (
         '<' + tag + '><a href="/' +
@@ -62,7 +61,6 @@ function ref(from, to, type, tag) {
 
 function parse(markup, name, type) {
     if (/</.test(markup)) {
-        print(name + ' contains html');
         markup = markup.replace(/<i>/g, '[').replace(/<\/i>/g, ']');
     }
     var begin = markup.search(/(: |{{{|{{|\(\(|\[)/);
@@ -282,6 +280,8 @@ names.forEach(function (name) {
     var nameMeanings = util.getset(meanings, name, []);
     var noMeanings = nameMeanings.length == 0;
     Object.keys(refs[name] || {}).forEach(function (type) {
+        if (type == "mentioned")
+            return;
         var meaning = Object.keys(refs[name][type]).filter(function (to) {
             util.getset(types, type, []).push(to);
             all.push(to);
@@ -297,6 +297,22 @@ names.forEach(function (name) {
             );
         }
     });
+    var mentions = Object.keys(
+        (refs[name] || {}).mentioned || {}
+    ).filter(function (to) {
+        return !util.has(all, to);
+    });
+    all.push.apply(all, mentions);
+    if (mentions.length > 0 && (mentions.length < 10 || noMeanings)) {
+        var meaning = mentions.map(function (to) {
+            return ref(name, to, 'mentioned');
+        }).join(', ');
+        nameMeanings.push(
+            ref(name, 'mentioned', '', 'i') + 
+            ': ' +
+            meaning
+        );
+    }
     node.html = notes[name] || "";
     node.def = (meanings[name] || []).join(' &nbsp; ');
     node.refs = unique([].concat(

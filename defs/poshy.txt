@@ -1,2 +1,2 @@
-see: posh, y
+seuss: [posh] [y]
 python: extend
