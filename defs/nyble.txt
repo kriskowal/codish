@@ -1,0 +1,1 @@
+4 [bit]s, representable as a single [digit] in [hex].

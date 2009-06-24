@@ -1,2 +1,5 @@
 a [magnitude]-limited [integer].
+a [constructor] or [transitive function] for an integer type that may convert [string]s to integers in a given [radix] or [default] to 10, or [round] [float]ing point or [decimal] [number]s with [floor].
+a [linear] [order]ed [collection] of [bit]s of fixed [len]gth.  if [iter]ating an [int]eger as a bit vector is supported by a language, it starts from the [little] [end], the lowest [magnitude], [bit] 0.
 related: floor, ceil
+classes: nyble, byte, signed, unsigned, int16, int32, int64, uint16, uint32, uint64

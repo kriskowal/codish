@@ -1,1 +1,1 @@
-see: name, symbol, int, string
+see: name, symbol, int, long, string

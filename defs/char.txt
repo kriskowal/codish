@@ -1,3 +1,18 @@
 a character in [text], associated with a [codepoint] [number] of arbitrary precision, albeit from the [ascii], [unicode], or any other [charset].
 a [transitive function] that coerces [number]s and [char]s to [char]s.
+c: often stored in a {{{wchar_t}}} [int] [class].
 aka: character, chr
+
+<p><table>
+    <caption>Length of chars in bits for some charsets</caption>
+    <tr>
+        <th><tt><a href="/charset">charset</a></tt></th>
+        <th><tt><a href="/bit">bit</a></tt> <tt><a href="/len">len</a>gth</tt></th>
+    </tr>
+    <tr><td>ascii</td><td>7</td></tr>
+    <tr><td>eascii</td><td>8</td></tr>
+    <tr><td>ucs2</td><td>16</td></tr>
+    <tr><td>ucs4</td><td>32</td></tr>
+    <tr><td>utf8</td><td>8-32</td></tr>
+    <tr><td>utf16</td><td>16-32</td></tr>
+</table></p>

@@ -1,0 +1,2 @@
+c: usually an [int16].  a [class] of [int] that has a [len]gth that is [le] the default [int] [len]gth.
+opposite: long

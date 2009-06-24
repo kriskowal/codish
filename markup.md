@@ -2,6 +2,7 @@
 "{{" literal, permitting [inner reference]s
 "((" parenthesized, italic permitting [inner reference]s
 "[" reference
+"[[" verbatim TODO
 
 aka <-> see
 singluar <-> plural

@@ -1,0 +1,4 @@
+pertains: [int]egers that use their [big] [bit] to represent [whether] the [int] is [positive] or [negative].  [negative] [int]egers are usually stored in "two's complement" form, meaning that, [neg] can be calculated with [not] and [add]ing 1.
+opposite: unsigned
+
+<p><i>identity</i>: <tt>neg(x) eq (not(x) add 1)</tt></p>

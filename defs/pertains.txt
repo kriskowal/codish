@@ -1,0 +1,1 @@
+a [transitive relation] that represents whether a [name] is relevant in a given context.

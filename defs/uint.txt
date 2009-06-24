@@ -1,2 +1,2 @@
 a [magnitude]-limited [natural] [number].
-an [unsigned] [int].
+an [unsigned] [int], meaning the most significant bit, the [big] end, does not represent [whether] the [int] is [positive] or [negative], but rather adds another [bit] of [precision].

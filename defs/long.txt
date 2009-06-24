@@ -1,0 +1,2 @@
+c: usually an [int32].  a [class] of [int] that has a [len]gth that is [ge] the default [int] [len]gth.
+opposite: short

@@ -1,0 +1,2 @@
+pertains: [int]egers that can only represent [natural] [number]s, using their [big] [bit] like any other bit, to represent [magnitude].
+opposite: signed

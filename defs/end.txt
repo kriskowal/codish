@@ -1,0 +1,6 @@
+the terminal position of a [cursor].
+returns a [pointer] to the end of a [contiguous] [ordered] [collection], like an [array].  the [begin]ning [add]ed to the [len]gth of the allocated [memory].
+opposite: end
+related: begins
+distinct: stop
+seuss: begon

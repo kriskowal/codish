@@ -1,3 +1,6 @@
-returns the location of the beginning of an <i>array</i>.
-the initial position of a <i>cursor</i>.
+the initial position of a [cursor].
+returns a [pointer] to the [begin]ning of a [contiguous] [ordered] [collection], like an [array].  the first [pointer] in an allocated region of [memory].
+opposite: end
+related: ends
 distinct: start
+seuss opposite: begon

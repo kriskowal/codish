@@ -1,2 +1,3 @@
-an eight bit <i>value</i>.
+an 8 [bit] [int].
+c: called [char].
 distinct: char
