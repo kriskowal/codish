@@ -279,6 +279,8 @@ names.forEach(function (name) {
     node.name = name;
     var types = {};
     var all = [];
+    var nameMeanings = util.getset(meanings, name, []);
+    var noMeanings = nameMeanings.length == 0;
     Object.keys(refs[name] || {}).forEach(function (type) {
         var meaning = Object.keys(refs[name][type]).filter(function (to) {
             util.getset(types, type, []).push(to);
@@ -287,12 +289,13 @@ names.forEach(function (name) {
         }).map(function (to) {
             return ref(name, to, type);
         }).join(', ');
-        if (meaning)
-            util.getset(meanings, name, []).push(
+        if (meaning || noMeanings) {
+            nameMeanings.push(
                 ref(name, type, '', 'i') + 
                 ': ' +
                 meaning
             );
+        }
     });
     node.html = notes[name] || "";
     node.def = (meanings[name] || []).join(' &nbsp; ');

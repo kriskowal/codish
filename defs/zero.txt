@@ -1,2 +1,4 @@
-returns the arithmetic [identity] ([add]) of a class or object.  for numbers, this is the value of zero (0).  for a list, this is an empty list.  for a string, this is a null string. 
+returns the [arithmetic] [identity] of a [class], [object], or [group].  this is a [value] that when [add]ed to any [value] of a particular [class] returns the same [value].  for [number]s, this is the value of [zero] (0).  for any [collection] [class], this is an [empty] [collection].  for a [string], this is a null string, {{{""}}}.  for a [tuple], this is the [nuple].
 related: unit
+
+<p><i>identity</i>: <nobr><tt>x add x.class.zero = x</tt></nobr></p>

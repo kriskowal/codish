@@ -1,2 +1,4 @@
-returns the [mul]tiplicative [identity] of a class or object.  for numbers, this is the [value] of one (1).  for a [matrix], this is a square matrix with ones along the [diagonal] and [zero]s elsewhere.
+returns the [multiplicative] [identity] of a [class], [object], or [group].  this is a [value] that when [mul]tiplied by any [value] of a particular [class], returns the same [value].  for [number]s, [string]s, and most other [value]s, this is the [value] of one (1).  for a [matrix], this is a square matrix with [unit] 1's along the [diagonal] and [zero] 0's elsewhere.
 related: zero, unary
+
+<p><i>identity</i>: <nobr><tt>x mul x.class.unit = x</tt></nobr></p>

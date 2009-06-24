@@ -1,9 +1,10 @@
 a [linear] [collection] of fixed [len]gth.  tuples are generally used for records or structures where the [value] at each [index] has a particular meaning, but no [name], distinguishing it from an [object] or [class] of [object]s.
-includes: single, duple, tiple, quadruple, quintuple, sextuple, septuple, octuple, nonuple, decuple, undecuple, duodecuple
+includes: nuple, single, duple, tiple, quadruple, quintuple, sextuple, septuple, octuple, nonuple, decuple, undecuple, duodecuple
 
 <p><table>
     <caption>Names of Tuples based on Length<a href="http://home.comcast.net/~igpl/NWR.html">&dagger;</a></caption>
     <tr><th><a href="/len">length</a></th><th>name</th></tr>
+    <tr><td>0</td><td><tt>nuple</tt></td></tr>
     <tr><td>1</td><td><tt>single</tt></td></tr>
     <tr><td>2</td><td><tt>duple</tt></td></tr>
     <tr><td>3</td><td><tt>triple</tt></td></tr>

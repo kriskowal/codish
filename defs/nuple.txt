@@ -1,0 +1,2 @@
+a [tuple] of [len]gth 0.  the [zero] for [tuple]s.
+is: tuple
