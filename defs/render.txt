@@ -1,0 +1,2 @@
+to generate a [graphic] with an [algorithm].
+related: format

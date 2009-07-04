@@ -6,3 +6,5 @@ inverse: transpose
 <p><tt>transpose([[1, 2, 3], [4, 5, 6]]) eq [[1, 4], [2, 5], [3, 6]]</tt></p>
 <p><tt>transpose([[1, 2, 3], [4, 5]]) eq [[1, 4], [2, 5]]</tt></p>
 <p><tt>transpose([[1, 2], [4, 5, 6]]) eq [[1, 4], [2, 5]]</tt></p>
+<p><i>pythonic idiom:</i> <tt>items = [(0, 'a'), (1, 'b')]<br>numbers, letters = zip(*items)</tt></p>
+

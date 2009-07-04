@@ -1,0 +1,4 @@
+[read], [eval], [print] [loop].
+a [cli] for a programming language, where each command is read from the [tty] and [eval]uated, and the result is [print]ed until the [user] [break]s the [loop].
+a {repl} usually provides a line editor, so [char]acters from the [user] are not sent directly to the evaluator.
+is: cli

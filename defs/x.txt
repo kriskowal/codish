@@ -1,2 +1,4 @@
-<i>executable</i>.
-is: permission
+the first [dimension].
+the horizontal exist.
+is: dimension
+an abbreviation for [executable].

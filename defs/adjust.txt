@@ -1,0 +1,1 @@
+to move a [value] either [up] or [down] in a [bag] based on its [value] and the [comparison function] of the [bag].

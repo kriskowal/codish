@@ -1,1 +1,2 @@
-refers to [free variable]s that is accessible in every [context].
+refers to [free var]iables that are accessible in every [scope].
+distinct: keyword

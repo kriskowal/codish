@@ -1,3 +1,4 @@
+the second [dimension].
+the vertical axis.
 seuss: a suffix that connotes that a function applies to multiple elements instead of a single element from a collection.
-is: vowel
-legacy: s
+is: dimension

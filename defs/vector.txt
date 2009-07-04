@@ -1,1 +1,3 @@
-see: [linear] [ordered] [collection] or [array]
+a [direction] (in a particular number of [dimension]s) and a [scalar] [value].
+classes: velocity, acceleration, force
+distinct: [linear] [ordered] [collection] or [array]

@@ -1,3 +1,3 @@
 the [diff]erence between two [moment]s in time.
 a [scalar] quantity of time.
-see: moment
+related: moment

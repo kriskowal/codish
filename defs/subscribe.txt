@@ -1,0 +1,3 @@
+related: subscriber
+opposite: publish
+distinct: observe

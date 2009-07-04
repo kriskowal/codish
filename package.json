@@ -2,6 +2,6 @@
     "name": "jack-servlet",
     "author": "Tom Robinson",
     "contributors": [],
-    "dependencies": ["jack", "chiron", "narwhal"],
+    "dependencies": ["jack", "gae", "chiron", "narwhal"],
     "lean": ["lib", "media", "templates", "var", "jackconfig.js"]
 }

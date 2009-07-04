@@ -1,3 +1,4 @@
 returns the cosine of an [angle].
 related: sin, tan
+inverse: acos
 is: trig

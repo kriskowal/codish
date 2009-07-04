@@ -1,0 +1,3 @@
+to expand [tab] [char]acters to visually equivalent [space]s in a [string] for a given [tab step] [len]gth, like 4, and optionally a given initial column [number].
+opposite: unexpand
+distinct: format

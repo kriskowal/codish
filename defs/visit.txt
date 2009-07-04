@@ -1,0 +1,1 @@
+to [apply] a [function] to every [value] of a [collection], albeit every [value] in a [compound] [collection].

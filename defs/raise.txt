@@ -1,2 +1,6 @@
-<i>shoft</i> <i>block</i>s off of the execution context until the first block that can <i>handle</i> a given <i>exception</i>.
-replaces: throw
+to interrupt the [exec]ution of a program, unwinding the [stack] of each [block] until a [try] [block] with a [handler] [block] matching the [pattern] or [class] of the raised [exception] is found.
+in c++, raising is called [throw], and also causes the deallocation of [local] [variable]s in each unwound [stack] [frame].
+aka: throw
+java: throw
+c++: throw
+python: raise

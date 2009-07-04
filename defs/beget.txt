@@ -1,0 +1,1 @@
+returns a new [object] that [inherits] the [attr]ibutes of a [prototype] [object].

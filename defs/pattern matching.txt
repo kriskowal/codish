@@ -1,0 +1,4 @@
+a feature of some [functional programming] languages with [static] [class] systems where the behavior of a function varies by the [class] or [value] of the provided [arg]ument or arguments.
+related: overload
+
+<p><i>example</i>: <tt>fib(1) = 1; fib(2) = 2; fib(n) = fib(n sub 1) add fib(n sub 2)</tt></p>

@@ -1,3 +1,6 @@
-having a range that includes <i>zero</i>.
-a number that indicates a position (a <i>cursor</i>) by way of its <i>index</i> from <i>zero</i>.
+having a range that includes [zero].
+a number that indicates a position (a [cursor]) by way of its [index] from [zero].
 related: cardinal, nominal
+pertains to [direction]s that are half way between two [cardinal] [direction]s.
+includes: nw, ne, sw, se
+related: cardinal

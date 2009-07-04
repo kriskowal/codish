@@ -1,0 +1,2 @@
+a [col]umn that a [tab char]acter would advance the [cursor] to if it is initally caught between that [col]umn and the [prev]ious [tab stop].
+related: tab step

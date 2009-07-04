@@ -1,3 +1,5 @@
 having a range that excludes <i>zero</i>.
 a number that indicates a quantity.
 related: nominal, ordinal
+pertains to [direction]s that are [parallel] with an [axis].
+includes: n, s, w, e

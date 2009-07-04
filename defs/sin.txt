@@ -1,3 +1,4 @@
 returns the sine of an [angle].
 related: cos, tan
+inverse: asin
 is: trig

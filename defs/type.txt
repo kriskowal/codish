@@ -1,2 +1,1 @@
-to produce keystrokes.
-distinct: class
+see: class

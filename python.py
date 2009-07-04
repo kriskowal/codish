@@ -53,3 +53,4 @@ for name, definitions in definitions.items():
             parts.append('; '.join(forms))
         parts.append(definition['definition'])
         print " ".join(parts)
+

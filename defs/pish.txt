@@ -1,3 +1,2 @@
-seuss: to augment a [linear] [collection] by adding a [value] to the beginning, moving existing values rightward.
-opposite: posh, shift
-aka: unshift, bump, propend, prepend
+seuss: unshift
+seuss opposite: posh, shift

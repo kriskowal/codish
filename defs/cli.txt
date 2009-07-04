@@ -1,0 +1,3 @@
+command line user interface.
+a user interface that includes a message buffer (often reviewable via scrolling), where commands are accepted at the bottom, after a [prompt], with an editable [string] [line], after which the results of each command are displayed.
+related: gui, repl

@@ -1,1 +1,2 @@
+pertains to [class system]s that support [polymorphism].
 see: polymorphism

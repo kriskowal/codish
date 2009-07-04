@@ -1,6 +1,6 @@
 a character in [text], associated with a [codepoint] [number] of arbitrary precision, albeit from the [ascii], [unicode], or any other [charset].
 a [transitive function] that coerces [number]s and [char]s to [char]s.
-c: often stored in a {{{wchar_t}}} [int] [class].
+c: often stored in a [wchar_t] [int] [class].
 aka: character, chr
 
 <p><table>

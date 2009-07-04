@@ -1,0 +1,3 @@
+related: publisher
+opposite: subscribe
+distinct: export, signal, send

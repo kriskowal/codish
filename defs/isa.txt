@@ -1,1 +1,1 @@
-a [transitive relation] that returns [whether] an [object] inherits from a [class].
+see: inherits

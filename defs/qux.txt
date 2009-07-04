@@ -1,3 +1,3 @@
-the fourth [nominal] [meta syntacitc] [variable] [name].
+the fourth [nominal] [meta syntactic] [variable] [name].
 is: meta syntactic
 related: foo, bar, baz, quux

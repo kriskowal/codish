@@ -1,0 +1,2 @@
+pertains to [direction]s that are half way between a [cardinal] [direction] and the neighboring [ordinal] [direction].
+includes: nne, ene, ese, sse, ssw, wsw, wnw, nnw

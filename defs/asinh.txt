@@ -1,0 +1,3 @@
+hyperbolic arcsine.
+inverse: sinh
+related: acosh, asinh, asin, sin

@@ -27,6 +27,10 @@ function ref(from, to, type, tag) {
         to = simplifiers[to] || to;
         from = simplifiers[from] || from;
     }
+    var label = to;
+    from = lower(from);
+    to = lower(to);
+    type = lower(type);
     // backref
     var backType = {
         // reflective
@@ -53,9 +57,8 @@ function ref(from, to, type, tag) {
         util.getset(util.getset(util.getset(refs, to, {}), backType, {}), from, false);
     }
     return (
-        '<' + tag + '><a href="/' +
-        encodeURIComponent(to) +
-        '">' + to + '</a></' + tag + '>'
+        '<' + tag + '><a href="/' + attr(to) +
+        '">' + html(label) + '</a></' + tag + '>'
     );
 }
 
@@ -85,7 +88,7 @@ function parse(markup, name, type) {
             var end = right.search(/\)\)/);
             var code = right.substring(0, end);
             return [
-                end + 1,
+                end + 2,
                 html(left) +
                 '<i>(' +
                 parse(code, name, type) +
@@ -196,9 +199,9 @@ perl.forEach(function (line) {
         defsDir.join(term + '.txt').touch();
         var meaning = parts.join(': ');
         perlDefs[term] = (
-            'perl: ' +
+            '<i><a href="/perl">perl</a></i>: ' +
             (topic? ' [' + topic + ']: ' : '') + 
-            ' ' + markup(meaning, {}, []) +
+            ' ' + meaning +
             '<a href="' + perlUrl + '">&dagger;</a>'
         );
     }
@@ -257,7 +260,7 @@ defsDir.list().forEach(function (name) {
             );
     }
     if (perlDefs[name])
-        lines.push(parse(perlDefs[name], name));
+        lines.push(perlDefs[name]);
     if (phpDefs[name])
         lines.push(parse(phpDefs[name], name));
 

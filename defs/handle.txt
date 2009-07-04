@@ -1,5 +1,5 @@
-a block that handles a <i>raise</i>ed <i>exception</i>.
-replaces: catch, except
+a block that handles a [raise]ed [exception].
+aka: catch, except
 python: except
 c: catch
 java: catch

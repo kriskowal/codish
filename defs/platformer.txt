@@ -1,0 +1,3 @@
+a [game] where an [avatar] jumps among floating platforms, where gameplay usually takes place in 2 dimensions, up/down and left/right.
+aka: side scroller
+is: game

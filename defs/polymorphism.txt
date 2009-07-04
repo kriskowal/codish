@@ -1,4 +1,4 @@
 concept: pertains to [object]s in where a [function] [attr]ibute with a particular [symbol] or [name] always satisfies the requirements of a particular [interface], [class], or [duck] class, but may do so in different ways with different [function]s.
 the facility for providing [override]n [function attr]ibutes.
 pertains: object oriented programming
-distinct: overload
+distinct: overload, pattern matching, parameterized types

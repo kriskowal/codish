@@ -1,0 +1,2 @@
+the [len]gth in the [number] of [col]umns between the [col]umns that a [tab char]acter would advance the [cursor] to, a [tab stop].
+related: tab stop

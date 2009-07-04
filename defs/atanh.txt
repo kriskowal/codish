@@ -1,0 +1,2 @@
+hyperbolic arctangent.
+related: asinh, acosh, tanh, tan

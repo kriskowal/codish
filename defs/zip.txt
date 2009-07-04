@@ -2,6 +2,7 @@ return a [list] of [list]s of the respective [value]s from given [list]s.
 perform a [transpose] of the given [arg]uments.
 related: transpose, zip with
 distinct: merge
+in a [shell]
 
 <p><tt>zip([1, 2, 3], [4, 5, 6]) eq [[1, 4], [2, 5], [3, 6]]</tt></p>
 <p><tt>zip([1, 2, 3], [4, 5]) eq [[1, 4], [2, 5]]</tt></p>

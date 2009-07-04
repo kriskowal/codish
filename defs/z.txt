@@ -1,0 +1,3 @@
+the third [dimension].
+the depth axis.
+is: dimension

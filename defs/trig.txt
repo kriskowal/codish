@@ -1,2 +1,2 @@
-includes: cos, sin, tan, atan, atan2, cosh, sinh, tanh, angle, radian
+includes: sin, cos, tan, asin, acos, atan, atan2, sinh, cosh, tanh, asinh, acosh, atanh, angle, radian
 is: math

@@ -1,0 +1,2 @@
+real time strategy [game].
+is: game

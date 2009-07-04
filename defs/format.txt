@@ -1,0 +1,2 @@
+to generate a [string] from a [template] and a [context].
+aka: expand, render, merge

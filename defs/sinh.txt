@@ -1,0 +1,4 @@
+hyperbolic [sin]e.
+pronounced: sinch.
+inverse: asinh
+related: cosh, tanh, sin

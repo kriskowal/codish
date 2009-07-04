@@ -1,0 +1,2 @@
+a copy of a region of [memory], particularly but not necessarily a [bitmap] [graphic].
+distinct: graphic, picture

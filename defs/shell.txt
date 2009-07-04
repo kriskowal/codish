@@ -1,0 +1,3 @@
+classically, a [program] that is a user interface for [exec]uting other [program]s.
+this has come to mean specifically [command line interface]s like [bash] on [unix] or the Microsoft DOS or Windows command program.
+at one time, the Windows 3 {progman.exe} was considered a {shell}, as well as some old DOS-based menu programs.
