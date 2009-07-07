@@ -1,0 +1,2 @@
+attrs: red, green, blue
+is: color

@@ -1,0 +1,2 @@
+attrs: cyan, magenta, yello, black
+is: color

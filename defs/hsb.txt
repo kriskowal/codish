@@ -1,0 +1,5 @@
+attrs: hue, saturation, brightness
+distinct: hsl
+in [hsb], all [color]s with [max]imum [saturation] and a given [hue] are the same [color], regardless of the [brightness].
+is: color
+aka: hsv

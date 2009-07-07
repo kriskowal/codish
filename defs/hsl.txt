@@ -1,0 +1,5 @@
+attrs: hue, saturation, lightness
+distinct: hsb
+in [hsl], all [color]s with [max]imum [lightness] are [white] regardless of their [saturation].
+is: color
+aka: hsi

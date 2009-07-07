@@ -1,0 +1,4 @@
+attrs: [hue], [saturation], value.
+is: color
+see: hsb
+for the purposes of [codish], the term [brightness] is more specific than [value], but [hsb] is the more accepted term in the color standards community

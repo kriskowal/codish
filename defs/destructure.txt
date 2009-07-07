@@ -1,0 +1,8 @@
+to [assign] a [compound] [value]'s contents to the respective slots of a [compound] [lvalue].
+in {python}, this is known as "unpacking" and applies to [iterable] [value]s assigned to [tuple] [expression]s.
+in {javascript}, destructuring applies to both {Object} and {Array} [value]s and [lvalue]s.
+
+<p><i>python example:</i> <tt>a, b = b, a</tt></p>
+<p><i>python example:</i> <tt>a, b = range(2); a == 0; b == 1</tt></p>
+<p><i>javascript example:</i> <tt>var [a, b] = [1, 2]; a == 1; b == 2</tt></p>
+<p><i>javascript example:</i> <tt>var {a: b} = {a: 10}; b == 10</tt></p>
