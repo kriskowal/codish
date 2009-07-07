@@ -1,0 +1,3 @@
+an [expression] suitable for the left side of an [assign]ment [statement].
+in most languages, [variable]s and expressions that ultimately resolve to an [attr]ibute of some [object] are {lvalue}s.
+some languages support [destructure]ing.

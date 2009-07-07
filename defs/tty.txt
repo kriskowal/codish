@@ -1,0 +1,3 @@
+a terminal, classically a "teletype" terminal (thus the acronym {tty}) but usually emulated.
+{tty}s are particularly suited for [cli]s, but some applications on some terminals can move the cursor, change colors, and draw over the entire [screen].
+aka: terminal

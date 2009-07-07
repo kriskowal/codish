@@ -1,0 +1,1 @@
+a [signal] that indicates that a [program], [stream], or [timeline] has come to its [end].

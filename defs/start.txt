@@ -1,2 +1,3 @@
 to start moving a <i>cursor</i> from the beginning of a <i>stream</i>.
-distinct: begin, boot
+distinct: begin, boot, halt
+opposite: stop
