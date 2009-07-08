@@ -1,0 +1,3 @@
+pertains to [function]s that visit the entire [family] of an [object] for a particular [transitive function], usually a [transitive function] that [return]s all of the [value]s for each [object]s [attr]ibutes.
+opposite: shallow
+pertains: copy, freeze, seal

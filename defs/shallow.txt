@@ -1,0 +1,2 @@
+opposite: deep
+pertains: copy, freeze, seal
